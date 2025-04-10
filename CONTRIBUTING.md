@@ -29,7 +29,7 @@ There are several ways you can contribute:
 
 ### Suggesting Resources
 
-*   If you find a great A2A-related resource but don't want to create a Pull Request yourself, feel free to [open an Issue](https://github.com/YOUR_USERNAME/awesome-a2a/issues/new?assignees=&labels=suggestion&template=resource-suggestion.md&title=Suggest%3A+%5BResource+Name%5D) suggesting it. Please provide the link and a brief description.
+*   If you find a great A2A-related resource but don't want to create a Pull Request yourself, feel free to [open an Issue](https://github.com/ai-boost/awesome-a2a/issues/new?assignees=&labels=suggestion&template=resource-suggestion.md&title=Suggest%3A+%5BResource+Name%5D) suggesting it. Please provide the link and a brief description.
 
 ### Adding Resources (Pull Requests)
 
@@ -37,7 +37,7 @@ There are several ways you can contribute:
 
 ### Reporting Issues
 
-*   Found a broken link? Is a description inaccurate or misleading? Please [open an Issue](https://github.com/YOUR_USERNAME/awesome-a2a/issues/new?assignees=&labels=bug%2C+maintenance&template=bug_report.md&title=Fix%3A+%5BBrief+Description%5D) to report it.
+*   Found a broken link? Is a description inaccurate or misleading? Please [open an Issue](https://github.com/ai-boost/awesome-a2a/issues/new?assignees=&labels=bug%2C+maintenance&template=bug_report.md&title=Fix%3A+%5BBrief+Description%5D) to report it.
 *   Have ideas for new sections or improvements to the list structure? Open an Issue to discuss!
 
 ## Contribution Guidelines
@@ -81,7 +81,7 @@ We are looking for resources specifically related to the **Google Agent2Agent (A
 
 ## Pull Request Process
 
-1.  **Fork the repository:** Click the "Fork" button on the [awesome-a2a repository page](https://github.com/YOUR_USERNAME/awesome-a2a).
+1.  **Fork the repository:** Click the "Fork" button on the [awesome-a2a repository page](https://github.com/ai-boost/awesome-a2a).
 2.  **Clone your fork:** `git clone https://github.com/YOUR_FORK_USERNAME/awesome-a2a.git`
 3.  **Create a new branch:** `git checkout -b add-my-awesome-resource` (use a descriptive branch name).
 4.  **Make your changes:**
@@ -105,7 +105,7 @@ This repository aims to maintain parallel content in English (`README.md`) and S
 
 ## Questions?
 
-If you have questions about the contribution process or whether a resource is suitable, feel free to [open an Issue](https://github.com/YOUR_USERNAME/awesome-a2a/issues) with the label `question`.
+If you have questions about the contribution process or whether a resource is suitable, feel free to [open an Issue](https://github.com/ai-boost/awesome-a2a/issues) with the label `question`.
 
 ---
 
