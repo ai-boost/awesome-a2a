@@ -1,21 +1,25 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Awesome A2A 横幅 - 抽象网络或连接图形" width="600">
-</p>
+<div align="center">
+  <h2 align="center">✨ Awesome A2A (Agent2Agent 协议) ✨</h2>
+  <p align="center">
+    <img src="assets/banner.png" alt="Awesome A2A 横幅 - 抽象网络或连接图形" width="600">
+  </p>
+  <p>
+      <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
+      <!-- 在此添加其他语言链接，例如： | <a href="README_de.md">Deutsch</a> -->
+  </p>
+  <p align="center">
+     一个精选列表，包含与 Google Agent2Agent (A2A) 协议相关的优质资源、实现、工具和示例，助力 AI Agent 互操作。
+  </p>
+  <h4 align="center">
+    <a href="https://awesome.re">
+      <img src="https://awesome.re/badge.svg" alt="Awesome" />
+    </a>
+    <a href="CONTRIBUTING.md"> <!-- 链接到贡献指南 -->
+      <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="欢迎提交 PR" />
+    </a>
+  </h4>
+</div>
 
-# ✨ Awesome A2A (Agent2Agent 协议) ✨
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-> 一个精选列表，包含与 Google Agent2Agent (A2A) 协议相关的优质资源、实现、工具和示例，助力 AI Agent 互操作。
-
----
-**可用语言:**
-*   [English](README.md)
-*   [简体中文 (Simplified Chinese)](README_zh.md)
-<!-- *   [Deutsch](README_de.md) -->
-<!-- *   [Español](README_es.md) -->
-<!-- *   [日本語](README_ja.md) -->
-<!-- *   [한국어](README_ko.md) -->
 ---
 
 ## 目录

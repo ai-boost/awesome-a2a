@@ -1,22 +1,25 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Awesome A2A Banner - Abstract network or connection graphic" width="600">
-</p>
+<div align="center">
+  <h2 align="center">✨ Awesome A2A (Agent2Agent Protocol) ✨</h2>
+  <p align="center">
+    <img src="assets/banner.png" alt="Awesome A2A Banner - Abstract network or connection graphic" width="600">
+  </p>
+  <p>
+      <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
+      <!-- Add other languages here like: | <a href="README_de.md">Deutsch</a> -->
+  </p>
+  <p align="center">
+     A curated list of awesome resources, implementations, tools, and examples related to the Google Agent2Agent (A2A) Protocol for AI agent interoperability.
+  </p>
+  <h4 align="center">
+    <a href="https://awesome.re">
+      <img src="https://awesome.re/badge.svg" alt="Awesome" />
+    </a>
+    <a href="CONTRIBUTING.md"> <!-- Link to your contributing file -->
+      <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
+    </a>
+  </h4>
+</div>
 
-# ✨ Awesome A2A (Agent2Agent Protocol) ✨
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-> A curated list of awesome resources, implementations, tools, and examples related to the Google Agent2Agent (A2A) Protocol for AI agent interoperability.
-
----
-**Available Languages:**
-*   [English](README.md)
-*   [简体中文 (Simplified Chinese)](README_zh.md)
-<!-- *   [Deutsch](README_de.md) -->
-<!-- *   [Español](README_es.md) -->
-<!-- *   [日本語](README_ja.md) -->
-<!-- *   [한국어](README_ko.md) -->
----
 
 ## Contents
 
