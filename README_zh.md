@@ -4,7 +4,7 @@
     <img src="assets/banner.png" alt="Awesome A2A 横幅 - 抽象网络或连接图形" width="600">
   </p>
   <p>
-      <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
+      <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a> | <a href="README_ja.md">日本語</a>
       <!-- 在此添加其他语言链接，例如： | <a href="README_de.md">Deutsch</a> -->
   </p>
   <p align="center">
