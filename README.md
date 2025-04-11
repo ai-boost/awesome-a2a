@@ -127,7 +127,7 @@ New to A2A? Here's a suggested path:
 #### Community Implementations
 
 *   🌟 _Your Framework/Language A2A Server/Client Library?_ - Add it here! See [CONTRIBUTING.md](CONTRIBUTING.md).
-*   <!-- TODO: Add community implementations -->
+<!-- TODO: Add community implementations -->
 
 ## 🛠️ Tools & Utilities
 
