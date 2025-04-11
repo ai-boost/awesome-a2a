@@ -155,6 +155,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 ## 💬 コミュニティ
 
 *   🐞 [google/A2A GitHub Issues](https://github.com/google/A2A/issues) - バグ報告やプロトコルの改善提案用。
+*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - For general questions, ideas, and community discussions about the A2A protocol.
 *   🔒 [プライベートフィードバックフォーム](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - プライベートなフィードバックのための Google フォーム。
 
 ---

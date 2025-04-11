@@ -155,6 +155,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 ## 💬 社区
 
 *   🐞 [google/A2A GitHub Issues](https://github.com/google/A2A/issues) - 用于报告 Bug 或建议协议改进。
+*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - 用于有关 A2A 协议的一般性问题、想法和社区讨论。
 *   🔒 [私密反馈表单](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - 用于私密反馈的 Google 表单。
 
 ---

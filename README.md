@@ -154,6 +154,7 @@ New to A2A? Here's a suggested path:
 ## 💬 Community
 
 *   🐞 [google/A2A GitHub Issues](https://github.com/google/A2A/issues) - For reporting bugs or suggesting protocol improvements.
+*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - For general questions, ideas, and community discussions about the A2A protocol.
 *   🔒 [Private Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - Google form for private feedback.
 
 ---
