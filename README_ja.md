@@ -4,7 +4,7 @@
     <img src="assets/banner.png" alt="Awesome A2A バナー - 抽象的なネットワークまたは接続のグラフィック" width="600">
   </p>
   <p>
-      <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a> | <a href="README_ja.md">日本語</a>
+      <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a> | <a href="README_ja.md">日本語</a> | <a href="README_es.md">Español</a> | <a href="README_de.md">Deutsch</a> | <a href="README_fr.md">Français</a>
       <!-- 他の言語リンクをここに追加します。例: | <a href="README_de.md">Deutsch</a> -->
   </p>
   <p align="center">
