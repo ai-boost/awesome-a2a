@@ -159,6 +159,20 @@ A2A (Agent2Agent) es un **protocolo abierto** de Google y socios que permite a d
 
 ---
 
+**¡Hagamos que Awesome A2A sea más útil juntos!**
+
+A2A todavía es algo nuevo, y los recursos buenos o la experiencia práctica pueden estar dispersos. Creamos esta lista para reunir lo bueno en un solo lugar, facilitando la búsqueda, el aprendizaje y la consulta.
+
+Mantener esta lista actualizada y de alta calidad depende de la ayuda de toda la comunidad:
+
+*   ⭐ **Dale una estrella (Star)**: Si te parece útil, es una forma de apoyar y te facilita volver a encontrarla.
+*   ➕ **Comparte lo que encuentres**: ¿Una buena librería, artículo, herramienta o incluso un error común (pitfall)? Añádelo mediante un [Issue](https://github.com/ai-boost/awesome-a2a/issues) o [PR](CONTRIBUTING.md). ¡Construyámosla juntos!
+*   📣 **Corre la voz**: Hazle saber a otros amigos que estén explorando o trabajando con A2A sobre esta lista.
+
+¡Gracias por tu interés y tus contribuciones!
+
+---
+
 ## Contribuir
 
 ¡Las contribuciones son bienvenidas! 🙌 Por favor, lee primero las [directrices de contribución](CONTRIBUTING.md). ¡Construyamos esta lista juntos!

@@ -159,6 +159,20 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 
 ---
 
+**Rendons Awesome A2A plus utile, ensemble !**
+
+A2A est encore assez nouveau, et les bonnes ressources ou les retours d'expérience pratiques peuvent être dispersés. Nous avons créé cette liste pour rassembler les meilleures trouvailles et faciliter la recherche, l'apprentissage et la consultation.
+
+Maintenir cette liste à jour et de haute qualité dépend de l'aide de toute la communauté :
+
+*   ⭐ **Mettez une étoile (Star)** : Si vous la trouvez utile, c'est un excellent moyen de montrer votre soutien et cela facilite sa consultation ultérieure.
+*   ➕ **Partagez vos découvertes** : Une super bibliothèque, un article, un outil, ou même un écueil fréquent ? Ajoutez-le via une [Issue](https://github.com/ai-boost/awesome-a2a/issues) ou un [PR](CONTRIBUTING.md) – construisons cette ressource ensemble.
+*   📣 **Faites passer le mot** : Informez les autres qui explorent ou travaillent avec A2A de l'existence de cette liste.
+
+Merci pour votre intérêt et vos contributions !
+
+---
+
 ## Contribuer
 
 Les contributions sont les bienvenues ! 🙌 Veuillez d'abord lire les [directives de contribution](CONTRIBUTING.md). Construisons cette liste ensemble !
