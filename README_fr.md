@@ -46,7 +46,7 @@
 
 A2A (Agent2Agent) est un **protocole ouvert** de Google et de ses partenaires permettant à différents **agents IA** (provenant de divers fournisseurs/frameworks) de **communiquer en toute sécurité** et de **collaborer sur des tâches**. Il vise à briser les silos entre les systèmes d'agents isolés, permettant une automatisation inter-applications plus complexe.
 
-**⭐ Site Web Officiel :** [google.github.io/A2A](https://google.github.io/A2A) | **⭐ GitHub Officiel :** [github.com/google/A2A](https://github.com/google/A2A)
+**⭐ Site Web Officiel :** [google.github.io/A2A](https://google.github.io/A2A) | **⭐ GitHub Officiel :** [github.com/google/A2A](https://github.com/google/A2A) | 🌐 **Docs Multilingues (EN/ZH/JA) :** [agent2agent.ren](https://agent2agent.ren)
 
 ## 💡 Principes Clés
 
@@ -139,6 +139,7 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 
 *   📄 [Aperçu Conceptuel Officiel A2A (README)](https://github.com/google/A2A#conceptual-overview) - Explication de haut niveau dans le README du dépôt officiel.
 *   🚀 [Guide de Démarrage Rapide (README Officiel)](https://github.com/google/A2A#getting-started) - Liens vers la documentation, la spécification, les exemples dans le README du dépôt officiel.
+*   🌐 [Site de Documentation du Protocole Agent2Agent](https://agent2agent.ren) - Site de documentation open-source communautaire pour le protocole A2A. Construit avec React/TypeScript, prend en charge l'anglais, le chinois et le japonais. ([Code Source](https://github.com/ai-boost/agent2agent_doc))
 *   ✍️ *[Titre du Billet de Blog/Tutoriel]* - [Lien] - Description. <!-- TODO: Ajouter les articles/guides communautaires ici -->
 
 ## 🎬 Démos & Exemples

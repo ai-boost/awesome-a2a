@@ -47,7 +47,7 @@
 
 A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协议**，旨在让**不同的 AI Agent**（可能来自不同供应商或使用不同框架）能够**安全地通信**并**协作完成任务**。它的目标是打破孤立 Agent 系统之间的壁垒，实现更复杂的跨应用自动化。
 
-**⭐ 官方网站:** [google.github.io/A2A](https://google.github.io/A2A) | **⭐ 官方 GitHub:** [github.com/google/A2A](https://github.com/google/A2A)
+**⭐ 官方网站:** [google.github.io/A2A](https://google.github.io/A2A) | **⭐ 官方 GitHub:** [github.com/google/A2A](https://github.com/google/A2A) | 🌐 **多语言文档 (英/中/日):** [agent2agent.ren](https://agent2agent.ren)
 
 ## 💡 核心原则
 
@@ -140,6 +140,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 *   📄 [官方 A2A 概念概览 (README)](https://github.com/google/A2A#conceptual-overview) - 官方仓库 README 中的高级解释。
 *   🚀 [官方入门指南 (README)](https://github.com/google/A2A#getting-started) - 官方仓库 README 中指向文档、规范、示例的链接。
+*   🌐 [Agent2Agent 协议文档站](https://agent2agent.ren) - 社区驱动的开源 A2A 协议文档网站。使用 React/TypeScript 构建，支持英文、中文和日文。([源代码](https://github.com/ai-boost/agent2agent_doc))
 *   ✍️ *[博客文章/教程标题]* - [链接] - 描述。 <!-- TODO: 添加社区文章/指南 -->
 
 ## 🎬 Demo 与示例
