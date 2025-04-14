@@ -128,7 +128,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 #### 社区实现
 
 *   🌟 _你的框架/语言 A2A 服务端/客户端库?_ - 添加到这里！请查看 [CONTRIBUTING.md](CONTRIBUTING.md)。
-*   <!-- TODO: 添加社区实现 -->
+<!-- TODO: 添加社区实现 -->
 
 ## 🛠️ 工具与实用程序
 
