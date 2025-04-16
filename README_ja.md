@@ -127,8 +127,11 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 #### コミュニティ実装
 
-*   🌟 _あなたのフレームワーク/言語の A2A サーバー/クライアント ライブラリ？_ - ここに追加してください！ [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
-<!-- TODO: コミュニティ実装を追加 -->
+*   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - A2A サーバーを構築するための Go ライブラリと実装例。
+*   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Rust の慣用的なプラクティスとヘキサゴナルアーキテクチャの原則に従った Rust 実装。
+*   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - A2A 通信のための最小限の Python SDK。
+*   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A プロトコルの C#/.NET 実装。
+<!-- あなたの実装をここに追加してください！CONTRIBUTING.md を参照してください。 -->
 
 ## 🛠️ ツールとユーティリティ
 

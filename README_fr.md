@@ -126,8 +126,11 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 
 #### Implémentations Communautaires
 
-*   🌟 _Votre Bibliothèque Serveur/Client A2A pour Framework/Langage ?_ - Ajoutez-la ici ! Voir [CONTRIBUTING.md](CONTRIBUTING.md).
-<!-- TODO: Ajouter les implémentations communautaires -->
+*   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) par [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - Une bibliothèque Go pour construire des serveurs A2A, avec des exemples d'implémentation.
+*   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) par [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Une implémentation idiomatique en Rust suivant les principes de l'architecture hexagonale.
+*   🌟 [a2a_min](https://github.com/pcingola/a2a_min) par [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - Un SDK Python minimaliste pour la communication A2A.
+*   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) par [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Une implémentation C#/.NET du protocole A2A.
+<!-- Ajoutez la vôtre ici ! Voir CONTRIBUTING.md -->
 
 ## 🛠️ Outils & Utilitaires
 

@@ -127,8 +127,11 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 #### 社区实现
 
-*   🌟 _你的框架/语言 A2A 服务端/客户端库?_ - 添加到这里！请查看 [CONTRIBUTING.md](CONTRIBUTING.md)。
-<!-- TODO: 添加社区实现 -->
+*   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - 用于构建 A2A 服务器的 Go 库，包含示例实现。
+*   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - 遵循 Rust 惯用实践和六边形架构原则的 Rust 实现。
+*   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - 用于 A2A 通信的极简 Python SDK。
+*   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A 协议的 C#/.NET 实现。
+<!-- 在此添加您的实现！请参阅 CONTRIBUTING.md -->
 
 ## 🛠️ 工具与实用程序
 
