@@ -130,6 +130,7 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
 *   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) von [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Eine idiomatische Rust-Implementierung nach den Prinzipien der hexagonalen Architektur.
 *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) von [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - Ein minimalistisches Python-SDK für die A2A-Kommunikation.
 *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) von [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Eine C#/.NET-Implementierung des A2A-Protokolls.
+*   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) von [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - Ein Modul zur Integration des A2A-Protokolls in NestJS-Anwendungen.
 <!-- Fügen Sie Ihre hier hinzu! Siehe CONTRIBUTING.md -->
 
 ## 🛠️ Tools & Dienstprogramme
