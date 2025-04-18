@@ -126,6 +126,7 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
 
 #### Community-Implementierungen
 
+*   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) by [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - A2A-Implementierung in Go vom tRPC-Team mit vollständiger Client/Server-Unterstützung, Memory-Task-Management, Streaming-Antworten, Session-Management und verschiedenen Authentifizierungsmethoden (JWT, API-Schlüssel, OAuth2). Enthält umfangreiche Beispiele einschließlich Basis-Server, Streaming und Authentifizierungsimplementierungen.
 *   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) von [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - Eine Go-Bibliothek zum Erstellen von A2A-Servern, mit Beispielimplementierungen.
 *   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) von [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Eine idiomatische Rust-Implementierung nach den Prinzipien der hexagonalen Architektur.
 *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) von [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - Ein minimalistisches Python-SDK für die A2A-Kommunikation.
