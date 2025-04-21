@@ -127,6 +127,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 #### コミュニティ実装
 
+*   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) by [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - tRPC チームによる Go 言語の A2A 実装。完全なクライアント/サーバーサポート、メモリタスク管理、ストリーミングレスポンス、セッション管理、および複数の認証方法（JWT、API キー、OAuth2）を提供。基本サーバー、ストリーミング、認証実装を含む豊富なサンプルを含みます。
 *   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - A2A サーバーを構築するための Go ライブラリと実装例。
 *   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Rust の慣用的なプラクティスとヘキサゴナルアーキテクチャの原則に従った Rust 実装。
 *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - A2A 通信のための最小限の Python SDK。
