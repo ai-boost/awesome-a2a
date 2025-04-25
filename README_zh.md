@@ -150,7 +150,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 *   📄 [官方 A2A 概念概览 (README)](https://github.com/google/A2A#conceptual-overview) - 官方仓库 README 中的高级解释。
 *   🚀 [官方入门指南 (README)](https://github.com/google/A2A#getting-started) - 官方仓库 README 中指向文档、规范、示例的链接。
 *   🌐 [Agent2Agent 协议文档站](https://agent2agent.ren) - 社区驱动的开源 A2A 协议文档网站。使用 React/TypeScript 构建，支持英文、中文和日文。([源代码](https://github.com/ai-boost/agent2agent_doc))
-*   ✍️ *[博客文章/教程标题]* - [链接] - 描述。 <!-- TODO: 添加社区文章/指南 -->
+*   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - 学术论文，调研了现有的 LLM Agent 通信协议（包括 A2A 所属的类别），对其进行分类、性能分析，并讨论了未来挑战。
 
 ## 🎬 Demo 与示例
 

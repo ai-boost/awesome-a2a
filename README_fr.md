@@ -149,7 +149,7 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 *   📄 [Aperçu Conceptuel Officiel A2A (README)](https://github.com/google/A2A#conceptual-overview) - Explication de haut niveau dans le README du dépôt officiel.
 *   🚀 [Guide de Démarrage Rapide (README Officiel)](https://github.com/google/A2A#getting-started) - Liens vers la documentation, la spécification, les exemples dans le README du dépôt officiel.
 *   🌐 [Site de Documentation du Protocole Agent2Agent](https://agent2agent.ren) - Site de documentation open-source communautaire pour le protocole A2A. Construit avec React/TypeScript, prend en charge l'anglais, le chinois et le japonais. ([Code Source](https://github.com/ai-boost/agent2agent_doc))
-*   ✍️ *[Titre du Billet de Blog/Tutoriel]* - [Lien] - Description. <!-- TODO: Ajouter les articles/guides communautaires ici -->
+*   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - Article académique examinant les protocoles de communication existants pour les agents LLM (y compris la catégorie dont A2A fait partie), les classifiant, analysant leurs performances et discutant des défis futurs.
 
 ## 🎬 Démos & Exemples
 

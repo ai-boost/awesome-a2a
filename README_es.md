@@ -149,7 +149,7 @@ A2A (Agent2Agent) es un **protocolo abierto** de Google y socios que permite a d
 *   📄 [Descripción Conceptual Oficial de A2A (README)](https://github.com/google/A2A#conceptual-overview) - Explicación de alto nivel en el README del repo oficial.
 *   🚀 [Guía de Inicio Rápido (README Oficial)](https://github.com/google/A2A#getting-started) - Enlaces a documentos, especificaciones, ejemplos en el README del repo oficial.
 *   🌐 [Sitio de Documentación del Protocolo Agent2Agent](https://agent2agent.ren) - Sitio de documentación de código abierto impulsado por la comunidad para el protocolo A2A. Construido con React/TypeScript, soporta inglés, chino y japonés. ([Código Fuente](https://github.com/ai-boost/agent2agent_doc))
-*   ✍️ *[Título del Artículo/Tutorial]* - [Enlace] - Descripción. <!-- TODO: Añadir artículos/guías de la comunidad aquí -->
+*   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - Artículo académico que examina los protocolos de comunicación existentes para agentes LLM (incluida la categoría a la que pertenece A2A), clasificándolos, analizando su rendimiento y discutiendo desafíos futuros.
 
 ## 🎬 Demos y Ejemplos
 

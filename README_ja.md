@@ -150,7 +150,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 *   📄 [公式 A2A コンセプト概要 (README)](https://github.com/google/A2A#conceptual-overview) - 公式リポジトリの README でのハイレベルな説明。
 *   🚀 [入門ガイド (公式 README)](https://github.com/google/A2A#getting-started) - 公式リポジトリの README 内のドキュメント、仕様、サンプルへのリンク。
 *   🌐 [Agent2Agent プロトコル ドキュメントサイト](https://agent2agent.ren) - コミュニティ主導のオープンソース A2A プロトコル ドキュメントサイト。React/TypeScript で構築され、英語、中国語、日本語をサポート。([ソースコード](https://github.com/ai-boost/agent2agent_doc))
-*   ✍️ *[ブログ投稿/チュートリアルのタイトル]* - [リンク] - 説明。 <!-- TODO: コミュニティの記事/ガイドをここに追加 -->
+*   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - 既存のLLMエージェント通信プロトコル（A2Aが属するカテゴリを含む）を調査し、分類、パフォーマンス分析、将来の課題について議論した学術論文。
 
 ## 🎬 デモと例
 
