@@ -33,6 +33,8 @@
     *   [Exemples Officiels](#exemples-officiels)
     *   [Intégrations de Frameworks (Exemples Officiels)](#intégrations-de-frameworks-exemples-officiels)
     *   [Implémentations Communautaires](#implémentations-communautaires)
+        *   [SDK et Bibliothèques (par langue)](#sdk-et-bibliothèques-par-langue)
+        *   [Plateformes et Solutions Intégrées](#plateformes-et-solutions-intégrées)
 *   [🛠️ Outils & Utilitaires](#️-outils--utilitaires)
 *   [📚 Tutoriels & Articles](#-tutoriels--articles)
 *   [🎬 Démos & Exemples](#-démos--exemples)
@@ -126,14 +128,26 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 
 #### Implémentations Communautaires
 
-*   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) par [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - Implémentation A2A en Go développée par l'équipe tRPC, offrant un support client/serveur complet, gestion des tâches en mémoire, réponses en streaming, gestion de session et plusieurs méthodes d'authentification (JWT, clé API, OAuth2). Inclut de nombreux exemples, notamment de serveur de base, streaming et implémentations d'authentification.
-*   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) par [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - Une bibliothèque Go pour construire des serveurs A2A, avec des exemples d'implémentation.
-*   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) par [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Une implémentation idiomatique en Rust suivant les principes de l'architecture hexagonale.
-*   🌟 [a2a_min](https://github.com/pcingola/a2a_min) par [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - Un SDK Python minimaliste pour la communication A2A.
-*   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) par [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Une implémentation C#/.NET du protocole A2A.
-*   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) par [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - Un module pour intégrer le protocole A2A dans les applications NestJS.
-*   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - Une bibliothèque Python facile à utiliser pour implémenter le protocole A2A.
-*   🌟 [Aira](https://github.com/IhateCreatingUserNames2/Aira) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) - Une implémentation de réseau A2A pour l'hébergement, l'enregistrement, la découverte et l'interaction avec les agents.
+##### SDK et Bibliothèques (par langue)
+
+*   **Go**
+    *   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) par [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - Implémentation A2A en Go développée par l'équipe tRPC, offrant un support client/serveur complet, gestion des tâches en mémoire, réponses en streaming, gestion de session et plusieurs méthodes d'authentification (JWT, clé API, OAuth2). Inclut de nombreux exemples, notamment de serveur de base, streaming et implémentations d'authentification.
+    *   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) par [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - Une bibliothèque Go pour construire des serveurs A2A, avec des exemples d'implémentation.
+*   **Rust**
+    *   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) par [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Une implémentation idiomatique en Rust suivant les principes de l'architecture hexagonale.
+    *   🌟 [Agentic](https://github.com/jeremychone/rust-agentic) by [@jeremychone](https://github.com/jeremychone) [![Stars](https://img.shields.io/github/stars/jeremychone/rust-agentic?style=social)](https://github.com/jeremychone/rust-agentic) - Une crate Rust fournissant des blocs de construction essentiels pour les applications agentiques, avec une API ergonomique pour le support MCP et A2A. (En cours de développement)
+*   **Python**
+    *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) par [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - Un SDK Python minimaliste pour la communication A2A.
+    *   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - Une bibliothèque Python facile à utiliser pour implémenter le protocole A2A.
+*   **C#/.NET**
+    *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) par [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Une implémentation C#/.NET du protocole A2A.
+*   **JavaScript/TypeScript**
+    *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) par [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - Un module pour intégrer le protocole A2A dans les applications NestJS.
+
+##### Plateformes et Solutions Intégrées
+
+*   🌟 [Elkar](https://github.com/elkar-ai/elkar-a2a) by [@elkar-ai](https://github.com/elkar-ai) [![Stars](https://img.shields.io/github/stars/elkar-ai/elkar-a2a?style=social)](https://github.com/elkar-ai/elkar-a2a) - Une couche open-source de gestion des tâches pour les agents IA — basée sur le protocole Agent2Agent (A2A) de Google. Envoyez, suivez et orchestrez les tâches entre les agents IA — sans effort.
+*   🌟 [Aira](https://github.com/IhateCreatingUserNames2/Aira) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) - Une implémentation de réseau A2A pour l'hébergement, l'enregistrement, la découverte et l'interaction avec les agents. Inclut des mécanismes de découverte d'agents.
 *   🌟 [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) - Un framework de développement d'agents IA basé sur l'ADK de Google, facilitant la création d'agents potentiellement pour les réseaux A2A.
 *   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - Un agent de navigation auto-hébergé avec prise en charge native de MCP et A2A.
 *   🌟 [swissknife](https://github.com/daltonnyx/swissknife) by [@daltonnyx](https://github.com/daltonnyx) [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) - Une application de chat multi-agents avec prise en charge MCP, visant à exposer des agents via le protocole A2A et à se connecter à des agents A2A distants en tant que client.
@@ -141,9 +155,17 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 
 ## 🛠️ Outils & Utilitaires
 
-*   🔍 *Services de Découverte d'Agents* - [Lien] - Description (par ex., implémentation d'un 'Catalogue d'Agents'). <!-- TODO -->
-*   ✅ *Outil de Validation A2A* - [Lien] - Outil pour vérifier la conformité d'un point d'accès A2A. <!-- TODO -->
-*   📊 *Adaptateurs de Supervision/Traçage* - [Lien] - Intégrations pour les plateformes d'observabilité. <!-- TODO -->
+Cette section vise à lister les outils et utilitaires autonomes liés au protocole A2A. L'écosystème est encore en développement, et les contributions de la communauté sont les bienvenues !
+
+*   **Services de Découverte d'Agents**
+    *   Certaines implémentations au niveau plateforme (comme [Aira](https://github.com/IhateCreatingUserNames2/Aira)) incluent des mécanismes d'enregistrement et de découverte d'agents dans leurs fonctionnalités.
+    *   *Contributions communautaires bienvenues : Implémentations de services d'annuaire d'agents autonomes, moteurs de recherche d'Agent Cards, etc.* <!-- TODO : Les contributions de la communauté pour les outils associés sont les bienvenues -->
+*   **Outil de Validation A2A**
+    *   *Contributions communautaires bienvenues : Validateurs en ligne ou en ligne de commande pour vérifier si les structures Agent Card, Task/Artifact sont conformes aux spécifications JSON Schema A2A, ou plugins IDE, etc.* <!-- TODO : Les contributions de la communauté pour les outils associés sont les bienvenues -->
+*   **Adaptateurs de Supervision/Traçage**
+    *   *Contributions communautaires bienvenues : Adaptateurs ou bibliothèques pour intégrer les données de flux de tâches A2A dans les plateformes de supervision courantes comme OpenTelemetry, Prometheus, Grafana, etc.* <!-- TODO : Les contributions de la communauté pour les outils associés sont les bienvenues -->
+*   **Autres Utilitaires**
+    *   *Contributions communautaires bienvenues : par ex., outils d'aide à la construction de messages A2A, générateurs d'Agent Cards, Mock A2A Server/Client, etc.* <!-- TODO : Les contributions de la communauté pour les outils associés sont les bienvenues -->
 
 ## 📚 Tutoriels & Articles
 
@@ -160,7 +182,7 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 ## 🔗 Protocoles & Concepts Connexes
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Protocole complémentaire axé sur la fourniture d'outils/contexte *aux* agents. ([Discussion A2A et MCP](https://google.github.io/A2A/#/topics/a2a_and_mcp.md)).
-*   📞 *Standards d'Appel de Fonction / Utilisation d'Outils* - [Lien] - Standards pertinents (par ex., appel de fonction OpenAI). <!-- TODO -->
+*   📞 *Standards d'Appel de Fonction / Utilisation d'Outils* - *Contributions communautaires bienvenues : Discussion sur les modèles, les meilleures pratiques ou les normes pertinentes pour l'appel de fonctions/l'utilisation d'outils conjointement avec A2A.* <!-- TODO : Les contributions de la communauté pour les normes ou discussions associées sont les bienvenues -->
 
 ## 💬 Communauté
 

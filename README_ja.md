@@ -34,6 +34,8 @@
     *   [公式サンプル](#公式サンプル)
     *   [フレームワーク統合 (公式サンプル)](#フレームワーク統合-公式サンプル)
     *   [コミュニティ実装](#コミュニティ実装)
+        *   [SDKとライブラリ (言語別)](#sdkとライブラリ-言語別)
+        *   [プラットフォームと統合ソリューション](#プラットフォームと統合ソリューション)
 *   [🛠️ ツールとユーティリティ](#️-ツールとユーティリティ)
 *   [📚 チュートリアルと記事](#-チュートリアルと記事)
 *   [🎬 デモと例](#-デモと例)
@@ -127,24 +129,44 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 #### コミュニティ実装
 
-*   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) by [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - tRPC チームによる Go 言語の A2A 実装。完全なクライアント/サーバーサポート、メモリタスク管理、ストリーミングレスポンス、セッション管理、および複数の認証方法（JWT、API キー、OAuth2）を提供。基本サーバー、ストリーミング、認証実装を含む豊富なサンプルを含みます。
-*   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - A2A サーバーを構築するための Go ライブラリと実装例。
-*   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Rust の慣用的なプラクティスとヘキサゴナルアーキテクチャの原則に従った Rust 実装。
-*   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - A2A 通信のための最小限の Python SDK。
-*   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A プロトコルの C#/.NET 実装。
-*   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - NestJS アプリケーションに A2A プロトコルを統合するためのモジュール。
-*   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - An easy-to-use Python library for implementing the A2A protocol. (実装が簡単な A2A プロトコル用 Python ライブラリ)
-*   🌟 [Aira](https://github.com/IhateCreatingUserNames2/Aira) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) - An A2A network implementation for hosting, registering, discovering, and interacting with agents. (エージェントのホスト、登録、発見、対話のための A2A ネットワーク実装)
-*   🌟 [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) - An AI agent development framework built on Google's ADK, facilitating agent creation potentially for A2A networks. (Google ADK 上に構築された AI エージェント開発フレームワーク、A2A ネットワーク用エージェント作成を促進)
-*   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - MCPとA2Aをネイティブにサポートする、エージェント駆動のセルフホスト型ブラウザ
+##### SDKとライブラリ (言語別)
+
+*   **Go**
+    *   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) by [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - tRPC チームによる Go 言語の A2A 実装。完全なクライアント/サーバーサポート、メモリタスク管理、ストリーミングレスポンス、セッション管理、および複数の認証方法（JWT、API キー、OAuth2）を提供。基本サーバー、ストリーミング、認証実装を含む豊富なサンプルを含みます。
+    *   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - A2A サーバーを構築するための Go ライブラリと実装例。
+*   **Rust**
+    *   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - Rust の慣用的なプラクティスとヘキサゴナルアーキテクチャの原則に従った Rust 実装。
+    *   🌟 [Agentic](https://github.com/jeremychone/rust-agentic) by [@jeremychone](https://github.com/jeremychone) [![Stars](https://img.shields.io/github/stars/jeremychone/rust-agentic?style=social)](https://github.com/jeremychone/rust-agentic) - MCP および A2A サポートのための人間工学に基づいた API を備え、エージェントアプリケーション開発に不可欠な構成要素を提供する Rust クレート。(開発中)
+*   **Python**
+    *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - A2A 通信のための最小限の Python SDK。
+    *   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - 実装が簡単な A2A プロトコル用 Python ライブラリ。
+*   **C#/.NET**
+    *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A プロトコルの C#/.NET 実装。
+*   **JavaScript/TypeScript**
+    *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - NestJS アプリケーションに A2A プロトコルを統合するためのモジュール。
+
+##### プラットフォームと統合ソリューション
+
+*   🌟 [Elkar](https://github.com/elkar-ai/elkar-a2a) by [@elkar-ai](https://github.com/elkar-ai) [![Stars](https://img.shields.io/github/stars/elkar-ai/elkar-a2a?style=social)](https://github.com/elkar-ai/elkar-a2a) - Google の Agent2Agent プロトコル (A2A) に基づく、AI エージェント向けのオープンソースのタスク管理レイヤー。AI エージェント間でタスクを簡単に送受信、追跡、調整します。
+*   🌟 [Aira](https://github.com/IhateCreatingUserNames2/Aira) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) - エージェントのホスティング、登録、発見、および対話のための A2A ネットワーク実装。エージェント発見メカニズムを含みます。
+*   🌟 [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) - Google ADK 上に構築された AI エージェント開発フレームワーク、A2A ネットワーク用エージェント作成を促進。
+*   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - MCPとA2Aをネイティブにサポートする、エージェント駆動のセルフホスト型ブラウザ。
 *   🌟 [swissknife](https://github.com/daltonnyx/swissknife) by [@daltonnyx](https://github.com/daltonnyx) [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) - MCPをサポートするマルチエージェントチャットアプリケーション。A2Aプロトコル経由でエージェントを公開し、クライアントとしてリモートA2Aエージェントに接続することを目指しています。
 <!-- あなたの実装をここに追加してください！CONTRIBUTING.md を参照してください。 -->
 
 ## 🛠️ ツールとユーティリティ
 
-*   🔍 *エージェント発見サービス* - [リンク] - 説明 (例: 'Agent Catalog' の実装)。 <!-- TODO -->
-*   ✅ *A2A 検証ツール* - [リンク] - A2A エンドポイントの準拠性をチェックするツール。 <!-- TODO -->
-*   📊 *モニタリング/トレース アダプター* - [リンク] - オブザーバビリティプラットフォームとの統合。 <!-- TODO -->
+このセクションでは、A2A プロトコルに関連するスタンドアロンのツールやユーティリティをリストアップすることを目的としています。エコシステムはまだ発展途上であり、コミュニティからの貢献を歓迎します！
+
+*   **エージェント発見サービス (Agent Discovery Services)**
+    *   一部のプラットフォームレベルの実装（[Aira](https://github.com/IhateCreatingUserNames2/Aira) など）には、エージェントの登録と発見のメカニズムが機能に含まれています。
+    *   *コミュニティからの貢献を歓迎します：スタンドアロンのエージェントディレクトリサービスの実装、Agent Card 検索エンジンなど。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
+*   **A2A 検証ツール (A2A Validation Tool)**
+    *   *コミュニティからの貢献を歓迎します：Agent Card、Task/Artifact 構造が A2A JSON スキーマ仕様に準拠しているかどうかを確認するためのオンラインまたはコマンドラインバリデータ、IDE プラグインなど。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
+*   **モニタリング/トレース アダプター (Monitoring/Tracing Adapters)**
+    *   *コミュニティからの貢献を歓迎します：A2A タスクフローデータを OpenTelemetry、Prometheus、Grafana などの主要な監視プラットフォームに統合するためのアダプタやライブラリ。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
+*   **その他のユーティリティ (Other Utilities)**
+    *   *コミュニティからの貢献を歓迎します：例えば、A2A メッセージ構築ヘルパーツール、Agent Card ジェネレータ、Mock A2A Server/Client など。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
 
 ## 📚 チュートリアルと記事
 
@@ -161,12 +183,12 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 ## 🔗 関連プロトコルとコンセプト
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - エージェント*に*ツール/コンテキストを提供することに焦点を当てた補完的なプロトコル。 ([A2A と MCP の議論](https://google.github.io/A2A/#/topics/a2a_and_mcp.md)).
-*   📞 *関数呼び出し / ツール使用標準* - [リンク] - 関連する標準 (例: OpenAI 関数呼び出し)。 <!-- TODO -->
+*   📞 *関数呼び出し / ツール使用標準* - *コミュニティからの貢献を歓迎します：A2A と連携した関数呼び出し/ツール使用のパターン、ベストプラクティス、または関連標準に関する議論。* <!-- TODO: 関連する標準や議論に関するコミュニティの貢献を歓迎します -->
 
 ## 💬 コミュニティ
 
 *   🐞 [google/A2A GitHub Issues](https://github.com/google/A2A/issues) - バグ報告やプロトコルの改善提案用。
-*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - For general questions, ideas, and community discussions about the A2A protocol.
+*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - A2A プロトコルに関する一般的な質問、アイデア、コミュニティの議論のため。
 *   🔒 [プライベートフィードバックフォーム](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - プライベートなフィードバックのための Google フォーム。
 
 ---

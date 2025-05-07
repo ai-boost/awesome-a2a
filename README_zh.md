@@ -34,6 +34,8 @@
     *   [官方示例](#官方示例)
     *   [框架集成 (官方示例)](#框架集成-官方示例)
     *   [社区实现](#社区实现)
+        *   [SDK 与库 (按语言分类)](#sdk-与库-按语言分类)
+        *   [平台与集成解决方案](#平台与集成解决方案)
 *   [🛠️ 工具与实用程序](#️-工具与实用程序)
 *   [📚 教程与文章](#-教程与文章)
 *   [🎬 Demo 与示例](#-demo-与示例)
@@ -127,14 +129,26 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 #### 社区实现
 
-*   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) by [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - tRPC  团队开发的 Go 语言 A2A 实现，提供完整的客户端/服务端支持、内存任务管理、流式响应、会话管理和多种认证方式（JWT、API 密钥、OAuth2）。包含丰富的示例，包括基础服务器、流式传输和认证实现等。
-*   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - 用于构建 A2A 服务器的 Go 库，包含示例实现。
-*   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - 遵循 Rust 惯用实践和六边形架构原则的 Rust 实现。
-*   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - 用于 A2A 通信的极简 Python SDK。
-*   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A 协议的 C#/.NET 实现。
-*   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - 用于将 A2A 协议集成到 NestJS 应用程序的模块。
-*   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - 一个易于使用的 Python 库，用于实现 A2A 协议。
-*   🌟 [Aira](https://github.com/IhateCreatingUserNames2/Aira) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) - 一个 A2A 网络实现，用于托管、注册、发现和与 Agent 交互。
+##### SDK 与库 (按语言分类)
+
+*   **Go**
+    *   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) by [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - tRPC 团队开发的 Go 语言 A2A 实现，提供完整的客户端/服务端支持、内存任务管理、流式响应、会话管理和多种认证方式（JWT、API 密钥、OAuth2）。包含丰富的示例，包括基础服务器、流式传输和认证实现等。
+    *   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - 用于构建 A2A 服务器的 Go 库，包含示例实现。
+*   **Rust**
+    *   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - 遵循 Rust 惯用实践和六边形架构原则的 Rust 实现。
+    *   🌟 [Agentic](https://github.com/jeremychone/rust-agentic) by [@jeremychone](https://github.com/jeremychone) [![Stars](https://img.shields.io/github/stars/jeremychone/rust-agentic?style=social)](https://github.com/jeremychone/rust-agentic) - Rust 中的 MCP 和 A2A 支持库。通过符合人体工程学的 API 为 MCP 和 A2A 支持等核心组件提供构建 Agentic 应用和系统的基本构件。(开发中)
+*   **Python**
+    *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - 用于 A2A 通信的极简 Python SDK。
+    *   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - 一个易于使用的 Python 库，用于实现 A2A 协议。
+*   **C#/.NET**
+    *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A 协议的 C#/.NET 实现。
+*   **JavaScript/TypeScript**
+    *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - 用于将 A2A 协议集成到 NestJS 应用程序的模块。
+
+##### 平台与集成解决方案
+
+*   🌟 [Elkar](https://github.com/elkar-ai/elkar-a2a) by [@elkar-ai](https://github.com/elkar-ai) [![Stars](https://img.shields.io/github/stars/elkar-ai/elkar-a2a?style=social)](https://github.com/elkar-ai/elkar-a2a) - 一个基于 Google Agent2Agent 协议 (A2A) 的开源 AI Agent 任务管理层。轻松实现跨 AI Agent 的任务发送、跟踪和编排。
+*   🌟 [Aira](https://github.com/IhateCreatingUserNames2/Aira) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) - 一个 A2A 网络实现，用于托管、注册、发现和与 Agent 交互。其包含 Agent 发现机制。
 *   🌟 [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) - 一个基于 Google ADK 构建的 AI Agent 开发框架，可能用于创建 A2A 网络中的 Agent。
 *   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - 可本地部署或自托管的浏览器自动化操作，原生支持 MCP 和 A2A。
 *   🌟 [swissknife](https://github.com/daltonnyx/swissknife) by [@daltonnyx](https://github.com/daltonnyx) [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) - 一个支持 MCP 的多 Agent 聊天应用，旨在通过 A2A 协议暴露 Agent，并作为客户端连接到远程 A2A Agent。
@@ -142,9 +156,17 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 ## 🛠️ 工具与实用程序
 
-*   🔍 *Agent 发现服务* - [链接] - 描述 (例如，'Agent Catalog' 的实现)。 <!-- TODO -->
-*   ✅ *A2A 验证工具* - [链接] - 用于检查 A2A 端点合规性的工具。 <!-- TODO -->
-*   📊 *监控/追踪适配器* - [链接] - 与可观察性平台的集成。 <!-- TODO -->
+本章节旨在收录与 A2A 协议相关的独立工具和实用程序。目前生态仍在发展，欢迎社区贡献！
+
+*   **Agent 发现服务 (Agent Discovery Services)**
+    *   一些平台级实现（如 [Aira](https://github.com/IhateCreatingUserNames2/Aira)）在其功能中包含了 Agent 的注册与发现机制。
+    *   *期待社区贡献：独立的 Agent 目录服务实现、Agent Card 搜索引擎等。* <!-- TODO: 欢迎社区贡献相关工具 -->
+*   **A2A 验证工具 (A2A Validation Tool)**
+    *   *期待社区贡献：用于检查 Agent Card、Task/Artifact 结构是否符合 A2A JSON Schema 规范的在线或命令行验证器，或集成到 IDE 的插件等。* <!-- TODO: 欢迎社区贡献相关工具 -->
+*   **监控/追踪适配器 (Monitoring/Tracing Adapters)**
+    *   *期待社区贡献：将 A2A 任务流数据接入 OpenTelemetry, Prometheus, Grafana 等主流监控平台的适配器或库。* <!-- TODO: 欢迎社区贡献相关工具 -->
+*   **其他实用工具**
+    *   *期待社区贡献：例如 A2A 消息构造辅助工具、Agent Card 生成器、Mock A2A Server/Client 等。* <!-- TODO: 欢迎社区贡献相关工具 -->
 
 ## 📚 教程与文章
 
@@ -161,7 +183,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 ## 🔗 相关协议与概念
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - 互补协议，专注于向 Agent 提供工具/上下文。 ([A2A 与 MCP 讨论](https://google.github.io/A2A/#/topics/a2a_and_mcp.md)).
-*   📞 *Function Calling / 工具使用标准* - [链接] - 相关标准 (例如，OpenAI function calling)。 <!-- TODO -->
+*   📞 *Function Calling / 工具使用标准* - *期待社区贡献：与 A2A 结合使用的函数调用/工具使用的模式、最佳实践或相关标准讨论。* <!-- TODO: 欢迎社区贡献相关标准或讨论 -->
 
 ## 💬 社区
 
