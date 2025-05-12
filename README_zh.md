@@ -144,6 +144,8 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A 协议的 C#/.NET 实现。
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - 用于将 A2A 协议集成到 NestJS 应用程序的模块。
+*   **Java**
+    *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - 基于 Spring Boot 的 Java A2A 服务端/客户端实现，使用注解简化开发。支持 WebSocket、MCP 集成，并包含企业级/Kubernetes 部署教程。
 
 ##### 平台与集成解决方案
 

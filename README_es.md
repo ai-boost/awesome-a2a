@@ -143,6 +143,8 @@ A2A (Agent2Agent) es un **protocolo abierto** de Google y socios que permite a d
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) por [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Una implementación en C#/.NET del protocolo A2A.
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) por [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - Un módulo para integrar el protocolo A2A en aplicaciones NestJS.
+*   **Java**
+    *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
 
 ##### Plataformas y Soluciones Integradas
 

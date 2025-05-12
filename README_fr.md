@@ -143,6 +143,8 @@ Nouveau sur A2A ? Voici un parcours suggéré :
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) par [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Une implémentation C#/.NET du protocole A2A.
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) par [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - Un module pour intégrer le protocole A2A dans les applications NestJS.
+*   **Java**
+    *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
 
 ##### Plateformes et Solutions Intégrées
 
