@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/ai-boost-awesome-a2a-badge.png)](https://mseep.ai/app/ai-boost-awesome-a2a)
+
 <div align="center">
   <h2 align="center">✨ Awesome A2A (Agent2Agent Protocol) ✨</h2>
   <p align="center">
