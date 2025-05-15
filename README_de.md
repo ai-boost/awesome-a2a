@@ -143,6 +143,7 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) von [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Eine C#/.NET-Implementierung des A2A-Protokolls.
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) von [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - Ein Modul zur Integration des A2A-Protokolls in NestJS-Anwendungen.
+    *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) - Ein Agent2Agent (A2A) Protokoll-konformer Server und Client in TypeScript für node.js, der die Erstellung interoperabler KI-Agenten vereinfacht. Erweitert Googles Beispiele erheblich und bietet eine produktionsreife Lösung mit Fokus auf Entwicklererfahrung, Zuverlässigkeit und umfassende Funktionen. [Erfahren Sie mehr beim Artinet-Projekt](https://www.artinet.com/).
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
 
@@ -163,6 +164,7 @@ Dieser Abschnitt listet eigenständige Tools und Dienstprogramme für das A2A-Pr
     *   Einige plattformbasierte Implementierungen (wie [Aira](https://github.com/IhateCreatingUserNames2/Aira)) beinhalten Mechanismen zur Registrierung und Entdeckung von Agenten.
     *   *Beiträge willkommen: Eigenständige Implementierungen von Agentenverzeichnisdiensten, Suchmaschinen für Agent Cards usw.* <!-- TODO: Beiträge aus der Community für verwandte Tools sind willkommen -->
 *   **A2A Validierungstool**
+    *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) - Eine Desktop-Anwendung zum Testen und Validieren von A2A-Protokollimplementierungen. Sie unterstützt Multi-Agenten-Verbindungen, Agent Card-Inspektion, Streaming, Sitzungsmanagement, Dateianhänge, JSON-Visualisierung, Konfigurationsimport/-export und ist plattformübergreifend.
     *   *Beiträge willkommen: Online- oder Kommandozeilen-Validatoren zur Prüfung, ob Agent Card-, Task-/Artifact-Strukturen den A2A JSON Schema-Spezifikationen entsprechen, oder IDE-Plugins usw.* <!-- TODO: Beiträge aus der Community für verwandte Tools sind willkommen -->
 *   **Monitoring/Tracing Adapter**
     *   *Beiträge willkommen: Adapter oder Bibliotheken zur Integration von A2A-Task-Flow-Daten in gängige Monitoring-Plattformen wie OpenTelemetry, Prometheus, Grafana usw.* <!-- TODO: Beiträge aus der Community für verwandte Tools sind willkommen -->

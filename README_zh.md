@@ -144,6 +144,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A 协议的 C#/.NET 实现。
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - 用于将 A2A 协议集成到 NestJS 应用程序的模块。
+    *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) - 一个兼容 Agent2Agent (A2A) 协议的 TypeScript (node.js) 服务器和客户端，旨在简化可互操作 AI Agent 的创建。它在 Google 示例的基础上进行了显著增强，提供了注重开发者体验、可靠性和全面功能的生产级解决方案。 [在 artinet project 了解更多](https://www.artinet.com/)。
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - 基于 Spring Boot 的 Java A2A 服务端/客户端实现，使用注解简化开发。支持 WebSocket、MCP 集成，并包含企业级/Kubernetes 部署教程。
 
@@ -164,6 +165,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
     *   一些平台级实现（如 [Aira](https://github.com/IhateCreatingUserNames2/Aira)）在其功能中包含了 Agent 的注册与发现机制。
     *   *期待社区贡献：独立的 Agent 目录服务实现、Agent Card 搜索引擎等。* <!-- TODO: 欢迎社区贡献相关工具 -->
 *   **A2A 验证工具 (A2A Validation Tool)**
+    *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) - 一个用于测试和验证 A2A 协议实现的桌面应用程序。它支持多 Agent 连接、Agent Card 检查、流式传输、会话管理、文件附件、JSON 可视化、配置导入/导出，并支持跨平台。
     *   *期待社区贡献：用于检查 Agent Card、Task/Artifact 结构是否符合 A2A JSON Schema 规范的在线或命令行验证器，或集成到 IDE 的插件等。* <!-- TODO: 欢迎社区贡献相关工具 -->
 *   **监控/追踪适配器 (Monitoring/Tracing Adapters)**
     *   *期待社区贡献：将 A2A 任务流数据接入 OpenTelemetry, Prometheus, Grafana 等主流监控平台的适配器或库。* <!-- TODO: 欢迎社区贡献相关工具 -->
