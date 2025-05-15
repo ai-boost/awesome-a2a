@@ -165,7 +165,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
     *   一部のプラットフォームレベルの実装（[Aira](https://github.com/IhateCreatingUserNames2/Aira) など）には、エージェントの登録と発見のメカニズムが機能に含まれています。
     *   *コミュニティからの貢献を歓迎します：スタンドアロンのエージェントディレクトリサービスの実装、Agent Card 検索エンジンなど。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
 *   **A2A 検証ツール (A2A Validation Tool)**
-    *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) - A2A プロトコル実装をテストおよび検証するためのデスクトップアプリケーションです。マルチエージェント接続、エージェントカード検査、ストリーミング、セッション管理、ファイル添付、JSON 可視化、設定のインポート/エクスポートをサポートし、クロスプラットフォーム対応です。
+    *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) [![Stars](https://img.shields.io/github/stars/llmx-de/a2a-validation-tool?style=social)](https://github.com/llmx-de/a2a-validation-tool) - A2A プロトコル実装のテストと検証を行うためのクロスプラットフォームデスクトップアプリ。マルチエージェント接続やセッション管理などの機能を備えています。
     *   *コミュニティからの貢献を歓迎します：Agent Card、Task/Artifact 構造が A2A JSON スキーマ仕様に準拠しているかどうかを確認するためのオンラインまたはコマンドラインバリデータ、IDE プラグインなど。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
 *   **モニタリング/トレース アダプター (Monitoring/Tracing Adapters)**
     *   *コミュニティからの貢献を歓迎します：A2A タスクフローデータを OpenTelemetry、Prometheus、Grafana などの主要な監視プラットフォームに統合するためのアダプタやライブラリ。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->

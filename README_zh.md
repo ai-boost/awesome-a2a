@@ -165,7 +165,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
     *   一些平台级实现（如 [Aira](https://github.com/IhateCreatingUserNames2/Aira)）在其功能中包含了 Agent 的注册与发现机制。
     *   *期待社区贡献：独立的 Agent 目录服务实现、Agent Card 搜索引擎等。* <!-- TODO: 欢迎社区贡献相关工具 -->
 *   **A2A 验证工具 (A2A Validation Tool)**
-    *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) - 一个用于测试和验证 A2A 协议实现的桌面应用程序。它支持多 Agent 连接、Agent Card 检查、流式传输、会话管理、文件附件、JSON 可视化、配置导入/导出，并支持跨平台。
+    *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) [![Stars](https://img.shields.io/github/stars/llmx-de/a2a-validation-tool?style=social)](https://github.com/llmx-de/a2a-validation-tool) - 跨平台桌面应用，用于测试和验证 A2A 协议实现，支持多 Agent 连接和会话管理等功能。
     *   *期待社区贡献：用于检查 Agent Card、Task/Artifact 结构是否符合 A2A JSON Schema 规范的在线或命令行验证器，或集成到 IDE 的插件等。* <!-- TODO: 欢迎社区贡献相关工具 -->
 *   **监控/追踪适配器 (Monitoring/Tracing Adapters)**
     *   *期待社区贡献：将 A2A 任务流数据接入 OpenTelemetry, Prometheus, Grafana 等主流监控平台的适配器或库。* <!-- TODO: 欢迎社区贡献相关工具 -->
