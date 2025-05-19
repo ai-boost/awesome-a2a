@@ -139,6 +139,7 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
 *   **Python**
     *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) von [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - Ein minimalistisches Python-SDK für die A2A-Kommunikation.
     *   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - Eine einfach zu bedienende Python-Bibliothek zur Implementierung des A2A-Protokolls.
+    *   🌟 [A2AServer](https://github.com/johnson7788/A2AServer) by [@johnson7788](https://github.com/johnson7788) [![Stars](https://img.shields.io/github/stars/johnson7788/A2AServer?style=social)](https://github.com/johnson7788/A2AServer) - Ein Python-Server-Framework, das das A2A-Protokoll von Google implementiert und MCP integriert.
 *   **C#/.NET**
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) von [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Eine C#/.NET-Implementierung des A2A-Protokolls.
 *   **JavaScript/TypeScript**

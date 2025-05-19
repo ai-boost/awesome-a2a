@@ -139,6 +139,7 @@ Nouveau sur A2A ? Voici un parcours suggéré :
 *   **Python**
     *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) par [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - Un SDK Python minimaliste pour la communication A2A.
     *   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - Une bibliothèque Python facile à utiliser pour implémenter le protocole A2A.
+    *   🌟 [A2AServer](https://github.com/johnson7788/A2AServer) by [@johnson7788](https://github.com/johnson7788) [![Stars](https://img.shields.io/github/stars/johnson7788/A2AServer?style=social)](https://github.com/johnson7788/A2AServer) - Un framework serveur Python implémentant le protocole A2A de Google avec intégration MCP.
 *   **C#/.NET**
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) par [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Une implémentation C#/.NET du protocole A2A.
 *   **JavaScript/TypeScript**
