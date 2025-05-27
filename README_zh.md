@@ -144,6 +144,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
     *   🌟 [A2AServer](https://github.com/johnson7788/A2AServer) by [@johnson7788](https://github.com/johnson7788) [![Stars](https://img.shields.io/github/stars/johnson7788/A2AServer?style=social)](https://github.com/johnson7788/A2AServer) - 一个 Python 服务器框架，实现了 Google 的 A2A 协议并集成了 MCP。
 *   **C#/.NET**
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A 协议的 C#/.NET 实现。
+    *   🌟 [a2a-net](https://github.com/neuroglia-io/a2a-net) by [@neuroglia-io](https://github.com/neuroglia-io) [![Stars](https://img.shields.io/github/stars/neuroglia-io/a2a-net?style=social)](https://github.com/neuroglia-io/a2a-net) - Agent2Agent (A2A) 协议的 .NET 实现，用于实现跨框架和供应商的自主代理之间的安全、可互操作通信。
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - 用于将 A2A 协议集成到 NestJS 应用程序的模块。
     *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) - TypeScript (Node.js) A2A 兼容服务器/客户端，简化可互操作 AI Agent 创建，注重开发者体验与生产力。
@@ -180,6 +181,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 *   🚀 [官方入门指南 (README)](https://github.com/google/A2A#getting-started) - 官方仓库 README 中指向文档、规范、示例的链接。
 *   🌐 [Agent2Agent 协议文档站](https://agent2agent.ren) - 社区驱动的开源 A2A 协议文档网站。使用 React/TypeScript 构建，支持英文、中文和日文。([源代码](https://github.com/ai-boost/agent2agent_doc))
 *   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - 学术论文，调研了现有的 LLM Agent 通信协议（包括 A2A 所属的类别），对其进行分类、性能分析，并讨论了未来挑战。
+*   📚 [A2A 与 MCP 教程](https://github.com/Tsadoq/a2a-mcp-tutorial) by [@Tsadoq](https://github.com/Tsadoq) [![Stars](https://img.shields.io/github/stars/Tsadoq/a2a-mcp-tutorial?style=social)](https://github.com/Tsadoq/a2a-mcp-tutorial) - 关于如何使用 Anthropic 的 Model Context Protocol 和 Google 的 Agent2Agent Protocol 的教程。
 
 ## 🎬 Demo 与示例
 

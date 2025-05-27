@@ -144,6 +144,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
     *   🌟 [A2AServer](https://github.com/johnson7788/A2AServer) by [@johnson7788](https://github.com/johnson7788) [![Stars](https://img.shields.io/github/stars/johnson7788/A2AServer?style=social)](https://github.com/johnson7788/A2AServer) - Google の A2A プロトコルを実装し、MCP 統合を備えた Python サーバーフレームワーク。
 *   **C#/.NET**
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A2A プロトコルの C#/.NET 実装。
+    *   🌟 [a2a-net](https://github.com/neuroglia-io/a2a-net) by [@neuroglia-io](https://github.com/neuroglia-io) [![Stars](https://img.shields.io/github/stars/neuroglia-io/a2a-net?style=social)](https://github.com/neuroglia-io/a2a-net) - フレームワークやベンダーを超えた自律エージェント間の安全で相互運用可能な通信を可能にする Agent2Agent (A2A) プロトコルの .NET 実装。
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - NestJS アプリケーションに A2A プロトコルを統合するためのモジュール。
     *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) - TypeScript (Node.js) A2A 準拠サーバー/クライアント。相互運用可能な AI エージェント作成を簡素化し、DX と本番運用性を重視。
@@ -180,6 +181,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 *   🚀 [入門ガイド (公式 README)](https://github.com/google/A2A#getting-started) - 公式リポジトリの README 内のドキュメント、仕様、サンプルへのリンク。
 *   🌐 [Agent2Agent プロトコル ドキュメントサイト](https://agent2agent.ren) - コミュニティ主導のオープンソース A2A プロトコル ドキュメントサイト。React/TypeScript で構築され、英語、中国語、日本語をサポート。([ソースコード](https://github.com/ai-boost/agent2agent_doc))
 *   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - 既存のLLMエージェント通信プロトコル（A2Aが属するカテゴリを含む）を調査し、分類、パフォーマンス分析、将来の課題について議論した学術論文。
+*   📚 [A2A と MCP チュートリアル](https://github.com/Tsadoq/a2a-mcp-tutorial) by [@Tsadoq](https://github.com/Tsadoq) [![Stars](https://img.shields.io/github/stars/Tsadoq/a2a-mcp-tutorial?style=social)](https://github.com/Tsadoq/a2a-mcp-tutorial) - Anthropic の Model Context Protocol と Google の Agent2Agent Protocol の使い方に関するチュートリアル。
 
 ## 🎬 デモと例
 

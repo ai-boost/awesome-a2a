@@ -143,6 +143,7 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
     *   🌟 [A2AServer](https://github.com/johnson7788/A2AServer) by [@johnson7788](https://github.com/johnson7788) [![Stars](https://img.shields.io/github/stars/johnson7788/A2AServer?style=social)](https://github.com/johnson7788/A2AServer) - Ein Python-Server-Framework, das das A2A-Protokoll von Google implementiert und MCP integriert.
 *   **C#/.NET**
     *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) von [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - Eine C#/.NET-Implementierung des A2A-Protokolls.
+    *   🌟 [a2a-net](https://github.com/neuroglia-io/a2a-net) von [@neuroglia-io](https://github.com/neuroglia-io) [![Stars](https://img.shields.io/github/stars/neuroglia-io/a2a-net?style=social)](https://github.com/neuroglia-io/a2a-net) - .NET-Implementierung des Agent2Agent (A2A) Protokolls zur Ermöglichung sicherer, interoperabler Kommunikation zwischen autonomen Agenten über Frameworks und Anbieter hinweg.
 *   **JavaScript/TypeScript**
     *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) von [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - Ein Modul zur Integration des A2A-Protokolls in NestJS-Anwendungen.
     *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) - TypeScript (Node.js) A2A-konformer Server/Client, der die Erstellung interoperabler KI-Agenten vereinfacht, mit Fokus auf DX und Produktionsreife.
@@ -179,6 +180,7 @@ Dieser Abschnitt listet eigenständige Tools und Dienstprogramme für das A2A-Pr
 *   🚀 [Erste Schritte Anleitung (Offizielles README)](https://github.com/google/A2A#getting-started) - Links zu Dokumenten, Spezifikationen, Beispielen im README des offiziellen Repos.
 *   🌐 [Agent2Agent Protokoll Dokumentationsseite](https://agent2agent.ren) - Community-getriebene Open-Source-Dokumentationsseite für das A2A-Protokoll. Erstellt mit React/TypeScript, unterstützt Englisch, Chinesisch und Japanisch. ([Quellcode](https://github.com/ai-boost/agent2agent_doc))
 *   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - Wissenschaftlicher Artikel, der bestehende Kommunikationsprotokolle für LLM-Agenten (einschließlich der Kategorie, zu der A2A gehört) untersucht, klassifiziert, deren Leistung analysiert und zukünftige Herausforderungen diskutiert.
+*   📚 [A2A und MCP Tutorial](https://github.com/Tsadoq/a2a-mcp-tutorial) von [@Tsadoq](https://github.com/Tsadoq) [![Stars](https://img.shields.io/github/stars/Tsadoq/a2a-mcp-tutorial?style=social)](https://github.com/Tsadoq/a2a-mcp-tutorial) - Ein Tutorial zur Verwendung des Model Context Protocol von Anthropic und des Agent2Agent Protocol von Google.
 
 ## 🎬 Demos & Beispiele
 
