@@ -76,7 +76,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 1.  **基本を理解する：** 上記のセクション ([A2Aとは？](#-a2aとは-概要), [主要原則](#-主要原則), [仕組み](#️-a2aの仕組み-ハイレベル)) を読む。📰 [公式発表ブログ投稿](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (英語) を確認する。
 2.  **コアコンセプトを探る：** 📖 [公式技術ドキュメント](https://google.github.io/A2A/#/documentation) に深く入り込み、`Agent Card`、`Task`、`Message`、`Part`、`Artifact` に焦点を当てる。
-3.  **動作を見る：** 🎥 [公式デモビデオ](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) を視聴し、🌐 [マルチエージェント Web アプリデモ](https://github.com/google/A2A/tree/main/demo) のコードを探索する。
+3.  **動作を見る：** 🎥 [公式デモビデオ](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) を視聴し、🌐 [マルチエージェント Web アプリデモ](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) のコードを探索する。
 4.  **サンプルを実行する：** [公式リポジトリ](https://github.com/google/A2A) をクローンし、`/samples` の指示に従ってクライアント (CLI など) とサンプルエージェント (例: LangGraph または Genkit エージェント) を実行する。リンクについては、下の [公式サンプル](#公式サンプル) の表を参照。
 5.  **コードを確認する：** 公式サンプルの `common` (Python) または `server`/`client` (JS/TS) ライブラリを見て、A2A 通信がどのように実装されているかを確認する。
 6.  **構築してみる：** サンプルを適応させるか、ライブラリを使用して独自の基本的な A2A エージェントまたはクライアントを作成する。
@@ -109,11 +109,11 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 | 言語       | タイプ           | フレームワーク | 説明                                         | リンク                                                                            |
 | :--------- | :--------------- | :------------- | :------------------------------------------- | :-------------------------------------------------------------------------------- |
-| 🐍 Python  | 共通ライブラリ   | -              | コア HTTP, JSON-RPC, SSE ハンドリング        | [リンク](https://github.com/google/A2A/tree/main/samples/python/common)             |
-| 🐍 Python  | ホスト (クライアント) | CLI          | コマンドラインクライアントの例                 | [リンク](https://github.com/google/A2A/tree/main/samples/python/hosts/cli)          |
-| 🐍 Python  | ホスト (エージェント) | ADK          | 他の A2A エージェントに委任するオーケストレータエージェント | [リンク](https://github.com/google/A2A/tree/main/samples/python/hosts/multiagent)   |
-| 🚀 JS/TS   | サーバーライブラリ | Express      | コアサーバー実装                             | [リンク](https://github.com/google/A2A/tree/main/samples/js/src/server)             |
-| 🚀 JS/TS   | クライアントライブラリ | -            | クライアント実装                             | [リンク](https://github.com/google/A2A/tree/main/samples/js/src/client)             |
+| 🐍 Python  | 共通ライブラリ   | -              | コア HTTP, JSON-RPC, SSE ハンドリング        | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/common)             |
+| 🐍 Python  | ホスト (クライアント) | CLI          | コマンドラインクライアントの例                 | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/cli)          |
+| 🐍 Python  | ホスト (エージェント) | ADK          | 他の A2A エージェントに委任するオーケストレータエージェント | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/multiagent)   |
+| 🚀 JS/TS   | サーバーライブラリ | Express      | コアサーバー実装                             | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/server)             |
+| 🚀 JS/TS   | クライアントライブラリ | -            | クライアント実装                             | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/client)             |
 | 🚀 JS/TS   | ホスト (クライアント) | CLI          | コマンドラインクライアントの例                 | [リンク](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)             |
 
 #### フレームワーク統合 (公式サンプル)
@@ -122,10 +122,10 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 | 言語       | Agent フレームワーク | Agent 説明                           | 主要な A2A 機能のデモ                | リンク                                                                           |
 | :--------- | :----------------- | :----------------------------------- | :----------------------------------- | :----------------------------------------------------------------------------- |
-| 🐍 Python  | LangGraph          | 通貨換算                             | ツール、ストリーミング、マルチターン | [リンク](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph) |
-| 🐍 Python  | CrewAI             | 画像生成                             | 非テキスト Artifacts (ファイル)      | [リンク](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)   |
-| 🐍 Python  | Google ADK         | 経費精算                             | マルチターン、フォーム (DataPart)    | [リンク](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)|
-| 🚀 JS/TS   | Genkit             | 映画情報 / コード生成                | ツール、Artifacts (ファイル)、非同期 | [リンク](https://github.com/google/A2A/tree/main/samples/js/src/agents)          |
+| 🐍 Python  | LangGraph          | 通貨換算                             | ツール、ストリーミング、マルチターン | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/langgraph) |
+| 🐍 Python  | CrewAI             | 画像生成                             | 非テキスト Artifacts (ファイル)      | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/crewai)   |
+| 🐍 Python  | Google ADK         | 経費精算                             | マルチターン、フォーム (DataPart)    | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/google_adk)|
+| 🚀 JS/TS   | Genkit             | 映画情報 / コード生成                | ツール、Artifacts (ファイル)、非同期 | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/agents)          |
 
 #### コミュニティ実装
 
@@ -185,8 +185,9 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 ## 🎬 デモと例
 
-*   🌐 [公式マルチエージェント Web アプリ (Python/Mesop)](https://github.com/google/A2A/tree/main/demo) - オーケストレータエージェントが複数のリモートエージェントと対話し、テキスト、画像、フォームをレンダリングするデモ。**Python コードの実行が必要です。**
+*   🌐 [公式マルチエージェント Web アプリ (Python/Mesop)](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) - オーケストレータエージェントが複数のリモートエージェントと対話し、テキスト、画像、フォームをレンダリングするデモ。**Python コードの実行が必要です。**
 *   🎥 [公式デモビデオ (セクションリンク)](https://github.com/google/A2A#see-a2a-in-action) - 公式リポジトリの README に埋め込まれたビデオへのリンク。
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) - Agent2Agent (A2A) プロトコルを使用するコードサンプルとデモを含む公式リポジトリ。
 
 ## 🔗 関連プロトコルとコンセプト
 

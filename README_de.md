@@ -75,7 +75,7 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
 
 1.  **Grundlagen verstehen:** Lesen Sie die obigen Abschnitte ([Was ist A2A?](#-was-ist-a2a-kurz), [Schlüsselprinzipien](#-schlüsselprinzipien), [Wie es funktioniert](#️-wie-funktioniert-a2a-übersicht)). Sehen Sie sich den 📰 [Ankündigungs-Blogbeitrag](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (Englisch) an.
 2.  **Kernkonzepte erkunden:** Tauchen Sie tief in die 📖 [Offizielle Technische Dokumentation](https://google.github.io/A2A/#/documentation) ein und konzentrieren Sie sich auf `Agent Card`, `Task`, `Message`, `Part` und `Artifact`.
-3.  **In Aktion sehen:** Sehen Sie sich das 🎥 [Offizielle Demo-Video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) an und erkunden Sie den Code für die 🌐 [Multi-Agent Web App Demo](https://github.com/google/A2A/tree/main/demo).
+3.  **In Aktion sehen:** Sehen Sie sich das 🎥 [Offizielle Demo-Video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) an und erkunden Sie den Code für die 🌐 [Multi-Agent Web App Demo](https://github.com/google-a2a/A2A/tree/v0.2.1/demo).
 4.  **Beispiele ausführen:** Klonen Sie das [Offizielle Repo](https://github.com/google/A2A) und folgen Sie den Anweisungen in `/samples`, um einen Client (wie die CLI) und einen Beispiel-Agenten (z. B. LangGraph oder Genkit Agent) auszuführen. Links finden Sie in den Tabellen der [Offiziellen Beispiele](#offizielle-beispiele) unten.
 5.  **Code überprüfen:** Sehen Sie sich die `common` (Python) oder `server`/`client` (JS/TS) Bibliotheken in den offiziellen Beispielen an, um zu sehen, wie die A2A-Kommunikation implementiert ist.
 6.  **Versuchen Sie zu bauen:** Passen Sie ein Beispiel an oder verwenden Sie eine Bibliothek, um Ihren eigenen einfachen A2A-Agenten oder Client zu erstellen.
@@ -108,11 +108,11 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
 
 | Sprache    | Typ                 | Framework   | Beschreibung                                | Link                                                                              |
 | :--------- | :------------------ | :---------- | :------------------------------------------ | :-------------------------------------------------------------------------------- |
-| 🐍 Python  | Common Library      | -           | Kernbehandlung von HTTP, JSON-RPC, SSE      | [Link](https://github.com/google/A2A/tree/main/samples/python/common)             |
-| 🐍 Python  | Host (Client)       | CLI         | Beispiel für einen Befehlszeilen-Client       | [Link](https://github.com/google/A2A/tree/main/samples/python/hosts/cli)          |
-| 🐍 Python  | Host (Agent)        | ADK         | Orchestrator-Agent, der an A2A-Agenten delegiert | [Link](https://github.com/google/A2A/tree/main/samples/python/hosts/multiagent)   |
-| 🚀 JS/TS   | Server Library      | Express     | Kernimplementierung des Servers             | [Link](https://github.com/google/A2A/tree/main/samples/js/src/server)             |
-| 🚀 JS/TS   | Client Library      | -           | Client-Implementierung                      | [Link](https://github.com/google/A2A/tree/main/samples/js/src/client)             |
+| 🐍 Python  | Common Library      | -           | Kernbehandlung von HTTP, JSON-RPC, SSE      | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/common)             |
+| 🐍 Python  | Host (Client)       | CLI         | Beispiel für einen Befehlszeilen-Client       | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/cli)          |
+| 🐍 Python  | Host (Agent)        | ADK         | Orchestrator-Agent, der an A2A-Agenten delegiert | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/multiagent)   |
+| 🚀 JS/TS   | Server Library      | Express     | Kernimplementierung des Servers             | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/server)             |
+| 🚀 JS/TS   | Client Library      | -           | Client-Implementierung                      | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/client)             |
 | 🚀 JS/TS   | Host (Client)       | CLI         | Beispiel für einen Befehlszeilen-Client       | [Link](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)             |
 
 #### Framework-Integrationen (Offizielle Beispiele)
@@ -121,10 +121,10 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
 
 | Sprache    | Agent Framework     | Agent Beschreibung                     | Demonstrierte A2A-Schlüsselfunktionen    | Link                                                                           |
 | :--------- | :------------------ | :--------------------------------------- | :----------------------------------------- | :----------------------------------------------------------------------------- |
-| 🐍 Python  | LangGraph           | Währungsumrechnung                       | Tools, Streaming, Multi-Turn             | [Link](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph) |
-| 🐍 Python  | CrewAI              | Bilderzeugung                            | Nicht-textuelle Artefakte (Dateien)    | [Link](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)   |
-| 🐍 Python  | Google ADK          | Spesenabrechnung                         | Multi-Turn, Formulare (DataPart)       | [Link](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)|
-| 🚀 JS/TS   | Genkit              | Filminfo / Code-Generierung              | Tools, Artefakte (Dateien), Asynchron    | [Link](https://github.com/google/A2A/tree/main/samples/js/src/agents)          |
+| 🐍 Python  | LangGraph           | Währungsumrechnung                       | Tools, Streaming, Multi-Turn             | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/langgraph) |
+| 🐍 Python  | CrewAI              | Bilderzeugung                            | Nicht-textuelle Artefakte (Dateien)    | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/crewai)   |
+| 🐍 Python  | Google ADK          | Spesenabrechnung                         | Multi-Turn, Formulare (DataPart)       | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/google_adk)|
+| 🚀 JS/TS   | Genkit              | Filminfo / Code-Generierung              | Tools, Artefakte (Dateien), Asynchron    | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/agents)          |
 
 #### Community-Implementierungen
 
@@ -184,8 +184,9 @@ Dieser Abschnitt listet eigenständige Tools und Dienstprogramme für das A2A-Pr
 
 ## 🎬 Demos & Beispiele
 
-*   🌐 [Offizielle Multi-Agent Web App (Python/Mesop)](https://github.com/google/A2A/tree/main/demo) - Demonstriert den Orchestrator-Agenten bei der Interaktion mit mehreren Remote-Agenten, Rendern von Text, Bildern und Formularen. **Erfordert die Ausführung von Python-Code.**
+*   🌐 [Offizielle Multi-Agent Web App (Python/Mesop)](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) - Demonstriert den Orchestrator-Agenten bei der Interaktion mit mehreren Remote-Agenten, Rendern von Text, Bildern und Formularen. **Erfordert die Ausführung von Python-Code.**
 *   🎥 [Offizielles Demo-Video (Abschnittslink)](https://github.com/google/A2A#see-a2a-in-action) - Link zum Video, das im README des offiziellen Repositorys eingebettet ist.
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) - Offizielles Repository mit Codebeispielen und Demos, die das Agent2Agent (A2A) Protokoll verwenden.
 
 ## 🔗 Verwandte Protokolle & Konzepte
 

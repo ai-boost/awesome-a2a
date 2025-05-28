@@ -76,7 +76,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 1.  **理解基础：** 阅读上方章节 ([什么是 A2A?](#-什么是-a2a-简介), [核心原则](#-核心原则), [如何工作?](#️-a2a-如何工作-概览))。阅读 📰 [官方发布博文](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (英文)。
 2.  **探索核心概念：** 深入阅读 📖 [官方技术文档](https://google.github.io/A2A/#/documentation)，重点关注 `Agent Card`、`Task`、`Message`、`Part` 和 `Artifact`。
-3.  **观看演示：** 观看 🎥 [官方 Demo 视频](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4)，并探索 🌐 [多 Agent Web 应用 Demo](https://github.com/google/A2A/tree/main/demo) 的代码。
+3.  **观看演示：** 观看 🎥 [官方 Demo 视频](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4)，并探索 🌐 [多 Agent Web 应用 Demo](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) 的代码。
 4.  **运行示例：** 克隆 [官方仓库](https://github.com/google/A2A)，并按照 `/samples` 目录中的说明运行一个客户端（如 CLI）和一个示例 Agent（如 LangGraph 或 Genkit Agent）。请参考下方的 [官方示例](#官方示例) 表格获取链接。
 5.  **查阅代码：** 查看官方示例中的 `common` (Python) 或 `server`/`client` (JS/TS) 库，了解 A2A 通信是如何实现的。
 6.  **动手尝试：** 修改一个官方示例 Agent 来执行新的简单任务，或者尝试用你喜欢的语言构建一个基本的 A2A 客户端，与示例 Agent 通信。
@@ -109,11 +109,11 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 | 语言       | 类型             | 框架        | 描述                                          | 链接                                                                              |
 | :--------- | :--------------- | :---------- | :-------------------------------------------- | :-------------------------------------------------------------------------------- |
-| 🐍 Python  | 通用库           | -           | 核心 HTTP, JSON-RPC, SSE 处理                | [链接](https://github.com/google/A2A/tree/main/samples/python/common)             |
-| 🐍 Python  | 主机 (客户端)    | CLI         | 命令行客户端示例                              | [链接](https://github.com/google/A2A/tree/main/samples/python/hosts/cli)          |
-| 🐍 Python  | 主机 (Agent)     | ADK         | 委托任务给其他 A2A Agent 的编排器 Agent        | [链接](https://github.com/google/A2A/tree/main/samples/python/hosts/multiagent)   |
-| 🚀 JS/TS   | 服务端库         | Express     | 核心服务器实现                                | [链接](https://github.com/google/A2A/tree/main/samples/js/src/server)             |
-| 🚀 JS/TS   | 客户端库         | -           | 客户端实现                                    | [链接](https://github.com/google/A2A/tree/main/samples/js/src/client)             |
+| 🐍 Python  | 通用库           | -           | 核心 HTTP, JSON-RPC, SSE 处理                | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/common)             |
+| 🐍 Python  | 主机 (客户端)    | CLI         | 命令行客户端示例                              | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/cli)          |
+| 🐍 Python  | 主机 (Agent)     | ADK         | 委托任务给其他 A2A Agent 的编排器 Agent        | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/multiagent)   |
+| 🚀 JS/TS   | 服务端库         | Express     | 核心服务器实现                                | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/server)             |
+| 🚀 JS/TS   | 客户端库         | -           | 客户端实现                                    | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/client)             |
 | 🚀 JS/TS   | 主机 (客户端)    | CLI         | 命令行客户端示例                              | [链接](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)             |
 
 #### 框架集成 (官方示例)
@@ -122,10 +122,10 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 | 语言       | Agent 框架      | Agent 描述                                | 关键 A2A 特性展示                     | 链接                                                                           |
 | :--------- | :-------------- | :------------------------------------------ | :-------------------------------------- | :----------------------------------------------------------------------------- |
-| 🐍 Python  | LangGraph       | 货币转换                                    | 工具使用, 流式传输, 多轮交互          | [链接](https://github.com/google/A2A/tree/main/samples/python/agents/langgraph) |
-| 🐍 Python  | CrewAI          | 图像生成                                    | 非文本 Artifacts (文件)             | [链接](https://github.com/google/A2A/tree/main/samples/python/agents/crewai)   |
-| 🐍 Python  | Google ADK      | 费用报销                                    | 多轮交互, 表单 (DataPart)             | [链接](https://github.com/google/A2A/tree/main/samples/python/agents/google_adk)|
-| 🚀 JS/TS   | Genkit          | 电影信息 / 代码生成                         | 工具使用, Artifacts (文件), 异步     | [链接](https://github.com/google/A2A/tree/main/samples/js/src/agents)          |
+| 🐍 Python  | LangGraph       | 货币转换                                    | 工具使用, 流式传输, 多轮交互          | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/langgraph) |
+| 🐍 Python  | CrewAI          | 图像生成                                    | 非文本 Artifacts (文件)             | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/crewai)   |
+| 🐍 Python  | Google ADK      | 费用报销                                    | 多轮交互, 表单 (DataPart)             | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/google_adk)|
+| 🚀 JS/TS   | Genkit          | 电影信息 / 代码生成                         | 工具使用, Artifacts (文件), 异步     | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/agents)          |
 
 #### 社区实现
 
@@ -185,8 +185,9 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 ## 🎬 Demo 与示例
 
-*   🌐 [官方多 Agent Web 应用 (Python/Mesop)](https://github.com/google/A2A/tree/main/demo) - 展示编排器 Agent 与多个远程 Agent 交互，渲染文本、图像和表单。**需要运行 Python 代码。**
+*   🌐 [官方多 Agent Web 应用 (Python/Mesop)](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) - 展示编排器 Agent 与多个远程 Agent 交互，渲染文本、图像和表单。**需要运行 Python 代码。**
 *   🎥 [官方 Demo 视频 (章节链接)](https://github.com/google/A2A#see-a2a-in-action) - 指向官方仓库 README 中嵌入视频的链接。
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) - 官方仓库，包含使用 Agent2Agent (A2A) 协议的代码示例和演示。
 
 ## 🔗 相关协议与概念
 
