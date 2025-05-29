@@ -66,7 +66,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 3.  **执行与响应 (Execution & Response):** 服务器处理任务，更新 `status` 状态。最终响应包含最终状态和生成的 `Artifact` (结果，也包含 `Part`)。
 4.  **更新 (Updates):** 对于长任务，服务器可以选择通过 SSE 流式传输 `TaskStatusUpdateEvent` 或 `TaskArtifactUpdateEvent`，或使用推送通知 (Push Notifications) 进行状态更新。
 
-*欲了解详情，请参阅 [官方技术文档](https://google.github.io/A2A/#/documentation)。*
+*欲了解详情，请参阅 [官方技术文档](https://google-a2a.github.io/A2A/#/documentation)。*
 
 ---
 
@@ -75,7 +75,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 刚接触 A2A？这里是建议的入门路径：
 
 1.  **理解基础：** 阅读上方章节 ([什么是 A2A?](#-什么是-a2a-简介), [核心原则](#-核心原则), [如何工作?](#️-a2a-如何工作-概览))。阅读 📰 [官方发布博文](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (英文)。
-2.  **探索核心概念：** 深入阅读 📖 [官方技术文档](https://google.github.io/A2A/#/documentation)，重点关注 `Agent Card`、`Task`、`Message`、`Part` 和 `Artifact`。
+2.  **探索核心概念：** 深入阅读 📖 [官方技术文档](https://google-a2a.github.io/A2A/#/documentation)，重点关注 `Agent Card`、`Task`、`Message`、`Part` 和 `Artifact`。
 3.  **观看演示：** 观看 🎥 [官方 Demo 视频](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4)，并探索 🌐 [多 Agent Web 应用 Demo](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) 的代码。
 4.  **运行示例：** 克隆 [官方仓库](https://github.com/google/A2A)，并按照 `/samples` 目录中的说明运行一个客户端（如 CLI）和一个示例 Agent（如 LangGraph 或 Genkit Agent）。请参考下方的 [官方示例](#官方示例) 表格获取链接。
 5.  **查阅代码：** 查看官方示例中的 `common` (Python) 或 `server`/`client` (JS/TS) 库，了解 A2A 通信是如何实现的。
@@ -93,13 +93,13 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 *(关于核心概念的摘要，请参见上文 [A2A 如何工作？](#️-a2a-如何工作-概览))*
 
-*   📖 [A2A 技术文档](https://google.github.io/A2A/#/documentation) - **(完整细节)** 对参与者、传输、认证、核心对象（Task, Artifact, Message, Part）、Agent Card 等的详细解释。
-*   📄 [JSON 规范](https://github.com/google/A2A/tree/main/specification/json) - A2A 结构的原始 JSON Schema 定义。
-*   💡 [核心原则 (文档)](https://google.github.io/A2A/#/documentation?id=key-principles) - 指向官方文档中原则部分的链接。
-*   🃏 [Agent Card 规范 (文档)](https://google.github.io/A2A/#/documentation?id=agent-card) - 指向官方文档中 Agent Card 部分的链接。
-*   🗺️ [Agent 发现 (主题)](https://google.github.io/A2A/#/topics/agent_discovery.md) - 关于客户端如何找到 Agent Card 的讨论。
-*   🔔 [推送通知 (主题)](https://google.github.io/A2A/#/topics/push_notifications.md) - 推送通知机制的详细信息。
-*   🛡️ [企业级就绪 (主题)](https://google.github.io/A2A/#/topics/enterprise_ready.md) - 关于安全性、认证、隐私等方面的讨论。
+*   📖 [A2A 技术文档](https://google-a2a.github.io/A2A/#/documentation) - **(完整细节)** 对参与者、传输、认证、核心对象（Task, Artifact, Message, Part）、Agent Card 等的详细解释。
+*   📄 [JSON 规范](https://github.com/google-a2a/A2A/tree/main/specification/json) - A2A 结构的原始 JSON Schema 定义。
+*   💡 [核心原则 (文档)](https://google-a2a.github.io/A2A/#/documentation?id=key-principles) - 指向官方文档中原则部分的链接。
+*   🃏 [Agent Card 规范 (文档)](https://google-a2a.github.io/A2A/#/documentation?id=agent-card) - 指向官方文档中 Agent Card 部分的链接。
+*   🗺️ [Agent 发现 (主题)](https://google-a2a.github.io/A2A/#/topics/agent_discovery.md) - 关于客户端如何找到 Agent Card 的讨论。
+*   🔔 [推送通知 (主题)](https://google-a2a.github.io/A2A/#/topics/push_notifications.md) - 推送通知机制的详细信息。
+*   🛡️ [企业级就绪 (主题)](https://google-a2a.github.io/A2A/#/topics/enterprise_ready.md) - 关于安全性、认证、隐私等方面的讨论。
 
 ## ⚙️ 实现与库
 
@@ -114,7 +114,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 | 🐍 Python  | 主机 (Agent)     | ADK         | 委托任务给其他 A2A Agent 的编排器 Agent        | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/multiagent)   |
 | 🚀 JS/TS   | 服务端库         | Express     | 核心服务器实现                                | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/server)             |
 | 🚀 JS/TS   | 客户端库         | -           | 客户端实现                                    | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/client)             |
-| 🚀 JS/TS   | 主机 (客户端)    | CLI         | 命令行客户端示例                              | [链接](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)             |
+| 🚀 JS/TS   | 主机 (客户端)    | CLI         | 命令行客户端示例                              | [链接](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/cli.ts)             |
 
 #### 框架集成 (官方示例)
 
@@ -191,13 +191,13 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 ## 🔗 相关协议与概念
 
-*   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - 互补协议，专注于向 Agent 提供工具/上下文。 ([A2A 与 MCP 讨论](https://google.github.io/A2A/#/topics/a2a_and_mcp.md)).
+*   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - 互补协议，专注于向 Agent 提供工具/上下文。 ([A2A 与 MCP 讨论](https://google-a2a.github.io/A2A/#/topics/a2a_and_mcp.md)).
 *   📞 *Function Calling / 工具使用标准* - *期待社区贡献：与 A2A 结合使用的函数调用/工具使用的模式、最佳实践或相关标准讨论。* <!-- TODO: 欢迎社区贡献相关标准或讨论 -->
 
 ## 💬 社区
 
-*   🐞 [google/A2A GitHub Issues](https://github.com/google/A2A/issues) - 用于报告 Bug 或建议协议改进。
-*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - 用于有关 A2A 协议的一般性问题、想法和社区讨论。
+*   🐞 [google/A2A GitHub Issues](https://github.com/google-a2a/A2A/issues) - 用于报告 Bug 或建议协议改进。
+*   💬 [google/A2A GitHub Discussions](https://github.com/google-a2a/A2A/discussions/) - 用于有关 A2A 协议的一般性问题、想法和社区讨论。
 *   🔒 [私密反馈表单](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - 用于私密反馈的 Google 表单。
 
 ---

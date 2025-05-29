@@ -65,7 +65,7 @@ A2A (Agent2Agent) is an **open protocol** from Google and partners enabling diff
 3.  **Execution & Response:** The Server processes the task, updating its `status`. It responds with the final status and any generated `Artifacts` (results, also containing `Parts`).
 4.  **Updates:** For long tasks, the Server can optionally stream `TaskStatusUpdateEvent` or `TaskArtifactUpdateEvent` via Server-Sent Events (SSE) or use Push Notifications.
 
-*For details, see the [Official Technical Documentation](https://google.github.io/A2A/#/documentation).*
+*For details, see the [Official Technical Documentation](https://google-a2a.github.io/A2A/#/documentation).*
 
 ---
 
@@ -74,7 +74,7 @@ A2A (Agent2Agent) is an **open protocol** from Google and partners enabling diff
 New to A2A? Here's a suggested path:
 
 1.  **Understand the Basics:** Read the sections above ([What is A2A?](#-what-is-a2a-briefly), [Key Principles](#-key-principles), [How it Works](#️-how-does-a2a-work-high-level)). Check the 📰 [Announcement Blog Post](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/).
-2.  **Explore Core Concepts:** Dive into the 📖 [Official Technical Documentation](https://google.github.io/A2A/#/documentation), focusing on `Agent Card`, `Task`, `Message`, `Part`, and `Artifact`.
+2.  **Explore Core Concepts:** Dive into the 📖 [Official Technical Documentation](https://google-a2a.github.io/A2A/#/documentation), focusing on `Agent Card`, `Task`, `Message`, `Part`, and `Artifact`.
 3.  **See it in Action:** Watch the 🎥 [Official Demo Video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) and explore the code for the 🌐 [Multi-Agent Web App Demo](https://github.com/google-a2a/A2A/tree/v0.2.1/demo).
 4.  **Run the Samples:** Clone the [Official Repo](https://github.com/google/A2A) and follow the instructions in `/samples` to run a client (like the CLI) and a sample agent (e.g., LangGraph or Genkit agent). See the [Official Samples](#official-samples) tables below for links.
 5.  **Review the Code:** Look at the `common` (Python) or `server`/`client` (JS/TS) libraries in the official samples to see how A2A communication is implemented.
@@ -92,13 +92,13 @@ New to A2A? Here's a suggested path:
 
 *(See [How Does A2A Work?](#️-how-does-a2a-work-high-level) above for summaries)*
 
-*   📖 [A2A Technical Documentation](https://google.github.io/A2A/#/documentation) - **(Full Details)** Detailed explanation of actors, transport, auth, core objects (Task, Artifact, Message, Part), Agent Card, etc.
-*   📄 [JSON Specification](https://github.com/google/A2A/tree/main/specification/json) - The raw JSON schema definition for A2A structures.
-*   💡 [Key Principles (Docs)](https://google.github.io/A2A/#/documentation?id=key-principles) - Link to the principles section in the official docs.
-*   🃏 [Agent Card Specification (Docs)](https://google.github.io/A2A/#/documentation?id=agent-card) - Link to the Agent Card section in the official docs.
-*   🗺️ [Agent Discovery (Topic)](https://google.github.io/A2A/#/topics/agent_discovery.md) - Discussion on how clients can find agent cards.
-*   🔔 [Push Notifications (Topic)](https://google.github.io/A2A/#/topics/push_notifications.md) - Details on the push notification mechanism.
-*   🛡️ [Enterprise Readiness (Topic)](https://google.github.io/A2A/#/topics/enterprise_ready.md) - Discussion on security, auth, privacy aspects.
+*   📖 [A2A Technical Documentation](https://google-a2a.github.io/A2A/#/documentation) - **(Full Details)** Detailed explanation of actors, transport, auth, core objects (Task, Artifact, Message, Part), Agent Card, etc.
+*   📄 [JSON Specification](https://github.com/google-a2a/A2A/tree/main/specification/json) - The raw JSON schema definition for A2A structures.
+*   💡 [Key Principles (Docs)](https://google-a2a.github.io/A2A/#/documentation?id=key-principles) - Link to the principles section in the official docs.
+*   🃏 [Agent Card Specification (Docs)](https://google-a2a.github.io/A2A/#/documentation?id=agent-card) - Link to the Agent Card section in the official docs.
+*   🗺️ [Agent Discovery (Topic)](https://google-a2a.github.io/A2A/#/topics/agent_discovery.md) - Discussion on how clients can find agent cards.
+*   🔔 [Push Notifications (Topic)](https://google-a2a.github.io/A2A/#/topics/push_notifications.md) - Details on the push notification mechanism.
+*   🛡️ [Enterprise Readiness (Topic)](https://google-a2a.github.io/A2A/#/topics/enterprise_ready.md) - Discussion on security, auth, privacy aspects.
 
 ## ⚙️ Implementations & Libraries
 
@@ -113,7 +113,7 @@ New to A2A? Here's a suggested path:
 | 🐍 Python  | Host (Agent)     | ADK         | Orchestrator agent delegating to A2A agents     | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/multiagent)   |
 | 🚀 JS/TS   | Server Library   | Express     | Core server implementation                    | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/server)             |
 | 🚀 JS/TS   | Client Library   | -           | Client implementation                           | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/client)             |
-| 🚀 JS/TS   | Host (Client)    | CLI         | Command-line client example                     | [Link](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)             |
+| 🚀 JS/TS   | Host (Client)    | CLI         | Command-line client example                     | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/cli.ts)             |
 
 #### Framework Integrations (Official Samples)
 
@@ -190,13 +190,13 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 ## 🔗 Related Protocols & Concepts
 
-*   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://google.github.io/A2A/#/topics/a2a_and_mcp.md)).
+*   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://google-a2a.github.io/A2A/#/topics/a2a_and_mcp.md)).
 *   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
 
 ## 💬 Community
 
-*   🐞 [google/A2A GitHub Issues](https://github.com/google/A2A/issues) - For reporting bugs or suggesting protocol improvements.
-*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - For general questions, ideas, and community discussions about the A2A protocol.
+*   🐞 [google/A2A GitHub Issues](https://github.com/google-a2a/A2A/issues) - For reporting bugs or suggesting protocol improvements.
+*   💬 [google/A2A GitHub Discussions](https://github.com/google-a2a/A2A/discussions/) - For general questions, ideas, and community discussions about the A2A protocol.
 *   🔒 [Private Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - Google form for private feedback.
 
 ---

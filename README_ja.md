@@ -66,7 +66,7 @@ A2A (Agent2Agent) は、Google とパートナー企業による**オープン�
 3.  **実行と応答 (Execution & Response):** サーバーはタスクを処理し、`status` を更新します。最終的なステータスと生成された `Artifacts` (結果、`Parts` も含む) で応答します。
 4.  **更新 (Updates):** 長時間タスクの場合、サーバーはオプションで Server-Sent Events (SSE) 経由で `TaskStatusUpdateEvent` または `TaskArtifactUpdateEvent` をストリーミングするか、プッシュ通知を使用できます。
 
-*詳細は [公式技術ドキュメント](https://google.github.io/A2A/#/documentation) を参照してください。*
+*詳細は [公式技術ドキュメント](https://google-a2a.github.io/A2A/#/documentation) を参照してください。*
 
 ---
 
@@ -75,7 +75,7 @@ A2A (Agent2Agent) は、Google とパートナー企業による**オープン�
 A2Aは初めてですか？推奨される学習パスは次のとおりです：
 
 1.  **基本を理解する：** 上記のセクション ([A2Aとは？](#-a2aとは-概要), [主要原則](#-主要原則), [仕組み](#️-a2aの仕組み-ハイレベル)) を読む。📰 [公式発表ブログ投稿](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (英語) を確認する。
-2.  **コアコンセプトを探る：** 📖 [公式技術ドキュメント](https://google.github.io/A2A/#/documentation) に深く入り込み、`Agent Card`、`Task`、`Message`、`Part`、`Artifact` に焦点を当てる。
+2.  **コアコンセプトを探る：** 📖 [公式技術ドキュメント](https://google-a2a.github.io/A2A/#/documentation) に深く入り込み、`Agent Card`、`Task`、`Message`、`Part`、`Artifact` に焦点を当てる。
 3.  **動作を見る：** 🎥 [公式デモビデオ](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) を視聴し、🌐 [マルチエージェント Web アプリデモ](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) のコードを探索する。
 4.  **サンプルを実行する：** [公式リポジトリ](https://github.com/google/A2A) をクローンし、`/samples` の指示に従ってクライアント (CLI など) とサンプルエージェント (例: LangGraph または Genkit エージェント) を実行する。リンクについては、下の [公式サンプル](#公式サンプル) の表を参照。
 5.  **コードを確認する：** 公式サンプルの `common` (Python) または `server`/`client` (JS/TS) ライブラリを見て、A2A 通信がどのように実装されているかを確認する。
@@ -93,13 +93,13 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 *(概要については、上記の [A2Aの仕組み](#️-a2aの仕組み-ハイレベル) を参照)*
 
-*   📖 [A2A 技術ドキュメント](https://google.github.io/A2A/#/documentation) - **(詳細)** アクター、トランスポート、認証、コアオブジェクト (Task, Artifact, Message, Part)、Agent Card などの詳細な説明。
-*   📄 [JSON 仕様](https://github.com/google/A2A/tree/main/specification/json) - A2A 構造の生の JSON スキーマ定義。
-*   💡 [主要原則 (ドキュメント)](https://google.github.io/A2A/#/documentation?id=key-principles) - 公式ドキュメントの原則セクションへのリンク。
-*   🃏 [Agent Card 仕様 (ドキュメント)](https://google.github.io/A2A/#/documentation?id=agent-card) - 公式ドキュメントの Agent Card セクションへのリンク。
-*   🗺️ [エージェント発見 (トピック)](https://google.github.io/A2A/#/topics/agent_discovery.md) - クライアントが Agent Card を見つける方法についての議論。
-*   🔔 [プッシュ通知 (トピック)](https://google.github.io/A2A/#/topics/push_notifications.md) - プッシュ通知メカニズムの詳細。
-*   🛡️ [エンタープライズ対応 (トピック)](https://google.github.io/A2A/#/topics/enterprise_ready.md) - セキュリティ、認証、プライバシーの側面に関する議論。
+*   📖 [A2A 技術ドキュメント](https://google-a2a.github.io/A2A/#/documentation) - **(詳細)** アクター、トランスポート、認証、コアオブジェクト (Task, Artifact, Message, Part)、Agent Card などの詳細な説明。
+*   📄 [JSON 仕様](https://github.com/google-a2a/A2A/tree/main/specification/json) - A2A 構造の生の JSON スキーマ定義。
+*   💡 [主要原則 (ドキュメント)](https://google-a2a.github.io/A2A/#/documentation?id=key-principles) - 公式ドキュメントの原則セクションへのリンク。
+*   🃏 [Agent Card 仕様 (ドキュメント)](https://google-a2a.github.io/A2A/#/documentation?id=agent-card) - 公式ドキュメントの Agent Card セクションへのリンク。
+*   🗺️ [エージェント発見 (トピック)](https://google-a2a.github.io/A2A/#/topics/agent_discovery.md) - クライアントが Agent Card を見つける方法についての議論。
+*   🔔 [プッシュ通知 (トピック)](https://google-a2a.github.io/A2A/#/topics/push_notifications.md) - プッシュ通知メカニズムの詳細。
+*   🛡️ [エンタープライズ対応 (トピック)](https://google-a2a.github.io/A2A/#/topics/enterprise_ready.md) - セキュリティ、認証、プライバシーの側面に関する議論。
 
 ## ⚙️ 実装とライブラリ
 
@@ -114,7 +114,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 | 🐍 Python  | ホスト (エージェント) | ADK          | 他の A2A エージェントに委任するオーケストレータエージェント | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/hosts/multiagent)   |
 | 🚀 JS/TS   | サーバーライブラリ | Express      | コアサーバー実装                             | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/server)             |
 | 🚀 JS/TS   | クライアントライブラリ | -            | クライアント実装                             | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/client)             |
-| 🚀 JS/TS   | ホスト (クライアント) | CLI          | コマンドラインクライアントの例                 | [リンク](https://github.com/google/A2A/blob/main/samples/js/src/cli.ts)             |
+| 🚀 JS/TS   | ホスト (クライアント) | CLI          | コマンドラインクライアントの例                 | [リンク](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/cli.ts)             |
 
 #### フレームワーク統合 (公式サンプル)
 
@@ -191,13 +191,13 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 ## 🔗 関連プロトコルとコンセプト
 
-*   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - エージェント*に*ツール/コンテキストを提供することに焦点を当てた補完的なプロトコル。 ([A2A と MCP の議論](https://google.github.io/A2A/#/topics/a2a_and_mcp.md)).
+*   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - エージェント*に*ツール/コンテキストを提供することに焦点を当てた補完的なプロトコル。 ([A2A と MCP の議論](https://google-a2a.github.io/A2A/#/topics/a2a_and_mcp.md)).
 *   📞 *関数呼び出し / ツール使用標準* - *コミュニティからの貢献を歓迎します：A2A と連携した関数呼び出し/ツール使用のパターン、ベストプラクティス、または関連標準に関する議論。* <!-- TODO: 関連する標準や議論に関するコミュニティの貢献を歓迎します -->
 
 ## 💬 コミュニティ
 
-*   🐞 [google/A2A GitHub Issues](https://github.com/google/A2A/issues) - バグ報告やプロトコルの改善提案用。
-*   💬 [google/A2A GitHub Discussions](https://github.com/google/A2A/discussions/) - A2A プロトコルに関する一般的な質問、アイデア、コミュニティの議論のため。
+*   🐞 [google/A2A GitHub Issues](https://github.com/google-a2a/A2A/issues) - バグ報告やプロトコルの改善提案用。
+*   💬 [google/A2A GitHub Discussions](https://github.com/google-a2a/A2A/discussions/) - A2A プロトコルに関する一般的な質問、アイデア、コミュニティの議論のため。
 *   🔒 [プライベートフィードバックフォーム](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - プライベートなフィードバックのための Google フォーム。
 
 ---
