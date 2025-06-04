@@ -187,7 +187,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 
 *   🌐 [官方多 Agent Web 应用 (Python/Mesop)](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) - 展示编排器 Agent 与多个远程 Agent 交互，渲染文本、图像和表单。**需要运行 Python 代码。**
 *   🎥 [官方 Demo 视频 (章节链接)](https://github.com/google/A2A#see-a2a-in-action) - 指向官方仓库 README 中嵌入视频的链接。
-*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) - 官方仓库，包含使用 Agent2Agent (A2A) 协议的代码示例和演示。
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) by [@google-a2a](https://github.com/google-a2a) [![Stars](https://img.shields.io/github/stars/google-a2a/a2a-samples?style=social)](https://github.com/google-a2a/a2a-samples) - 官方仓库，包含使用 Agent2Agent (A2A) 协议的代码示例和演示。
 
 ## 🔗 相关协议与概念
 

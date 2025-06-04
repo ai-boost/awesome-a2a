@@ -187,7 +187,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 
 *   🌐 [公式マルチエージェント Web アプリ (Python/Mesop)](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) - オーケストレータエージェントが複数のリモートエージェントと対話し、テキスト、画像、フォームをレンダリングするデモ。**Python コードの実行が必要です。**
 *   🎥 [公式デモビデオ (セクションリンク)](https://github.com/google/A2A#see-a2a-in-action) - 公式リポジトリの README に埋め込まれたビデオへのリンク。
-*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) - Agent2Agent (A2A) プロトコルを使用するコードサンプルとデモを含む公式リポジトリ。
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) by [@google-a2a](https://github.com/google-a2a) [![Stars](https://img.shields.io/github/stars/google-a2a/a2a-samples?style=social)](https://github.com/google-a2a/a2a-samples) - Agent2Agent (A2A) プロトコルを使用するコードサンプルとデモを含む公式リポジトリ。
 
 ## 🔗 関連プロトコルとコンセプト
 

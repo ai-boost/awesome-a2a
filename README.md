@@ -186,7 +186,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 *   🌐 [Official Multi-Agent Web App (Python/Mesop)](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) - Demonstrates the orchestrator agent interacting with multiple remote agents, rendering text, images, and forms. **Requires running Python code.**
 *   🎥 [Official Demo Video (Section Link)](https://github.com/google/A2A#see-a2a-in-action) - Link to the video embedded in the official repository's README.
-*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) - Official repository containing code samples and demos which use the Agent2Agent (A2A) Protocol.
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) by [@google-a2a](https://github.com/google-a2a) [![Stars](https://img.shields.io/github/stars/google-a2a/a2a-samples?style=social)](https://github.com/google-a2a/a2a-samples) - Official repository containing code samples and demos which use the Agent2Agent (A2A) Protocol.
 
 ## 🔗 Related Protocols & Concepts
 

@@ -186,7 +186,7 @@ Dieser Abschnitt listet eigenständige Tools und Dienstprogramme für das A2A-Pr
 
 *   🌐 [Offizielle Multi-Agent Web App (Python/Mesop)](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) - Demonstriert den Orchestrator-Agenten bei der Interaktion mit mehreren Remote-Agenten, Rendern von Text, Bildern und Formularen. **Erfordert die Ausführung von Python-Code.**
 *   🎥 [Offizielles Demo-Video (Abschnittslink)](https://github.com/google/A2A#see-a2a-in-action) - Link zum Video, das im README des offiziellen Repositorys eingebettet ist.
-*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) - Offizielles Repository mit Codebeispielen und Demos, die das Agent2Agent (A2A) Protokoll verwenden.
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/google-a2a/a2a-samples) by [@google-a2a](https://github.com/google-a2a) [![Stars](https://img.shields.io/github/stars/google-a2a/a2a-samples?style=social)](https://github.com/google-a2a/a2a-samples) - Offizielles Repository mit Codebeispielen und Demos, die das Agent2Agent (A2A) Protokoll verwenden.
 
 ## 🔗 Verwandte Protokolle & Konzepte
 
