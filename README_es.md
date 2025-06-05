@@ -173,6 +173,7 @@ Esta sección tiene como objetivo listar herramientas y utilidades independiente
     *   *Contribuciones de la comunidad bienvenidas: Adaptadores o bibliotecas para integrar datos de flujo de tareas A2A en plataformas de monitorización convencionales como OpenTelemetry, Prometheus, Grafana, etc.* <!-- TODO: Se aceptan contribuciones de la comunidad para herramientas relacionadas -->
 *   **Otras Utilidades**
     *   *Contribuciones de la comunidad bienvenidas: por ejemplo, herramientas de ayuda para la construcción de mensajes A2A, generadores de Agent Cards, Mock A2A Server/Client, etc.* <!-- TODO: Se aceptan contribuciones de la comunidad para herramientas relacionadas -->
+    *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Convierte fácilmente agentes y orquestadores de frameworks de agentes existentes a servidores A2A.
 
 ## 📚 Tutoriales y Artículos
 

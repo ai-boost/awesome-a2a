@@ -174,6 +174,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
     *   *期待社区贡献：将 A2A 任务流数据接入 OpenTelemetry, Prometheus, Grafana 等主流监控平台的适配器或库。* <!-- TODO: 欢迎社区贡献相关工具 -->
 *   **其他实用工具**
     *   *期待社区贡献：例如 A2A 消息构造辅助工具、Agent Card 生成器、Mock A2A Server/Client 等。* <!-- TODO: 欢迎社区贡献相关工具 -->
+    *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - 轻松将现有 Agent 框架中的 Agent 和编排器转换为 A2A 服务器。
 
 ## 📚 教程与文章
 

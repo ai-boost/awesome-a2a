@@ -173,6 +173,7 @@ Cette section vise à lister les outils et utilitaires autonomes liés au protoc
     *   *Contributions communautaires bienvenues : Adaptateurs ou bibliothèques pour intégrer les données de flux de tâches A2A dans les plateformes de supervision courantes comme OpenTelemetry, Prometheus, Grafana, etc.* <!-- TODO : Les contributions de la communauté pour les outils associés sont les bienvenues -->
 *   **Autres Utilitaires**
     *   *Contributions communautaires bienvenues : par ex., outils d'aide à la construction de messages A2A, générateurs d'Agent Cards, Mock A2A Server/Client, etc.* <!-- TODO : Les contributions de la communauté pour les outils associés sont les bienvenues -->
+    *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Convertissez facilement les agents et orchestrateurs des frameworks d'agents existants en serveurs A2A.
 
 ## 📚 Tutoriels & Articles
 

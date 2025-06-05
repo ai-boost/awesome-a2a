@@ -173,6 +173,7 @@ Dieser Abschnitt listet eigenständige Tools und Dienstprogramme für das A2A-Pr
     *   *Beiträge willkommen: Adapter oder Bibliotheken zur Integration von A2A-Task-Flow-Daten in gängige Monitoring-Plattformen wie OpenTelemetry, Prometheus, Grafana usw.* <!-- TODO: Beiträge aus der Community für verwandte Tools sind willkommen -->
 *   **Weitere Dienstprogramme**
     *   *Beiträge willkommen: z.B. Hilfsprogramme zur Erstellung von A2A-Nachrichten, Generatoren für Agent Cards, Mock A2A Server/Client usw.* <!-- TODO: Beiträge aus der Community für verwandte Tools sind willkommen -->
+    *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Einfache Konvertierung von Agenten und Orchestratoren aus bestehenden Agenten-Frameworks in A2A-Server.
 
 ## 📚 Tutorials & Artikel
 

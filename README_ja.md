@@ -174,6 +174,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
     *   *コミュニティからの貢献を歓迎します：A2A タスクフローデータを OpenTelemetry、Prometheus、Grafana などの主要な監視プラットフォームに統合するためのアダプタやライブラリ。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
 *   **その他のユーティリティ (Other Utilities)**
     *   *コミュニティからの貢献を歓迎します：例えば、A2A メッセージ構築ヘルパーツール、Agent Card ジェネレータ、Mock A2A Server/Client など。* <!-- TODO: 関連ツールのコミュニティ貢献を歓迎します -->
+    *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - 既存のエージェントフレームワークのエージェントやオーケストレーターを簡単に A2A サーバーに変換します。
 
 ## 📚 チュートリアルと記事
 
