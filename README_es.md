@@ -76,7 +76,7 @@ A2A (Agent2Agent) es un **protocolo abierto** de Google y socios que permite a d
 1.  **Entiende lo Básico:** Lee las secciones anteriores ([¿Qué es A2A?](#-qué-es-a2a-brevemente), [Principios Clave](#-principios-clave), [Cómo funciona](#️-cómo-funciona-a2a-alto-nivel)). Revisa la 📰 [Entrada del Blog del Anuncio](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (en inglés).
 2.  **Explora Conceptos Centrales:** Sumérgete en la 📖 [Documentación Técnica Oficial](https://google-a2a.github.io/A2A/#/documentation), enfocándote en `Agent Card`, `Task`, `Message`, `Part`, y `Artifact`.
 3.  **Velo en Acción:** Mira el 🎥 [Video Demo Oficial](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) y explora el código de la 🌐 [Demo Web Multi-Agente](https://github.com/google-a2a/A2A/tree/v0.2.1/demo).
-4.  **Ejecuta los Ejemplos:** Clona el [Repo Oficial](https://github.com/google/A2A) y sigue las instrucciones en `/samples` para ejecutar un cliente (como el CLI) y un agente de ejemplo (ej., agente LangGraph o Genkit). Consulta las tablas de [Ejemplos Oficiales](#ejemplos-oficiales) abajo para los enlaces.
+4.  **Ejecuta los Ejemplos:** Clona el [Repositorio de Ejemplos Oficial](https://github.com/google-a2a/a2a-samples) y sigue sus instrucciones para ejecutar un cliente (como el CLI) y un agente de ejemplo (ej., agente LangGraph o Genkit).
 5.  **Revisa el Código:** Mira las bibliotecas `common` (Python) o `server`/`client` (JS/TS) en los ejemplos oficiales para ver cómo se implementa la comunicación A2A.
 6.  **Intenta Construir:** Adapta un ejemplo o usa una biblioteca para crear tu propio agente o cliente A2A básico.
 

@@ -77,7 +77,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 1.  **基本を理解する：** 上記のセクション ([A2Aとは？](#-a2aとは-概要), [主要原則](#-主要原則), [仕組み](#️-a2aの仕組み-ハイレベル)) を読む。📰 [公式発表ブログ投稿](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) (英語) を確認する。
 2.  **コアコンセプトを探る：** 📖 [公式技術ドキュメント](https://google-a2a.github.io/A2A/#/documentation) に深く入り込み、`Agent Card`、`Task`、`Message`、`Part`、`Artifact` に焦点を当てる。
 3.  **動作を見る：** 🎥 [公式デモビデオ](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) を視聴し、🌐 [マルチエージェント Web アプリデモ](https://github.com/google-a2a/A2A/tree/v0.2.1/demo) のコードを探索する。
-4.  **サンプルを実行する：** [公式リポジトリ](https://github.com/google/A2A) をクローンし、`/samples` の指示に従ってクライアント (CLI など) とサンプルエージェント (例: LangGraph または Genkit エージェント) を実行する。リンクについては、下の [公式サンプル](#公式サンプル) の表を参照。
+4.  **サンプルを実行する：** [公式サンプルリポジトリ](https://github.com/google-a2a/a2a-samples) をクローンし、その指示に従ってクライアント (CLI など) とサンプルエージェント (例: LangGraph または Genkit エージェント) を実行する。
 5.  **コードを確認する：** 公式サンプルの `common` (Python) または `server`/`client` (JS/TS) ライブラリを見て、A2A 通信がどのように実装されているかを確認する。
 6.  **構築してみる：** サンプルを適応させるか、ライブラリを使用して独自の基本的な A2A エージェントまたはクライアントを作成する。
 

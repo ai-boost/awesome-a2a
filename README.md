@@ -76,7 +76,7 @@ New to A2A? Here's a suggested path:
 1.  **Understand the Basics:** Read the sections above ([What is A2A?](#-what-is-a2a-briefly), [Key Principles](#-key-principles), [How it Works](#️-how-does-a2a-work-high-level)). Check the 📰 [Announcement Blog Post](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/).
 2.  **Explore Core Concepts:** Dive into the 📖 [Official Technical Documentation](https://google-a2a.github.io/A2A/#/documentation), focusing on `Agent Card`, `Task`, `Message`, `Part`, and `Artifact`.
 3.  **See it in Action:** Watch the 🎥 [Official Demo Video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) and explore the code for the 🌐 [Multi-Agent Web App Demo](https://github.com/google-a2a/A2A/tree/v0.2.1/demo).
-4.  **Run the Samples:** Clone the [Official Repo](https://github.com/google/A2A) and follow the instructions in `/samples` to run a client (like the CLI) and a sample agent (e.g., LangGraph or Genkit agent). See the [Official Samples](#official-samples) tables below for links.
+4.  **Run the Samples:** Clone the [Official Samples Repo](https://github.com/google-a2a/a2a-samples) and follow its instructions to run a client (like the CLI) and a sample agent (e.g., LangGraph or Genkit agent).
 5.  **Review the Code:** Look at the `common` (Python) or `server`/`client` (JS/TS) libraries in the official samples to see how A2A communication is implemented.
 6.  **Try Building:** Adapt a sample or use a library to create your own basic A2A agent or client.
 
