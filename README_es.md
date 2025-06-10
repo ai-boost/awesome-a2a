@@ -182,6 +182,7 @@ A2A (Agent2Agent) es un **protocolo abierto** de Google y socios que permite a d
     *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) - Servidor/cliente A2A compatible con TypeScript (Node.js) que simplifica la creación de agentes IA interoperables, enfocado en DX y preparación para producción.
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
+    *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J es una implementación completa en Java del Protocolo Agent2Agent, que proporciona un estándar abierto para la comunicación e interoperabilidad entre sistemas de agentes de IA independientes.
 
 ##### Plataformas y Soluciones Integradas
 
