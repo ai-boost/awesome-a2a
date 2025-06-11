@@ -183,7 +183,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
     *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) - TypeScript (Node.js) A2A 兼容服务器/客户端，简化可互操作 AI Agent 创建，注重开发者体验与生产力。
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - 基于 Spring Boot 的 Java A2A 服务端/客户端实现，使用注解简化开发。支持 WebSocket、MCP 集成，并包含企业级/Kubernetes 部署教程。
-    *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J 是 Agent2Agent 协议的全面 Java 实现，为独立的 AI 代理系统之间的通信和互操作性提供了一个开放标准。
+    *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J 是 Agent2Agent 协议的全面 Java 实现，包括服务器，客户端，样例，Starter，开箱即用。
 
 ##### 平台与集成解决方案
 
