@@ -182,6 +182,7 @@ Nouveau sur A2A ? Voici un parcours suggéré :
     *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) - Serveur/client A2A conforme en TypeScript (Node.js) simplifiant la création d'agents IA interopérables, axé sur l'DX et la préparation à la production.
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
+    *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J est une implémentation Java complète du protocole Agent2Agent, incluant serveur, client, exemples et un démarreur — prêt à l’emploi dès l’installation.
 
 ##### Plateformes et Solutions Intégrées
 
