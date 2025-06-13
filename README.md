@@ -192,6 +192,7 @@ New to A2A? Here's a suggested path:
 *   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - A Self-hosted Browser Using Agent with built-in MCP and A2A support.
 *   🌟 [swissknife](https://github.com/daltonnyx/swissknife) by [@daltonnyx](https://github.com/daltonnyx) [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) - A multi-agent chat application with MCP support, aiming to expose agents via the A2A protocol and connect to remote A2A agents as a client.
 *   🌟 [n8n-nodes-agent2agent](https://github.com/pjawz/n8n-nodes-agent2agent) by [@pjawz](https://github.com/pjawz) [![Stars](https://img.shields.io/github/stars/pjawz/n8n-nodes-agent2agent?style=social)](https://github.com/pjawz/n8n-nodes-agent2agent) - Adds nodes to n8n for interacting with AI agents using Google's Agent2Agent (A2A) protocol.
+*   🌟 [google-calendar-agent](https://github.com/inference-gateway/google-calendar-agent) by [@inference-gateway](https://github.com/inference-gateway) [![Stars](https://img.shields.io/github/stars/inference-gateway/google-calendar-agent?style=social)](https://github.com/inference-gateway/google-calendar-agent) - A standalone A2A agent that can manage a user's Google Calendar, compatible with any OpenAI-compatible API for its LLM.
 <!-- Add yours here! See CONTRIBUTING.md -->
 
 ## 🛠️ Tools & Utilities

@@ -20,7 +20,6 @@
   </h4>
 </div>
 
----
 
 ## 目次
 
@@ -193,6 +192,7 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 *   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - MCPとA2Aをネイティブにサポートする、エージェント駆動のセルフホスト型ブラウザ。
 *   🌟 [swissknife](https://github.com/daltonnyx/swissknife) by [@daltonnyx](https://github.com/daltonnyx) [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) - MCPをサポートするマルチエージェントチャットアプリケーション。A2Aプロトコル経由でエージェントを公開し、クライアントとしてリモートA2Aエージェントに接続することを目指しています。
 *   🌟 [n8n-nodes-agent2agent](https://github.com/pjawz/n8n-nodes-agent2agent) by [@pjawz](https://github.com/pjawz) [![Stars](https://img.shields.io/github/stars/pjawz/n8n-nodes-agent2agent?style=social)](https://github.com/pjawz/n8n-nodes-agent2agent) - GoogleのAgent2Agent (A2A) プロトコルを使用してAIエージェントと対話するためのノードをn8nに追加します。
+*   🌟 [google-calendar-agent](https://github.com/inference-gateway/google-calendar-agent) by [@inference-gateway](https://github.com/inference-gateway) [![Stars](https://img.shields.io/github/stars/inference-gateway/google-calendar-agent?style=social)](https://github.com/inference-gateway/google-calendar-agent) - ユーザーのGoogleカレンダーを管理できるスタンドアロンのA2Aエージェント。LLMにはOpenAI互換のAPIを使用できます。
 <!-- あなたの実装をここに追加してください！CONTRIBUTING.md を参照してください。 -->
 
 ## 🛠️ ツールとユーティリティ

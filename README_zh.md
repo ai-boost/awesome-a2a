@@ -20,7 +20,6 @@
   </h4>
 </div>
 
----
 
 ## 目录
 
@@ -193,6 +192,7 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 *   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - 可本地部署或自托管的浏览器自动化操作，原生支持 MCP 和 A2A。
 *   🌟 [swissknife](https://github.com/daltonnyx/swissknife) by [@daltonnyx](https://github.com/daltonnyx) [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) - 一个支持 MCP 的多 Agent 聊天应用，旨在通过 A2A 协议暴露 Agent，并作为客户端连接到远程 A2A Agent。
 *   🌟 [n8n-nodes-agent2agent](https://github.com/pjawz/n8n-nodes-agent2agent) by [@pjawz](https://github.com/pjawz) [![Stars](https://img.shields.io/github/stars/pjawz/n8n-nodes-agent2agent?style=social)](https://github.com/pjawz/n8n-nodes-agent2agent) - 为 n8n 添加了节点，用于通过 Google 的 Agent2Agent (A2A) 协议与 AI Agent 交互。
+*   🌟 [google-calendar-agent](https://github.com/inference-gateway/google-calendar-agent) by [@inference-gateway](https://github.com/inference-gateway) [![Stars](https://img.shields.io/github/stars/inference-gateway/google-calendar-agent?style=social)](https://github.com/inference-gateway/google-calendar-agent) - 一个独立的 A2A Agent，可以管理用户的谷歌日历，并兼容任何与 OpenAI 兼容的 API 作为其 LLM。
 <!-- 在此添加您的实现！请参阅 CONTRIBUTING.md -->
 
 ## 🛠️ 工具与实用程序
