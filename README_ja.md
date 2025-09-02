@@ -34,6 +34,7 @@
     *   [フレームワーク統合 (公式サンプル)](#フレームワーク統合-公式サンプル)
     *   [コミュニティ実装](#コミュニティ実装)
         *   [SDKとライブラリ (言語別)](#sdkとライブラリ-言語別)
+        *   [フレームワーク](#フレームワーク)
         *   [プラットフォームと統合ソリューション](#プラットフォームと統合ソリューション)
 *   [🛠️ ツールとユーティリティ](#️-ツールとユーティリティ)
 *   [📚 チュートリアルと記事](#-チュートリアルと記事)
@@ -185,6 +186,12 @@ A2Aは初めてですか？推奨される学習パスは次のとおりです�
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
     *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J は Agent2Agent プロトコルの包括的な Java 実装であり、サーバー、クライアント、サンプル、スターターを含み、すぐに使える状態です。
+
+##### フレームワーク
+
+*A2A準拠エージェントの構築に特化して設計された、開発者ファーストのフレームワーク。*
+
+*   🚀 [AgentUp](https://github.com/RedDotRocket/AgentUp) by [@RedDotRocket](https://github.com/RedDotRocket) [![Stars](https://img.shields.io/github/stars/RedDotRocket/AgentUp?style=social)](https://github.com/RedDotRocket/AgentUp) - エージェントをポータブル、スケーラブル、セキュアにすることを目的とした開発者ファーストのオープンソースAIエージェントフレームワーク。構成駆動型アーキテクチャ、組み込みOAuth2/JWT/APIキー認証、自動A2A検出、非同期タスク管理を特徴とし、A2AとMCPプロトコルの両方をサポート。Google、GitHub、Nvidia、Red Hat、Shopifyなどでミッションクリティカルなシステムを支えるオープンソースソリューションを作成してきたエンジニアによって構築。
 
 ##### プラットフォームと統合ソリューション
 

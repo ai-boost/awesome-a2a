@@ -34,6 +34,7 @@
     *   [框架集成 (官方示例)](#框架集成-官方示例)
     *   [社区实现](#社区实现)
         *   [SDK 与库 (按语言分类)](#sdk-与库-按语言分类)
+        *   [框架](#框架)
         *   [平台与集成解决方案](#平台与集成解决方案)
 *   [🛠️ 工具与实用程序](#️-工具与实用程序)
 *   [📚 教程与文章](#-教程与文章)
@@ -186,6 +187,12 @@ A2A (Agent2Agent) 是由 Google 及众多合作伙伴发起的一个**开放协�
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - 基于 Spring Boot 的 Java A2A 服务端/客户端实现，使用注解简化开发。支持 WebSocket、MCP 集成，并包含企业级/Kubernetes 部署教程。
     *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J 是 Agent2Agent 协议的全面 Java 实现，包括服务器，客户端，样例，Starter，开箱即用。
+
+##### 框架
+
+*专门设计用于构建符合 A2A 规范的 Agent 的开发者优先框架。*
+
+*   🚀 [AgentUp](https://github.com/RedDotRocket/AgentUp) by [@RedDotRocket](https://github.com/RedDotRocket) [![Stars](https://img.shields.io/github/stars/RedDotRocket/AgentUp?style=social)](https://github.com/RedDotRocket/AgentUp) - 开发者优先的开源AI代理框架，旨在使代理具有可移植性、可扩展性和安全性。具有配置驱动架构、内置OAuth2/JWT/API密钥认证、自动A2A发现、异步任务管理，支持A2A和MCP协议。由曾在Google、GitHub、Nvidia、Red Hat、Shopify等公司为关键任务系统创建开源解决方案的工程师构建。
 
 ##### 平台与集成解决方案
 

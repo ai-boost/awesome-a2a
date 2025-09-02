@@ -34,6 +34,7 @@
     *   [Framework Integrations (Official Samples)](#framework-integrations-official-samples)
     *   [Community Implementations](#community-implementations)
         *   [SDKs & Libraries (by language)](#sdks--libraries-by-language)
+        *   [Frameworks](#frameworks)
         *   [Platforms & Integrated Solutions](#platforms--integrated-solutions)
 *   [🛠️ Tools & Utilities](#️-tools--utilities)
 *   [📚 Tutorials & Articles](#-tutorials--articles)
@@ -185,6 +186,12 @@ New to A2A? Here's a suggested path:
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
     *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J is a comprehensive Java implementation of the Agent2Agent Protocol, including server, client, examples, and a starter — ready to use out of the box.
+
+##### Frameworks
+
+*Developer-first frameworks specifically designed for building A2A-compliant agents.*
+
+*   🚀 [AgentUp](https://github.com/RedDotRocket/AgentUp) by [@RedDotRocket](https://github.com/RedDotRocket) [![Stars](https://img.shields.io/github/stars/RedDotRocket/AgentUp?style=social)](https://github.com/RedDotRocket/AgentUp) - A developer-first, open-source AI agent framework designed to make agents portable, scalable, and secure. Features configuration-driven architecture, built-in OAuth2/JWT/API key authentication, automatic A2A discovery, asynchronous task management, and support for both A2A and MCP protocols. Built by engineers who've created open-source solutions powering mission-critical systems at Google, GitHub, Nvidia, Red Hat, Shopify and more.
 
 ##### Platforms & Integrated Solutions
 
