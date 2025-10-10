@@ -34,6 +34,7 @@
     *   [Integraciones de Frameworks (Ejemplos Oficiales)](#integraciones-de-frameworks-ejemplos-oficiales)
     *   [Implementaciones de la Comunidad](#implementaciones-de-la-comunidad)
         *   [SDKs y Bibliotecas (por idioma)](#sdks-y-bibliotecas-por-idioma)
+        *   [Frameworks](#frameworks)
         *   [Plataformas y Soluciones Integradas](#plataformas-y-soluciones-integradas)
 *   [🛠️ Herramientas y Utilidades](#️-herramientas-y-utilidades)
 *   [📚 Tutoriales y Artículos](#-tutoriales-y-artículos)
@@ -185,6 +186,12 @@ A2A (Agent2Agent) es un **protocolo abierto** de Google y socios que permite a d
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
     *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J es una implementación completa en Java del Protocolo Agent2Agent, que incluye servidor, cliente, ejemplos y un iniciador — listo para usar desde el primer momento.
+
+##### Frameworks
+
+*Frameworks centrados en el desarrollador diseñados específicamente para construir agentes compatibles con A2A.*
+
+*   🚀 [AgentUp](https://github.com/RedDotRocket/AgentUp) by [@RedDotRocket](https://github.com/RedDotRocket) [![Stars](https://img.shields.io/github/stars/RedDotRocket/AgentUp?style=social)](https://github.com/RedDotRocket/AgentUp) - Un framework de agentes de IA de código abierto centrado en el desarrollador, diseñado para hacer que los agentes sean portables, escalables y seguros. Cuenta con arquitectura basada en configuración, autenticación OAuth2/JWT/clave API integrada, descubrimiento automático A2A, gestión de tareas asíncronas y soporte para protocolos A2A y MCP. Construido por ingenieros que han creado soluciones de código abierto que impulsan sistemas de misión crítica en Google, GitHub, Nvidia, Red Hat, Shopify y más.
 
 ##### Plataformas y Soluciones Integradas
 

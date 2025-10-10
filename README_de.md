@@ -34,6 +34,7 @@
     *   [Framework-Integrationen (Offizielle Beispiele)](#framework-integrationen-offizielle-beispiele)
     *   [Community-Implementierungen](#community-implementierungen)
         *   [SDKs & Bibliotheken (nach Sprache)](#sdks--bibliotheken-nach-sprache)
+        *   [Frameworks](#frameworks)
         *   [Plattformen & Integrierte Lösungen](#plattformen--integrierte-lösungen)
 *   [🛠️ Tools & Dienstprogramme](#️-tools--dienstprogramme)
 *   [📚 Tutorials & Artikel](#-tutorials--artikel)
@@ -185,6 +186,12 @@ Neu bei A2A? Hier ist ein empfohlener Weg:
 *   **Java**
     *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
     *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J ist eine umfassende Java-Implementierung des Agent2Agent-Protokolls und umfasst Server, Client, Beispiele und einen Starter – sofort einsatzbereit.
+
+##### Frameworks
+
+*Entwicklerfreundliche Frameworks, die speziell für die Erstellung A2A-konformer Agenten entwickelt wurden.*
+
+*   🚀 [AgentUp](https://github.com/RedDotRocket/AgentUp) by [@RedDotRocket](https://github.com/RedDotRocket) [![Stars](https://img.shields.io/github/stars/RedDotRocket/AgentUp?style=social)](https://github.com/RedDotRocket/AgentUp) - Ein entwicklerfreundliches, Open-Source-KI-Agent-Framework, das Agenten portabel, skalierbar und sicher macht. Bietet konfigurationsgesteuerte Architektur, integrierte OAuth2/JWT/API-Schlüssel-Authentifizierung, automatische A2A-Erkennung, asynchrone Aufgabenverwaltung und unterstützt sowohl A2A- als auch MCP-Protokolle. Entwickelt von Ingenieuren, die Open-Source-Lösungen für geschäftskritische Systeme bei Google, GitHub, Nvidia, Red Hat, Shopify und mehr erstellt haben.
 
 ##### Plattformen & Integrierte Lösungen
 
