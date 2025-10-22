@@ -158,6 +158,7 @@ New to A2A? Here's a suggested path:
 | 🐍 Python  | LangGraph       | Currency conversion                         | Tools, Streaming, Multi-turn          | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/langgraph) |
 | 🐍 Python  | CrewAI          | Image generation                            | Non-textual Artifacts (Files)         | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/crewai)   |
 | 🐍 Python  | Google ADK      | Expense reimbursement                       | Multi-turn, Forms (DataPart)          | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/python/agents/google_adk)|
+| 🐍 Python  | AG2             | Built-in A2A support                        | Streaming, agent discovery            | [Link](https://docs.ag2.ai/latest/docs/user-guide/a2a/)|
 | 🚀 JS/TS   | Genkit          | Movie info / Code generation                | Tools, Artifacts (Files), Async       | [Link](https://github.com/google-a2a/A2A/tree/v0.2.1/samples/js/src/agents)          |
 
 #### Community Implementations
