@@ -79,6 +79,46 @@ We are looking for resources specifically related to the **Google Agent2Agent (A
 *   Within a section, you can add new items to the end, or maintain alphabetical order if you prefer (not strictly enforced, but appreciated).
 *   Check your spelling and grammar.
 
+## Commit Message Guidelines
+
+We use a standardized commit message format to keep the project history clean and readable:
+
+### Format
+
+```
+[Emoji] [Action] [Object]
+```
+
+### Examples
+
+*   ✨ Add new A2A implementation in Rust
+*   🐛 Fix broken link to official documentation
+*   📝 Update README with new community tool
+*   🌐 Add Japanese translation for getting started guide
+
+### Using the Commit Template (Optional)
+
+To use the provided commit message template:
+
+```bash
+git config commit.template .gitmessage
+```
+
+After this, running `git commit` (without `-m`) will open your editor with helpful examples and emoji references.
+
+### Common Emojis
+
+*   ✨ `:sparkles:` - New resource/implementation/tool
+*   🐛 `:bug:` - Fix broken links/incorrect info
+*   📝 `:memo:` - Documentation updates
+*   🌐 `:globe_with_meridians:` - Translations/i18n
+*   🔗 `:link:` - Update links/references
+*   📦 `:package:` - Add SDKs/libraries
+*   🎨 `:art:` - Formatting/structure improvements
+*   🔥 `:fire:` - Remove outdated resources
+
+See `.gitmessage` for the full list of recommended emojis.
+
 ## Pull Request Process
 
 1.  **Fork the repository:** Click the "Fork" button on the [awesome-a2a repository page](https://github.com/ai-boost/awesome-a2a).
@@ -87,7 +127,7 @@ We are looking for resources specifically related to the **Google Agent2Agent (A
 4.  **Make your changes:**
     *   Add your link(s) to the relevant section(s) in `README.md` following the [Formatting](#formatting) guidelines.
     *   **Crucially, also add the corresponding entry to `README_zh.md`** (see [Language Considerations](#language-considerations-english--chinese)).
-5.  **Commit your changes:** `git commit -am 'Add: Resource Title to [Section Name]'` (use a clear commit message).
+5.  **Commit your changes:** Follow the [Commit Message Guidelines](#commit-message-guidelines) above. Example: `git commit -am '✨ Add: Resource Title to [Section Name]'`
 6.  **Push to your fork:** `git push origin add-my-awesome-resource`
 7.  **Open a Pull Request:** Go to the original `awesome-a2a` repository on GitHub and click the "New pull request" button. Ensure the base repository is the original and the head repository is your fork/branch.
 8.  **Describe your PR:** Explain what you've added and why it's relevant. Link to an Issue if applicable.

@@ -1,0 +1,34 @@
+# Commit Message Format: [Emoji] [Action] [Object]
+#
+# Examples:
+# ✨ Add new A2A implementation in Rust
+# 🐛 Fix broken link to official documentation
+# 📝 Update README with new community tool
+# 🔥 Remove deprecated agent sample
+# 🌐 Add Japanese translation for getting started guide
+# 🎨 Improve markdown formatting in tutorials section
+# 🔗 Update SDK links to latest versions
+# 📦 Add new Python SDK to community implementations
+# 🔧 Update contributing guidelines
+#
+# Common emojis for this repo:
+# ✨ :sparkles: new resource/implementation/tool
+# 🐛 :bug: fix broken links/incorrect info
+# 📝 :memo: documentation updates
+# 🎨 :art: formatting/structure improvements
+# 🔥 :fire: remove outdated resources
+# 🌐 :globe_with_meridians: translations/i18n
+# 🔗 :link: update links/references
+# 📦 :package: add SDKs/libraries
+# 🔧 :wrench: configuration/meta files
+# 🏷️ :label: categorization/organization
+# ⬆️ :arrow_up: version updates
+# 🧹 :broom: cleanup/refactor
+
+# Section-specific prefixes (optional):
+# [Spec] - Specification & Core Concepts
+# [Impl] - Implementations & Libraries
+# [Tool] - Tools & Utilities
+# [Docs] - Tutorials & Articles
+# [Demo] - Demos & Examples
+# [i18n] - Translations
