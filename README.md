@@ -1,24 +1,34 @@
 <div align="center">
-  <h2 align="center">✨ Awesome A2A (Agent2Agent Protocol) ✨</h2>
+  <h1>✨ Awesome A2A (Agent2Agent Protocol) ✨</h1>
+
+  <img src="assets/banner.png" alt="Awesome A2A Banner - Abstract network or connection graphic" width="100%">
+
   <p align="center">
-    <img src="assets/banner.png" alt="Awesome A2A Banner - Abstract network or connection graphic" width="600">
+    A curated list of awesome resources, implementations, tools, and examples related to the <strong>Agent2Agent (A2A) Protocol</strong> for AI agent interoperability.
   </p>
-  <p>
-      <a href="README.md">English</a> | <a href="README_zh.md">简体中文</a> | <a href="README_ja.md">日本語</a> | <a href="README_es.md">Español</a> | <a href="README_de.md">Deutsch</a> | <a href="README_fr.md">Français</a>
-      <!-- Add other languages here like: | <a href="README_de.md">Deutsch</a> -->
-  </p>
+
+  <!-- Keep these links. Translations will automatically update with the README. -->
   <p align="center">
-     A curated list of awesome resources, implementations, tools, and examples related to the Google Agent2Agent (A2A) Protocol for AI agent interoperability.
+    <a href="https://zdoc.app/de/ai-boost/awesome-a2a">Deutsch</a> |
+    <a href="https://zdoc.app/en/ai-boost/awesome-a2a">English</a> |
+    <a href="https://zdoc.app/es/ai-boost/awesome-a2a">Español</a> |
+    <a href="https://zdoc.app/fr/ai-boost/awesome-a2a">français</a> |
+    <a href="https://zdoc.app/ja/ai-boost/awesome-a2a">日本語</a> |
+    <a href="https://zdoc.app/ko/ai-boost/awesome-a2a">한국어</a> |
+    <a href="https://zdoc.app/pt/ai-boost/awesome-a2a">Português</a> |
+    <a href="https://zdoc.app/ru/ai-boost/awesome-a2a">Русский</a> |
+    <a href="https://zdoc.app/zh/ai-boost/awesome-a2a">中文</a>
   </p>
-  <h4 align="center">
-    <a href="https://awesome.re">
-      <img src="https://awesome.re/badge.svg" alt="Awesome" />
-    </a>
-    <a href="CONTRIBUTING.md"> <!-- Link to your contributing file -->
-      <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" />
-    </a>
-  </h4>
+
+  <p align="center">
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+    <a href="https://opensource.org/license/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+    <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/stars/ai-boost/awesome-a2a.svg?style=social&label=Star" alt="GitHub stars"></a>
+    <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/forks/ai-boost/awesome-a2a.svg?style=social&label=Fork" alt="GitHub forks"></a>
+  </p>
 </div>
+
+> The Agent2Agent (A2A) Protocol is revolutionizing how AI agents communicate and collaborate - enabling seamless interoperability across different frameworks, vendors, and platforms. This repository collects the best resources to help developers build A2A-compatible agents.
 
 
 ## Contents

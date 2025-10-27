@@ -94,7 +94,7 @@ We use a standardized commit message format to keep the project history clean an
 *   ✨ Add new A2A implementation in Rust
 *   🐛 Fix broken link to official documentation
 *   📝 Update README with new community tool
-*   🌐 Add Japanese translation for getting started guide
+*   🌐 Update multilingual documentation links
 
 ### Using the Commit Template (Optional)
 
@@ -133,15 +133,15 @@ See `.gitmessage` for the full list of recommended emojis.
 8.  **Describe your PR:** Explain what you've added and why it's relevant. Link to an Issue if applicable.
 9.  **Wait for review:** Maintainers will review your PR, provide feedback if needed, and merge it if everything looks good.
 
-## Language Considerations (English & Chinese)
+## Multilingual Support
 
-This repository aims to maintain parallel content in English (`README.md`) and Simplified Chinese (`README_zh.md`).
+This repository uses [zdoc.app](https://zdoc.app) to automatically provide translations in multiple languages (Deutsch, Español, français, 日本語, 한국어, Português, Русский, 中文).
 
-*   **When adding a new resource:** Please add the entry to **both** `README.md` and `README_zh.md`.
-    *   Keep the resource title and link the same in both files.
-    *   Provide an appropriate, concise description in both English and Chinese.
-*   **If you can only provide one language:** That's okay too! Please add the entry to the relevant language file and make a note in your Pull Request description (e.g., "Added entry to English README, needs Chinese translation"). Maintainers or other contributors can help with the translation.
-*   **When fixing links or typos:** Please try to fix them in both files if applicable.
+*   **Just edit `README.md` in English** - translations are automatically generated and kept in sync
+*   **No need to manually maintain translation files** - zdoc.app handles this for you
+*   **Translations are accessible via links** at the top of the README
+
+If you notice translation quality issues, you can report them via GitHub Issues.
 
 ## Questions?
 
