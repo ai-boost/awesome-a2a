@@ -260,6 +260,8 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://a2aproject.github.io/A2A/#/topics/a2a_and_mcp.md)).
 *   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
+* 🧙 [Summoner](https://github.com/Summoner-Network) - Agent-to-agent networking stack (Python SDK + Rust relay) for live, persistent coordination across machines. Focuses on **server-decoupled agents** and **long-lived TCP sessions** (MMO-style coordination), with [50+ runnable agent templates](https://github.com/Summoner-Network/summoner-agents) and [extensive documentation](https://github.com/Summoner-Network/summoner-docs).
+
 
 ## 💬 Community
 
