@@ -238,6 +238,8 @@ This section aims to list standalone tools and utilities related to the A2A prot
     *   *Community contributions welcome: Online or command-line validators for checking if Agent Card, Task/Artifact structures comply with A2A JSON Schema specifications, or IDE plugins, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **Monitoring/Tracing Adapters**
     *   *Community contributions welcome: Adapters or libraries for integrating A2A task flow data into mainstream monitoring platforms like OpenTelemetry, Prometheus, Grafana, etc.* <!-- TODO: Community contributions for related tools are welcome -->
+*   **Security**
+    *   🛡️ [Oktsec](https://github.com/oktsec/oktsec) by [@oktsec](https://github.com/oktsec) [![Stars](https://img.shields.io/github/stars/oktsec/oktsec?style=social)](https://github.com/oktsec/oktsec) - Security proxy for agent-to-agent communication. Ed25519 identity verification, policy enforcement, 169 built-in detection rules, and full audit trail.
 *   **Other Utilities**
     *   *Community contributions welcome: e.g., A2A message construction helper tools, Agent Card generators, Mock A2A Server/Client, etc.* <!-- TODO: Community contributions for related tools are welcome -->
     *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Easily convert agents and orchestrators from existing agent frameworks to A2A servers.
