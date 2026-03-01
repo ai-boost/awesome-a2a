@@ -241,6 +241,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   **Other Utilities**
     *   *Community contributions welcome: e.g., A2A message construction helper tools, Agent Card generators, Mock A2A Server/Client, etc.* <!-- TODO: Community contributions for related tools are welcome -->
     *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Easily convert agents and orchestrators from existing agent frameworks to A2A servers.
+    *   📋 [Agent Readiness Kit](https://github.com/trssantos/agent-readiness-kit) by [@trssantos](https://github.com/trssantos) [![Stars](https://img.shields.io/github/stars/trssantos/agent-readiness-kit?style=social)](https://github.com/trssantos/agent-readiness-kit) - Fill-in-the-blank templates for agent-card.json, llms.txt, AGENTS.md, robots.txt AI directives, and JSON-LD structured data, with a step-by-step deployment guide and 20-point readiness checklist.
 
 ## 📚 Tutorials & Articles
 
