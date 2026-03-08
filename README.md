@@ -259,6 +259,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 ## 🔗 Related Protocols & Concepts
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://a2aproject.github.io/A2A/#/topics/a2a_and_mcp.md)).
+*   🔐 [Agent Identity Protocol (AIP)](https://github.com/The-Nexus-Guard/aip) [![Stars](https://img.shields.io/github/stars/The-Nexus-Guard/aip?style=social)](https://github.com/The-Nexus-Guard/aip) - Cryptographic identity layer for AI agents using Ed25519 keys and DIDs. Provides agent authentication, trust vouching, and encrypted messaging — solving the "who is this agent?" problem that A2A's Agent Card model leaves to implementers. Includes an [A2A interop spec](https://github.com/a2aproject/A2A/pull/1511) for DID-based agent verification.
 *   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
 
 ## 💬 Community
