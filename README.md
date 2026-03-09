@@ -286,3 +286,4 @@ Thanks for your interest and contributions!
 ## Contributing
 
 Contributions are welcome! 🙌 Please read the [contributing guidelines](CONTRIBUTING.md) first. Let's build this list together!
+- [agent101](https://agent101.ventify.ai) - Open directory of 500+ tools for AI agents. Agents discover tools via HTTP, MCP, or JSON API. No auth.
