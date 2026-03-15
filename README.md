@@ -238,6 +238,8 @@ This section aims to list standalone tools and utilities related to the A2A prot
     *   *Community contributions welcome: Online or command-line validators for checking if Agent Card, Task/Artifact structures comply with A2A JSON Schema specifications, or IDE plugins, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **Monitoring/Tracing Adapters**
     *   *Community contributions welcome: Adapters or libraries for integrating A2A task flow data into mainstream monitoring platforms like OpenTelemetry, Prometheus, Grafana, etc.* <!-- TODO: Community contributions for related tools are welcome -->
+*   **AI Inference Services (x402-compatible)**
+    *   🤖 [GPU-Bridge](https://gpubridge.xyz) - 30-service GPU inference API with native x402 payments (USDC on Base L2). A2A agents can delegate inference tasks (LLM, embeddings, image generation, STT, TTS, PDF) and pay autonomously per call. No human approval needed per transaction. [Docs](https://docs.gpubridge.xyz)
 *   **Other Utilities**
     *   *Community contributions welcome: e.g., A2A message construction helper tools, Agent Card generators, Mock A2A Server/Client, etc.* <!-- TODO: Community contributions for related tools are welcome -->
     *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Easily convert agents and orchestrators from existing agent frameworks to A2A servers.
