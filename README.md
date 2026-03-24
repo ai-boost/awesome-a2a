@@ -260,6 +260,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://a2aproject.github.io/A2A/#/topics/a2a_and_mcp.md)).
 *   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
+*   🔗 [CoWorker Protocol](https://github.com/ZiwayZhao/agent-coworker) - A peer-to-peer agent collaboration protocol over XMTP, with encrypted messaging, schema-level skill sharing, and revocable trust between agents. Decentralized alternative for scenarios where HTTP-based A2A is not suitable.
 
 ## 💬 Community
 
