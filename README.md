@@ -231,6 +231,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 *   **Agent Discovery Services**
     *   Some platform-level implementations (like [Aira](https://github.com/IhateCreatingUserNames2/Aira)) include agent registration and discovery mechanisms within their features.
+    *   🌐 [Clarvia](https://clarvia.art) - AI agent tool discovery and AEO (AI Engine Optimization) scoring platform. Indexes 15,400+ APIs, MCP servers, CLI tools and skills, scoring each for agent-readiness. Exposes an A2A agent card at `/.well-known/agent.json` and an MCP server (`npx clarvia-mcp-server`), enabling agents to discover and evaluate other tools programmatically.
     *   *Community contributions welcome: Standalone agent directory service implementations, Agent Card search engines, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **A2A Validation Tool**
     *   ⚙️ [a2a-inspector](https://github.com/a2aproject/a2a-inspector) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-inspector?style=social)](https://github.com/a2aproject/a2a-inspector) - **Official** validation tools for A2A agents, including compliance checking and debugging utilities.
