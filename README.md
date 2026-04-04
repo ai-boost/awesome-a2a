@@ -241,6 +241,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   **Other Utilities**
     *   *Community contributions welcome: e.g., A2A message construction helper tools, Agent Card generators, Mock A2A Server/Client, etc.* <!-- TODO: Community contributions for related tools are welcome -->
     *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Easily convert agents and orchestrators from existing agent frameworks to A2A servers.
+    *   ⚙️ [Agentify](https://github.com/koriyoshi2041/agentify) by [@koriyoshi2041](https://github.com/koriyoshi2041) [![Stars](https://img.shields.io/github/stars/koriyoshi2041/agentify?style=social)](https://github.com/koriyoshi2041/agentify) - CLI tool that transforms OpenAPI specs into 9 agent interface formats including A2A Agent Cards, MCP servers, AGENTS.md, CLAUDE.md, and more. (`npx agentify-cli transform <openapi-spec>`)
 
 ## 📚 Tutorials & Articles
 
