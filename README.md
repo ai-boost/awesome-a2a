@@ -241,6 +241,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   **Other Utilities**
     *   *Community contributions welcome: e.g., A2A message construction helper tools, Agent Card generators, Mock A2A Server/Client, etc.* <!-- TODO: Community contributions for related tools are welcome -->
     *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Easily convert agents and orchestrators from existing agent frameworks to A2A servers.
+    *   🛠️ [use-agently](https://github.com/AgentlyHQ/use-agently) by [@AgentlyHQ](https://github.com/AgentlyHQ) [![Stars](https://img.shields.io/github/stars/AgentlyHQ/use-agently?style=social)](https://github.com/AgentlyHQ/use-agently) - CLI for the Agently platform — a decentralized marketplace for AI agents using ERC-8004 and x402 payment protocol. Features agent discovery, analytics, and marketplace interactions for the agent economy.
 
 ## 📚 Tutorials & Articles
 
