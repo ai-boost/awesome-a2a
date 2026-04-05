@@ -1,3 +1,289 @@
-This file is too large to inline — submitting the entry as a PR description instead. Please add the following line under "Platforms & Integrated Solutions":
+<div align="center">
+  <h1>✨ Awesome A2A (Agent2Agent Protocol) ✨</h1>
 
-*   🌟 [Graph Advocate](https://github.com/PaulieB14/graph-advocate) by [@PaulieB14](https://github.com/PaulieB14) — A2A agent that routes onchain data requests to The Graph Protocol. Searches 15,500+ subgraphs across 20+ chains, returns ready-to-run GraphQL queries with subgraph IDs. Supports A2A, MCP, Fetch.ai, and x402 micropayments. ERC-8004 Agent #734.
+  <img src="assets/banner.png" alt="Awesome A2A Banner - Abstract network or connection graphic" width="100%">
+
+  <p align="center">
+    A curated list of awesome resources, implementations, tools, and examples related to the <strong>Agent2Agent (A2A) Protocol</strong> for AI agent interoperability.
+  </p>
+
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <p align="center">
+    <a href="https://zdoc.app/de/ai-boost/awesome-a2a">Deutsch</a> |
+    <a href="https://zdoc.app/en/ai-boost/awesome-a2a">English</a> |
+    <a href="https://zdoc.app/es/ai-boost/awesome-a2a">Español</a> |
+    <a href="https://zdoc.app/fr/ai-boost/awesome-a2a">français</a> |
+    <a href="https://zdoc.app/ja/ai-boost/awesome-a2a">日本語</a> |
+    <a href="https://zdoc.app/ko/ai-boost/awesome-a2a">한국어</a> |
+    <a href="https://zdoc.app/pt/ai-boost/awesome-a2a">Português</a> |
+    <a href="https://zdoc.app/ru/ai-boost/awesome-a2a">Русский</a> |
+    <a href="https://zdoc.app/zh/ai-boost/awesome-a2a">中文</a>
+  </p>
+
+  <p align="center">
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+    <a href="https://opensource.org/license/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+    <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/stars/ai-boost/awesome-a2a.svg?style=social&label=Star" alt="GitHub stars"></a>
+    <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/forks/ai-boost/awesome-a2a.svg?style=social&label=Fork" alt="GitHub forks"></a>
+  </p>
+</div>
+
+> The Agent2Agent (A2A) Protocol is revolutionizing how AI agents communicate and collaborate - enabling seamless interoperability across different frameworks, vendors, and platforms. This repository collects the best resources to help developers build A2A-compatible agents.
+
+
+## Contents
+
+*   [🤔 What is A2A? (Briefly)](#-what-is-a2a-briefly)
+*   [💡 Key Principles](#-key-principles)
+*   [⚙️ How Does A2A Work? (High Level)](#️-how-does-a2a-work-high-level)
+*   [🚀 Getting Started with A2A](#-getting-started-with-a2a)
+*   [🏛️ Official Resources](#️-official-resources)
+*   [📜 Specification & Core Concepts](#-specification--core-concepts)
+*   [⚙️ Implementations & Libraries](#️-implementations--libraries)
+    *   [Official Samples](#official-samples)
+    *   [Framework Integrations (Official Samples)](#framework-integrations-official-samples)
+    *   [Community Implementations](#community-implementations)
+        *   [SDKs & Libraries (by language)](#sdks--libraries-by-language)
+        *   [Frameworks](#frameworks)
+        *   [Platforms & Integrated Solutions](#platforms--integrated-solutions)
+*   [🛠️ Tools & Utilities](#️-tools--utilities)
+*   [📚 Tutorials & Articles](#-tutorials--articles)
+*   [🎬 Demos & Examples](#-demos--examples)
+*   [🔗 Related Protocols & Concepts](#-related-protocols--concepts)
+*   [💬 Community](#-community)
+*   [Contributing](#contributing)
+
+---
+
+## 🤔 What is A2A? (Briefly)
+
+A2A (Agent2Agent) is an **open protocol** from Google and partners enabling different **AI agents** (from various vendors/frameworks) to **communicate securely** and **collaborate on tasks**. It aims to break down silos between isolated agent systems, allowing for more complex cross-application automation.
+
+**⭐ Official Website:** [a2aproject.github.io/A2A](https://a2aproject.github.io/A2A) | **⭐ Official GitHub:** [github.com/a2aproject/A2A](https://github.com/a2aproject/A2A) | 🌐 **Multilingual Docs (EN/ZH/JA):** [agent2agent.ren](https://agent2agent.ren)
+
+## 💡 Key Principles
+
+*   **Simple:** Uses existing standards (HTTP, JSON-RPC, SSE).
+*   **Enterprise Ready:** Focuses on Auth, Security, Privacy, Monitoring.
+*   **Async First:** Handles long-running tasks & human-in-the-loop.
+*   **Modality Agnostic:** Supports Text, Files, Forms, Streams, etc.
+*   **Opaque Execution:** Agents interact without sharing internal logic/tools.
+
+## ⚙️ How Does A2A Work? (High Level)
+
+1.  **Discovery:** Agents publish an `Agent Card` (JSON) describing capabilities, endpoint, and auth needs.
+2.  **Communication:** A `Client` agent sends a `Task` request (containing a `Message` with `Parts`) to a `Remote Agent (Server)` using HTTP/JSON-RPC 2.0.
+3.  **Execution & Response:** The Server processes the task, updating its `status`. It responds with the final status and any generated `Artifacts` (results, also containing `Parts`).
+4.  **Updates:** For long tasks, the Server can optionally stream `TaskStatusUpdateEvent` or `TaskArtifactUpdateEvent` via Server-Sent Events (SSE) or use Push Notifications.
+
+*For details, see the [Official Technical Documentation](https://a2aproject.github.io/A2A/#/documentation).*
+
+---
+
+## 🚀 Getting Started with A2A
+
+New to A2A? Here's a suggested path:
+
+1.  **Understand the Basics:** Read the sections above ([What is A2A?](#-what-is-a2a-briefly), [Key Principles](#-key-principles), [How it Works](#️-how-does-a2a-work-high-level)). Check the 📰 [Announcement Blog Post](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/).
+2.  **Explore Core Concepts:** Dive into the 📖 [Official Technical Documentation](https://a2aproject.github.io/A2A/#/documentation), focusing on `Agent Card`, `Task`, `Message`, `Part`, and `Artifact`.
+3.  **See it in Action:** Watch the 🎥 [Official Demo Video](https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/A2A_demo_v4.mp4) and explore the code for the 🌐 [Multi-Agent Web App Demo](https://github.com/a2aproject/A2A/tree/v0.2.1/demo).
+4.  **Run the Samples:** Clone the [Official Samples Repo](https://github.com/a2aproject/a2a-samples) and follow its instructions to run a client (like the CLI) and a sample agent (e.g., LangGraph or Genkit agent).
+5.  **Review the Code:** Look at the `common` (Python) or `server`/`client` (JS/TS) libraries in the official samples to see how A2A communication is implemented.
+6.  **Try Building:** Adapt a sample or use a library to create your own basic A2A agent or client.
+
+---
+
+## 🏛️ Official Resources
+
+*   📄 [A2A Protocol Website](https://a2aproject.github.io/A2A) - The main documentation site.
+*   💻 [google/A2A GitHub Repository](https://github.com/a2aproject/A2A) - Source code for the spec, docs, and official samples.
+*   📰 [Google Developers Blog Post](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) - Announcement blog post explaining the motivation and partners.
+
+## 📜 Specification & Core Concepts
+
+*(See [How Does A2A Work?](#️-how-does-a2a-work-high-level) above for summaries)*
+
+*   📖 [A2A Technical Documentation](https://a2aproject.github.io/A2A/#/documentation) - **(Full Details)** Detailed explanation of actors, transport, auth, core objects (Task, Artifact, Message, Part), Agent Card, etc.
+*   📄 [JSON Specification](https://github.com/a2aproject/A2A/tree/main/specification/json) - The raw JSON schema definition for A2A structures.
+*   💡 [Key Principles (Docs)](https://a2aproject.github.io/A2A/#/documentation?id=key-principles) - Link to the principles section in the official docs.
+*   🃏 [Agent Card Specification (Docs)](https://a2aproject.github.io/A2A/#/documentation?id=agent-card) - Link to the Agent Card section in the official docs.
+*   🗺️ [Agent Discovery (Topic)](https://a2aproject.github.io/A2A/#/topics/agent_discovery.md) - Discussion on how clients can find agent cards.
+*   🔔 [Push Notifications (Topic)](https://a2aproject.github.io/A2A/#/topics/push_notifications.md) - Details on the push notification mechanism.
+*   🛡️ [Enterprise Readiness (Topic)](https://a2aproject.github.io/A2A/#/topics/enterprise_ready.md) - Discussion on security, auth, privacy aspects.
+
+## ⚙️ Implementations & Libraries
+
+#### Official Samples
+
+*These demonstrate basic A2A client/server communication.*
+
+| Language          | Sample Name                | One-line Description                                         | GitHub URL                                                                                                                                                                              |
+| ----------------- | -------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🔷 **TypeScript** | Genkit SDK Core            | TS SDK + CLI, builds shared code for front- and backend      | [https://github.com/a2aproject/a2a-samples/tree/main/samples/js](https://github.com/a2aproject/a2a-samples/tree/main/samples/js)                                                        |
+|                   | Movie Recommendation Agent | Movie-recommendation conversational agent built with Genkit  | [https://github.com/a2aproject/a2a-samples/tree/main/samples/js/src/agents/movie-agent](https://github.com/a2aproject/a2a-samples/tree/main/samples/js/src/agents/movie-agent)                                |
+|                   | TypeScript Client          | Pure-frontend call example written in TS                     | [https://github.com/a2aproject/a2a-samples/tree/main/samples/js/client](https://github.com/a2aproject/a2a-samples/tree/main/samples/js/client)                                          |
+|                   | Node Express Server        | A2A HTTP service implemented with Node/Express               | [https://github.com/a2aproject/a2a-samples/tree/main/samples/js/server](https://github.com/a2aproject/a2a-samples/tree/main/samples/js/server)                                          |
+| ☕ **Java**        | Custom Client              | Java client with streaming listener                          | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/custom_java_impl/client](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/custom_java_impl/client)    |
+|                   | Data Models                | Complete set of POJO data models                             | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/custom_java_impl/model](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/custom_java_impl/model)      |
+|                   | Custom Server              | Spring Boot A2A server implementation                        | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/custom_java_impl/server](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/custom_java_impl/server)    |
+|                   | Dice Agent (Multi-Transport) | Agent supporting multiple transport protocols              | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/dice_agent_multi_transport](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/dice_agent_multi_transport) |
+|                   | Magic 8-Ball (Security)    | Security-focused agent with OAuth2                           | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/magic_8_ball_security](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/magic_8_ball_security) |
+|                   | Content Writer Agent       | Content generation agent                                     | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/content_writer](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/content_writer)        |
+|                   | Content Editor Agent       | Content editing agent                                        | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/content_editor](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/content_editor)        |
+|                   | Weather MCP Agent          | Weather agent with MCP integration                           | [https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/weather_mcp](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/weather_mcp)              |
+| 💠 **.NET**       | Basic A2A Demo             | Echo and Calculator server examples                          | [https://github.com/a2aproject/a2a-samples/tree/main/samples/dotnet/BasicA2ADemo](https://github.com/a2aproject/a2a-samples/tree/main/samples/dotnet/BasicA2ADemo)                      |
+|                   | CLI Demo                   | Command-line client and server demo                          | [https://github.com/a2aproject/a2a-samples/tree/main/samples/dotnet/A2ACliDemo](https://github.com/a2aproject/a2a-samples/tree/main/samples/dotnet/A2ACliDemo)                          |
+|                   | Semantic Kernel Demo       | Integration with Semantic Kernel                             | [https://github.com/a2aproject/a2a-samples/tree/main/samples/dotnet/A2ASemanticKernelDemo](https://github.com/a2aproject/a2a-samples/tree/main/samples/dotnet/A2ASemanticKernelDemo)    |
+| 🐍 **Python**     | CLI Host                   | Command-line interface for interacting with A2A agents       | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/hosts/cli](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/hosts/cli)                                        |
+|                   | Hello World                | Recommended first-run "Hello World" scaffold                 | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/helloworld](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/helloworld)                          |
+|                   | LangGraph Agent            | Uses LangGraph to orchestrate multi-turn dialogue            | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/langgraph](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/langgraph)                            |
+|                   | CrewAI Agent               | Demonstrates multi-role collaboration with CrewAI            | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/crewai](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/crewai)                                  |
+|                   | Semantic Kernel Agent      | Orchestrates tools with Semantic Kernel                      | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/semantickernel](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/semantickernel)                  |
+|                   | AG2 Agent                  | Minimal AG2 mutual-call example                              | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/ag2](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/ag2)                                        |
+|                   | ADK Expense Reimbursement  | Multi-turn expense reimbursement with forms                  | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/adk_expense_reimbursement](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/adk_expense_reimbursement) |
+|                   | Birthday Planner (ADK)     | Multi-step birthday-party planner with ADK                   | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/birthday_planner_adk](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/birthday_planner_adk)    |
+|                   | Azure AI Foundry Agent     | Example using Azure AI Foundry SDK                           | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/azureaifoundry_sdk](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/azureaifoundry_sdk)         |
+|                   | A2A MCP Integration        | Multi-agent collaboration with MCP servers                   | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/a2a_mcp](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/a2a_mcp)                              |
+|                   | MCP without Framework      | Bare-metal MCP integration without frameworks                | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/a2a-mcp-without-framework](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/a2a-mcp-without-framework) |
+|                   | Travel Planner Agent       | One-stop travel-planning agent                               | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/travel_planner_agent](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/travel_planner_agent)    |
+|                   | Headless OAuth2            | OAuth2 flow for headless agents                              | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/headless_agent_auth](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/headless_agent_auth)      |
+|                   | Analytics Workflow         | Multi-agent orchestration for data-analytics                 | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/analytics](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/analytics)                            |
+|                   | A2A Telemetry              | Collects and displays agent telemetry data                   | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/a2a_telemetry](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/a2a_telemetry)                   |
+|                   | Multiagent Host            | Comprehensive multi-agent orchestration example              | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/hosts/a2a_multiagent_host](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/hosts/a2a_multiagent_host)        |
+|                   | GitHub Agent               | Agent with GitHub toolset integration                        | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/github-agent](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/github-agent)                      |
+|                   | Veo Video Generator        | Generates video via Veo API                                  | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/veo_video_gen](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/veo_video_gen)                  |
+|                   | LlamaIndex File Chat       | Q&A retrieval over local files                               | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/llama_index_file_chat](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/llama_index_file_chat) |
+|                   | Marvin Agent               | Builds domain agents with Marvin                             | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/marvin](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/marvin)                                  |
+|                   | MindsDB Agent              | Calls MindsDB for prediction and querying                    | [https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/mindsdb](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/mindsdb)                                |
+| 🐹 **Go**         | Go Reference Impl          | Full A2A server + client implemented in Go                   | [https://github.com/a2aproject/a2a-samples/tree/main/samples/go](https://github.com/a2aproject/a2a-samples/tree/main/samples/go)                                                        |
+
+> **Quick Start**
+> First-time users: try **TypeScript `Movie Recommendation Agent`**, **Python `Hello World`**, or **Go `Go Reference Impl`** — minimal dependencies and the simplest startup commands.
+
+#### Framework Integrations (Official Samples)
+
+*These show how agents built with specific frameworks can expose an A2A interface.*
+
+| Language   | Agent Framework | Agent Description                           | Key A2A Features Demonstrated         | Link                                                                           |
+| :--------- | :-------------- | :------------------------------------------ | :-------------------------------------- | :----------------------------------------------------------------------------- |
+| 🐍 Python  | LangGraph       | Multi-turn dialogue orchestration           | Tools, Streaming, Multi-turn          | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/langgraph) |
+| 🐍 Python  | CrewAI          | Multi-role collaboration                    | Non-textual Artifacts (Files)         | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/crewai)   |
+| 🐍 Python  | Google ADK      | Expense reimbursement                       | Multi-turn, Forms (DataPart)          | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/adk_expense_reimbursement)|
+| 🐍 Python  | Semantic Kernel | Tool orchestration                          | Tools, Multi-turn                      | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/semantickernel) |
+| 🐍 Python  | AG2             | Mutual agent calls                          | Agent-to-Agent communication          | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/ag2) |
+| 🐍 Python  | Azure AI Foundry| Azure AI integration                        | Cloud deployment, Tools               | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/azureaifoundry_sdk) |
+| 🐍 Python  | LlamaIndex      | File Q&A retrieval                          | RAG, Document processing              | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/python/agents/llama_index_file_chat) |
+| 🚀 JS/TS   | Genkit          | Movie info / Code generation                | Tools, Artifacts (Files), Async       | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/js/src/agents)          |
+| ☕ Java    | Spring Boot     | Multi-transport agent                       | HTTP/gRPC, Security                   | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/java/agents/dice_agent_multi_transport) |
+| 💠 .NET    | Semantic Kernel | .NET AI integration                         | Tools, .NET ecosystem                 | [Link](https://github.com/a2aproject/a2a-samples/tree/main/samples/dotnet/A2ASemanticKernelDemo) |
+
+#### Community Implementations
+
+##### SDKs & Libraries (by language)
+
+*   **Go**
+    *   🌟 [trpc-a2a-go](https://github.com/trpc-group/trpc-a2a-go) by [@trpc-group](https://github.com/trpc-group) [![Stars](https://img.shields.io/github/stars/trpc-group/trpc-a2a-go?style=social)](https://github.com/trpc-group/trpc-a2a-go) - Go A2A implementation by the tRPC team featuring full client/server support, in-memory task management, streaming responses, session management, multiple auth methods (JWT, API Key, OAuth2), and comprehensive examples.
+    *   🌟 [a2a-go](https://github.com/a2aserver/a2a-go) by [@a2aserver](https://github.com/a2aserver) [![Stars](https://img.shields.io/github/stars/a2aserver/a2a-go?style=social)](https://github.com/a2aserver/a2a-go) - A Go library for building A2A servers, with example implementations.
+    *  🌟 [a2a-go](https://github.com/yeeaiclub/a2a-go) by [@yeeaiclub](https://github.com/yeeaiclub) [![Stars](https://img.shields.io/github/stars/yeeaiclub/a2a-go?style=social)](https://github.com/yeeaiclub/a2a-go) - Agent-to-Agent Protocol Implementation for Go, fully supports all methods of the A2A protocol, referring to the official Python SDK implementation. 
+*   **Rust**
+    *   🌟 [a2a-rs](https://github.com/EmilLindfors/a2a-rs) by [@EmilLindfors](https://github.com/EmilLindfors) [![Stars](https://img.shields.io/github/stars/EmilLindfors/a2a-rs?style=social)](https://github.com/EmilLindfors/a2a-rs) - An idiomatic Rust implementation following hexagonal architecture principles.
+    *   🌟 [Agentic](https://github.com/jeremychone/rust-agentic) by [@jeremychone](https://github.com/jeremychone) [![Stars](https://img.shields.io/github/stars/jeremychone/rust-agentic?style=social)](https://github.com/jeremychone/rust-agentic) - A Rust crate providing essential building blocks for agentic applications, with an ergonomic API for MCP and A2A support. (Work in Progress)
+*   **Python**
+    *   🌟 [a2a-python](https://github.com/a2aproject/a2a-python) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-python?style=social)](https://github.com/a2aproject/a2a-python) - **Official** Python SDK for running agentic applications as A2A servers following the Agent2Agent Protocol.
+    *   🌟 [a2a_min](https://github.com/pcingola/a2a_min) by [@pcingola](https://github.com/pcingola) [![Stars](https://img.shields.io/github/stars/pcingola/a2a_min?style=social)](https://github.com/pcingola/a2a_min) - A minimalistic Python SDK for A2A communication.
+    *   🌟 [python-a2a](https://github.com/themanojdesai/python-a2a) by [@themanojdesai](https://github.com/themanojdesai) [![Stars](https://img.shields.io/github/stars/themanojdesai/python-a2a?style=social)](https://github.com/themanojdesai/python-a2a) - An easy-to-use Python library for implementing the A2A protocol.
+    *   🌟 [A2AServer](https://github.com/johnson7788/A2AServer) by [@johnson7788](https://github.com/johnson7788) [![Stars](https://img.shields.io/github/stars/johnson7788/A2AServer?style=social)](https://github.com/johnson7788/A2AServer) - A Python server framework implementing Google's A2A protocol with MCP integration.
+    *   🌟 [adk-modular-architecture](https://github.com/k-jarzyna/adk-modular-architecture) by [@k-jarzyna](https://github.com/k-jarzyna) [![Stars](https://img.shields.io/github/stars/k-jarzyna/adk-modular-architecture?style=social)](https://github.com/k-jarzyna/adk-modular-architecture) - A Python project demonstrating a modular architecture for ADK (Agent Development Kit) based agents, with A2A protocol considerations.
+*   **C#/.NET**
+    *   🌟 [a2adotnet](https://github.com/azixaka/a2adotnet) by [@azixaka](https://github.com/azixaka) [![Stars](https://img.shields.io/github/stars/azixaka/a2adotnet?style=social)](https://github.com/azixaka/a2adotnet) - A C#/.NET implementation of the A2A protocol.
+    *   🌟 [a2a-net](https://github.com/neuroglia-io/a2a-net) by [@neuroglia-io](https://github.com/neuroglia-io) [![Stars](https://img.shields.io/github/stars/neuroglia-io/a2a-net?style=social)](https://github.com/neuroglia-io/a2a-net) - .NET implementation of the Agent2Agent (A2A) protocol to enable secure, interoperable communication between autonomous agents across frameworks and vendors.
+*   **JavaScript/TypeScript**
+    *   🌟 [a2a-js](https://github.com/a2aproject/a2a-js) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-js?style=social)](https://github.com/a2aproject/a2a-js) - **Official** JavaScript SDK for the Agent2Agent (A2A) Protocol.
+    *   🌟 [nestjs-a2a](https://github.com/thestupd/nestjs-a2a) by [@thestupd](https://github.com/thestupd) [![Stars](https://img.shields.io/github/stars/thestupd/nestjs-a2a?style=social)](https://github.com/thestupd/nestjs-a2a) - A module for integrating the A2A protocol into NestJS applications.
+    *   🌟 [Artinet SDK](https://github.com/the-artinet-project/artinet-sdk) by [@the-artinet-project](https://github.com/the-artinet-project) [![Stars](https://img.shields.io/github/stars/the-artinet-project/artinet-sdk?style=social)](https://github.com/the-artinet-project/artinet-sdk) - TypeScript (Node.js) A2A compliant server/client simplifying interoperable AI agent creation, focusing on DX and production-readiness.
+*   **Java**
+    *   🌟 [a2a-java](https://github.com/a2aproject/a2a-java) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-java?style=social)](https://github.com/a2aproject/a2a-java) - **Official** Java SDK for the Agent2Agent (A2A) Protocol.
+    *   🌟 [a2ajava](https://github.com/vishalmysore/a2ajava) by [@vishalmysore](https://github.com/vishalmysore) [![Stars](https://img.shields.io/github/stars/vishalmysore/a2ajava?style=social)](https://github.com/vishalmysore/a2ajava) - Java A2A server/client implementation using Spring Boot with annotations. Supports WebSockets, MCP integration, and includes enterprise/Kubernetes deployment tutorials.
+    *   🌟 [a2a4j](https://github.com/a2ap/a2a4j) by [@a2ap](https://github.com/a2ap) [![Stars](https://img.shields.io/github/stars/a2ap/a2a4j?style=social)](https://github.com/a2ap/a2a4j) - A2A4J is a comprehensive Java implementation of the Agent2Agent Protocol, including server, client, examples, and a starter — ready to use out of the box.
+
+##### Frameworks
+
+*Developer-first frameworks specifically designed for building A2A-compliant agents.*
+
+*   🚀 [AgentUp](https://github.com/RedDotRocket/AgentUp) by [@RedDotRocket](https://github.com/RedDotRocket) [![Stars](https://img.shields.io/github/stars/RedDotRocket/AgentUp?style=social)](https://github.com/RedDotRocket/AgentUp) - A developer-first, open-source AI agent framework designed to make agents portable, scalable, and secure. Features configuration-driven architecture, built-in OAuth2/JWT/API key authentication, automatic A2A discovery, asynchronous task management, and support for both A2A and MCP protocols. Built by engineers who've created open-source solutions powering mission-critical systems at Google, GitHub, Nvidia, Red Hat, Shopify and more.
+
+##### Platforms & Integrated Solutions
+
+*   🌟 [AG2 (AutoGen)](https://github.com/ag2ai/ag2) by [@ag2ai](https://github.com/ag2ai) [![Stars](https://img.shields.io/github/stars/ag2ai/ag2?style=social)](https://github.com/ag2ai/ag2) - Open-source multi-agent framework with native A2A protocol support. Features A2aAgentServer for exposing AG2 agents as A2A services and A2aRemoteAgent for connecting to any A2A-compatible agent. Enables cross-framework interoperability (e.g., with Pydantic AI).
+*   🌟 [Elkar](https://github.com/elkar-ai/elkar-a2a) by [@elkar-ai](https://github.com/elkar-ai) [![Stars](https://img.shields.io/github/stars/elkar-ai/elkar-a2a?style=social)](https://github.com/elkar-ai/elkar-a2a) - An open-source task-management layer for AI agents — based on Google's Agent2Agent Protocol (A2A). Send, track, and orchestrate tasks across AI agents — effortlessly.
+*   🌟 [Aira](https://github.com/IhateCreatingUserNames2/Aira) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Aira?style=social)](https://github.com/IhateCreatingUserNames2/Aira) - An A2A network implementation for hosting, registering, discovering, and interacting with agents. Includes agent discovery mechanisms.
+*   🌟 [Cognisphere](https://github.com/IhateCreatingUserNames2/Cognisphere) by [@IhateCreatingUserNames2](https://github.com/IhateCreatingUserNames2) [![Stars](https://img.shields.io/github/stars/IhateCreatingUserNames2/Cognisphere?style=social)](https://github.com/IhateCreatingUserNames2/Cognisphere) - An AI agent development framework built on Google's ADK, facilitating agent creation potentially for A2A networks.
+*   🌐 [Grasp](https://github.com/aircodelabs/grasp) by [@adcentury](https://github.com/adcentury) [![Stars](https://img.shields.io/github/stars/aircodelabs/grasp?style=social)](https://github.com/aircodelabs/grasp) - A Self-hosted Browser Using Agent with built-in MCP and A2A support.
+*   🌟 [swissknife](https://github.com/daltonnyx/swissknife) by [@daltonnyx](https://github.com/daltonnyx) [![Stars](https://img.shields.io/github/stars/daltonnyx/swissknife?style=social)](https://github.com/daltonnyx/swissknife) - A multi-agent chat application with MCP support, aiming to expose agents via the A2A protocol and connect to remote A2A agents as a client.
+*   🌟 [n8n-nodes-agent2agent](https://github.com/pjawz/n8n-nodes-agent2agent) by [@pjawz](https://github.com/pjawz) [![Stars](https://img.shields.io/github/stars/pjawz/n8n-nodes-agent2agent?style=social)](https://github.com/pjawz/n8n-nodes-agent2agent) - Adds nodes to n8n for interacting with AI agents using Google's Agent2Agent (A2A) protocol.
+*   🌟 [google-calendar-agent](https://github.com/inference-gateway/google-calendar-agent) by [@inference-gateway](https://github.com/inference-gateway) [![Stars](https://img.shields.io/github/stars/inference-gateway/google-calendar-agent?style=social)](https://github.com/inference-gateway/google-calendar-agent) - A standalone A2A agent that can manage a user's Google Calendar, compatible with any OpenAI-compatible API for its LLM.
+*   🌟 [A2AApp](https://github.com/tanaikech/A2AApp) by [@tanaikech](https://github.com/tanaikech) [![Stars](https://img.shields.io/github/stars/tanaikech/A2AApp?style=social)](https://github.com/tanaikech/A2AApp) - An Agent2Agent (A2A) network built with Google Apps Script, enabling secure, decentralized AI communication and integration within Google Workspace as both an A2A server and client.
+*   🌟 [Graph Advocate](https://github.com/PaulieB14/graph-advocate) by [@PaulieB14](https://github.com/PaulieB14) — A2A agent that routes onchain data requests to [The Graph Protocol](https://thegraph.com). Searches 15,500+ subgraphs across 20+ chains, returns ready-to-run GraphQL queries with subgraph IDs. Supports A2A, MCP, Fetch.ai, and x402 micropayments. [Live endpoint](https://graph-advocate-production.up.railway.app) · [Agent Card](https://graph-advocate-production.up.railway.app/.well-known/agent-card.json) · ERC-8004 Agent #734.
+<!-- Add yours here! See CONTRIBUTING.md -->
+
+## 🛠️ Tools & Utilities
+
+This section aims to list standalone tools and utilities related to the A2A protocol. The ecosystem is still developing, and community contributions are welcome!
+
+*   **Agent Discovery Services**
+    *   Some platform-level implementations (like [Aira](https://github.com/IhateCreatingUserNames2/Aira)) include agent registration and discovery mechanisms within their features.
+    *   *Community contributions welcome: Standalone agent directory service implementations, Agent Card search engines, etc.* <!-- TODO: Community contributions for related tools are welcome -->
+*   **A2A Validation Tool**
+    *   ⚙️ [a2a-inspector](https://github.com/a2aproject/a2a-inspector) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-inspector?style=social)](https://github.com/a2aproject/a2a-inspector) - **Official** validation tools for A2A agents, including compliance checking and debugging utilities.
+    *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) [![Stars](https://img.shields.io/github/stars/llmx-de/a2a-validation-tool?style=social)](https://github.com/llmx-de/a2a-validation-tool) - Cross-platform desktop app for testing & validating A2A protocol implementations, with features like multi-agent connection and session management.
+    *   *Community contributions welcome: Online or command-line validators for checking if Agent Card, Task/Artifact structures comply with A2A JSON Schema specifications, or IDE plugins, etc.* <!-- TODO: Community contributions for related tools are welcome -->
+*   **Monitoring/Tracing Adapters**
+    *   *Community contributions welcome: Adapters or libraries for integrating A2A task flow data into mainstream monitoring platforms like OpenTelemetry, Prometheus, Grafana, etc.* <!-- TODO: Community contributions for related tools are welcome -->
+*   **Other Utilities**
+    *   *Community contributions welcome: e.g., A2A message construction helper tools, Agent Card generators, Mock A2A Server/Client, etc.* <!-- TODO: Community contributions for related tools are welcome -->
+    *   🌟 [autoa2a](https://github.com/NapthaAI/autoa2a) by [NapthaAI](https://github.com/NapthaAI) [![Stars](https://img.shields.io/github/stars/NapthaAI/autoa2a?style=social)](https://github.com/NapthaAI/autoa2a) - Easily convert agents and orchestrators from existing agent frameworks to A2A servers.
+
+## 📚 Tutorials & Articles
+
+*   📄 [Official A2A Conceptual Overview (README)](https://github.com/a2aproject/A2A#conceptual-overview) - High-level explanation in the official repo's README.
+*   🚀 [Getting Started Guide (Official README)](https://github.com/a2aproject/A2A#getting-started) - Links to docs, spec, samples in the official repo's README.
+*   🌐 [Agent2Agent Protocol Documentation Site](https://agent2agent.ren) - Community-driven, open-source documentation site for the A2A protocol. Built with React/TypeScript, supports English, Chinese, and Japanese. ([Source Code](https://github.com/ai-boost/agent2agent_doc))
+*   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - Academic paper surveying existing LLM agent communication protocols (including the category A2A falls into), classifying them, analyzing performance, and discussing future challenges.
+*   📚 [A2A and MCP Tutorial](https://github.com/Tsadoq/a2a-mcp-tutorial) by [@Tsadoq](https://github.com/Tsadoq) [![Stars](https://img.shields.io/github/stars/Tsadoq/a2a-mcp-tutorial?style=social)](https://github.com/Tsadoq/a2a-mcp-tutorial) - A tutorial on how to use Model Context Protocol by Anthropic and Agent2Agent Protocol by Google.
+
+## 🎬 Demos & Examples
+
+*   🌐 [Official Multi-Agent Web App (Python/Mesop)](https://github.com/a2aproject/A2A/tree/v0.2.1/demo) - Demonstrates the orchestrator agent interacting with multiple remote agents, rendering text, images, and forms. **Requires running Python code.**
+*   🎥 [Official Demo Video (Section Link)](https://github.com/a2aproject/A2A#see-a2a-in-action) - Link to the video embedded in the official repository's README.
+*   💻 [Agent2Agent (A2A) Samples](https://github.com/a2aproject/a2a-samples) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-samples?style=social)](https://github.com/a2aproject/a2a-samples) - Official repository containing code samples and demos which use the Agent2Agent (A2A) Protocol.
+
+## 🔗 Related Protocols & Concepts
+
+*   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://a2aproject.github.io/A2A/#/topics/a2a_and_mcp.md)).
+*   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
+
+## 💬 Community
+
+*   🐞 [A2A GitHub Issues](https://github.com/a2aproject/A2A/issues) - For reporting bugs or suggesting protocol improvements.
+*   💬 [A2A GitHub Discussions](https://github.com/a2aproject/A2A/discussions/) - For general questions, ideas, and community discussions about the A2A protocol.
+*   🔒 [Private Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScS23OMSKnVFmYeqS2dP7dxY3eTyT7lmtGLUa8OJZfP4RTijQ/viewform) - Google form for private feedback.
+
+---
+
+**Let's Make Awesome A2A More Useful, Together!**
+
+A2A is still pretty new, and good resources or practical tips can be scattered. We created this list to bring the good stuff together, making it easier for everyone to find, learn, and reference.
+
+Keeping this list high-quality and up-to-date relies on the community:
+
+*   ⭐ **Star it**: If you find it useful, it's a great way to show support and makes it easy to find later.
+*   ➕ **Share what you find**: Found a great library, article, tool, or even a common pitfall? Add it via an [Issue](https://github.com/ai-boost/awesome-a2a/issues) or [PR](CONTRIBUTING.md) – let's build this resource together.
+*   📣 **Spread the word**: Let others know about this list if they're exploring or working with A2A.
+
+Thanks for your interest and contributions!
+
+---
+
+## Contributing
+
+Contributions are welcome! 🙌 Please read the [contributing guidelines](CONTRIBUTING.md) first. Let's build this list together!
