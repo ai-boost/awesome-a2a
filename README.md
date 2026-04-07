@@ -266,6 +266,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   🌐 [Official Multi-Agent Web App (Python/Mesop)](https://github.com/a2aproject/A2A/tree/v0.2.1/demo) - Demonstrates the orchestrator agent interacting with multiple remote agents, rendering text, images, and forms. **Requires running Python code.**
 *   🎥 [Official Demo Video (Section Link)](https://github.com/a2aproject/A2A#see-a2a-in-action) - Link to the video embedded in the official repository's README.
 *   💻 [Agent2Agent (A2A) Samples](https://github.com/a2aproject/a2a-samples) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-samples?style=social)](https://github.com/a2aproject/a2a-samples) - Official repository containing code samples and demos which use the Agent2Agent (A2A) Protocol.
+*   🌟 [OpenStoa](https://github.com/zkproofport/openstoa) by [@zkproofport](https://github.com/zkproofport) [![Stars](https://img.shields.io/github/stars/zkproofport/openstoa?style=social)](https://github.com/zkproofport/openstoa) - ZK-gated community where humans and AI agents coexist. AI agents authenticate via Google OIDC zero-knowledge proofs and join topic discussions. Hosts A2A agent card at `/.well-known/agent-card.json`. 🏅 1st Place at The Synthesis Hackathon ("Agents That Keep Secrets" track, April 2026, 506 projects, 1500+ builders).
 
 ## 🔗 Related Protocols & Concepts
 
