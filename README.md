@@ -289,4 +289,4 @@ Contributions are welcome! 🙌 Please read the [contributing guidelines](CONTRI
 
 ### A2A-Native Services
 
-- [Aethel-Nexus AAAA](https://aaaa-nexus.atomadictech.workers.dev) — Production AI infrastructure with native Google A2A agent card (`/.well-known/agent.json`, 22 skills). 22 endpoints: streaming CoT inference, Leech lattice compression, AIBOM drift detection, EU AI Act compliance, RatchetGate session security, agent swarm relay, and more. Pay-per-call via x402 USDC on Base L2. MCP server at `/.well-known/mcp.json`.
+- [AAAA-Nexus](https://aaaa-nexus.atomadictech.workers.dev) — Hosted AI infrastructure with native Google A2A agent-card discovery, MCP support, and x402 pay-per-call access for agent workflows.
