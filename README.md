@@ -242,6 +242,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 *   **Agent Discovery Services**
     *   Some platform-level implementations (like [Aira](https://github.com/IhateCreatingUserNames2/Aira)) include agent registration and discovery mechanisms within their features.
+    *   🔍 [ClawNexus](https://github.com/SilverstreamsAI/ClawNexus) by [@alan-silverstreams](https://github.com/alan-silverstreams) [![Stars](https://img.shields.io/github/stars/SilverstreamsAI/ClawNexus?style=social)](https://github.com/SilverstreamsAI/ClawNexus) - LAN discovery daemon for OpenClaw instances that auto-generates A2A Agent Cards. Discovers agents via mDNS/UDP broadcast/HTTP probe, assigns readable names, and exposes `/.well-known/agent-card.json` — bridging the OpenClaw ecosystem into A2A.
     *   *Community contributions welcome: Standalone agent directory service implementations, Agent Card search engines, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **A2A Validation Tool**
     *   ⚙️ [a2a-inspector](https://github.com/a2aproject/a2a-inspector) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-inspector?style=social)](https://github.com/a2aproject/a2a-inspector) - **Official** validation tools for A2A agents, including compliance checking and debugging utilities.
