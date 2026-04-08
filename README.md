@@ -242,6 +242,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 *   **Agent Discovery Services**
     *   Some platform-level implementations (like [Aira](https://github.com/IhateCreatingUserNames2/Aira)) include agent registration and discovery mechanisms within their features.
+    *   🌟 [binary-encoding](https://github.com/lightbeacon301/binary-encoding) - Fixed-size binary encoding for efficient agent-to-agent communication. Compress any structured data to exactly 2556 bytes (20x more efficient than JSON). A2A agent card at `https://sutr.lol/.well-known/agent.json`. Live encoder/decoder API.
     *   *Community contributions welcome: Standalone agent directory service implementations, Agent Card search engines, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **A2A Validation Tool**
     *   ⚙️ [a2a-inspector](https://github.com/a2aproject/a2a-inspector) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-inspector?style=social)](https://github.com/a2aproject/a2a-inspector) - **Official** validation tools for A2A agents, including compliance checking and debugging utilities.
