@@ -219,7 +219,7 @@ New to A2A? Here's a suggested path:
 
 *Developer-first frameworks specifically designed for building A2A-compliant agents.*
 
-*   🚀 [AgentUp](https://github.com/RedDotRocket/AgentUp) by [@RedDotRocket](https://github.com/RedDotRocket) [![Stars](https://img.shields.io/github/stars/RedDotRocket/AgentUp?style=social)](https://github.com/RedDotRocket/AgentUp) - A developer-first, open-source AI agent framework designed to make agents portable, scalable, and secure. Features configuration-driven architecture, built-in OAuth2/JWT/API key authentication, automatic A2A discovery, asynchronous task management, and support for both A2A and MCP protocols. Built by engineers who've created open-source solutions powering mission-critical systems at Google, GitHub, Nvidia, Red Hat, Shopify and more.
+*   🚀 [AgentUp](https://github.com/always-further/AgentUp) by [@always-further](https://github.com/always-further) [![Stars](https://img.shields.io/github/stars/always-further/AgentUp?style=social)](https://github.com/always-further/AgentUp) - A developer-first, open-source AI agent framework designed to make agents portable, scalable, and secure. Features configuration-driven architecture, built-in OAuth2/JWT/API key authentication, automatic A2A discovery, asynchronous task management, and support for both A2A and MCP protocols.
 
 ##### Platforms & Integrated Solutions
 
