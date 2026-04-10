@@ -289,4 +289,4 @@ Contributions are welcome! 🙌 Please read the [contributing guidelines](CONTRI
 
 ### A2A-Native Services
 
-- [AAAA-Nexus](https://aaaa-nexus.atomadictech.workers.dev) — Hosted AI infrastructure with native Google A2A agent-card discovery, MCP support, and x402 pay-per-call access for agent workflows.
+- [AAAA-Nexus](https://atomadic.tech) — Hosted AI infrastructure with native Google A2A agent-card discovery, MCP support, and x402 pay-per-call access for agent workflows.
