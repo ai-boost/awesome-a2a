@@ -215,6 +215,7 @@ New to A2A? Here's a suggested path:
     *   🌟 [a2a-swift](https://github.com/Victory-Apps/a2a-swift) by [@Victory-Apps](https://github.com/Victory-Apps) [![Stars](https://img.shields.io/github/stars/Victory-Apps/a2a-swift?style=social)](https://github.com/Victory-Apps/a2a-swift) - A Swift SDK for A2A with full v1.0 data model, JSON-RPC routing, SSE streaming with reconnection, Vapor integration, and testing utilities. Supports macOS, Linux, iOS, tvOS, watchOS.
 *   **Elixir**
     *   🌟 [a2a-elixir](https://github.com/actioncard/a2a-elixir) by [@actioncard](https://github.com/actioncard) [![Stars](https://img.shields.io/github/stars/actioncard/a2a-elixir?style=social)](https://github.com/actioncard/a2a-elixir) - Elixir implementation of the A2A protocol with behaviour-based GenServer agents, multi-turn conversations, SSE streaming, HTTP serving via Plug, skill-based agent registry, pluggable storage, and Telemetry integration.
+    *   🌟 [a2a_ex](https://github.com/lukaszsamson/a2a_ex) by [@lukaszsamson](https://github.com/lukaszsamson) [![Stars](https://img.shields.io/github/stars/lukaszsamson/a2a_ex?style=social)](https://github.com/lukaszsamson/a2a_ex) - Elixir client and server library for A2A with REST/JSON-RPC transports, SSE streaming utilities, Plug integration, typed structs, task store abstractions, and protocol compatibility modes.
 
 ##### Frameworks
 
