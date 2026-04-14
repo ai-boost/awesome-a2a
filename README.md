@@ -33,6 +33,7 @@
 
 ## Contents
 
+- [Bernstein](https://github.com/chernistry/bernstein) - Multi-agent orchestrator with A2A and MCP protocol support. Spawns parallel AI coding agents, manages task lifecycle, quality gates.
 *   [🤔 What is A2A? (Briefly)](#-what-is-a2a-briefly)
 *   [💡 Key Principles](#-key-principles)
 *   [⚙️ How Does A2A Work? (High Level)](#️-how-does-a2a-work-high-level)
