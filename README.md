@@ -285,6 +285,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://a2aproject.github.io/A2A/#/topics/a2a_and_mcp.md)).
 *   🔍 [Lingua Universale](https://github.com/rafapra3008/cervellaswarm) by [@rafapra3008](https://github.com/rafapra3008) - Formal verification DSL for AI agent protocols using multiparty session types. Complementary to A2A: verify message sequence correctness at spec time..
 *   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
+- [Hashgraph Online (HOL)](https://hol.org) - Universal agentic registry on Hedera Hashgraph with HCS-14 UAIDs. Bridges to A2A, ERC-8004, Virtuals, and x402 protocols.
 
 ## 💬 Community
 
