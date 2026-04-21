@@ -227,6 +227,7 @@ New to A2A? Here's a suggested path:
 *Developer-first frameworks specifically designed for building A2A-compliant agents.*
 
 *   🚀 [AgentUp](https://github.com/always-further/AgentUp) by [@always-further](https://github.com/always-further) [![Stars](https://img.shields.io/github/stars/always-further/AgentUp?style=social)](https://github.com/always-further/AgentUp) - A developer-first, open-source AI agent framework designed to make agents portable, scalable, and secure. Features configuration-driven architecture, built-in OAuth2/JWT/API key authentication, automatic A2A discovery, asynchronous task management, and support for both A2A and MCP protocols.
+*   🦀 [systemprompt-template](https://github.com/systempromptio/systemprompt-template) by [@systempromptio](https://github.com/systempromptio) [![Stars](https://img.shields.io/github/stars/systempromptio/systemprompt-template?style=social)](https://github.com/systempromptio/systemprompt-template) - Production-grade Rust runtime for hosting and governing MCP servers with A2A orchestration. Built-in 6-tier RBAC, secret detection (35+ patterns), rate limiting, audit logging, OAuth 2.0 + WebAuthn. Single binary (~50 MB), PostgreSQL only — no Kubernetes, no Redis. [BSL-1.1]
 
 ##### Platforms & Integrated Solutions
 
