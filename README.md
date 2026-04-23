@@ -250,8 +250,8 @@ New to A2A? Here's a suggested path:
 This section aims to list standalone tools and utilities related to the A2A protocol. The ecosystem is still developing, and community contributions are welcome!
 
 *   **Agent Discovery Services**
+    *   🔍 [Waggle](https://waggle.zone) by [@enmerk4r](https://github.com/enmerk4r) - A semantic search engine for A2A agents. Automatically discovers and indexes agents from registries, GitHub, and the web, with health monitoring, uptime tracking, and an A2A-compliant meta-agent interface for agent-to-agent discovery.
     *   Some platform-level implementations (like [Aira](https://github.com/IhateCreatingUserNames2/Aira)) include agent registration and discovery mechanisms within their features.
-    *   *Community contributions welcome: Standalone agent directory service implementations, Agent Card search engines, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **A2A Validation Tool**
     *   ⚙️ [a2a-inspector](https://github.com/a2aproject/a2a-inspector) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-inspector?style=social)](https://github.com/a2aproject/a2a-inspector) - **Official** validation tools for A2A agents, including compliance checking and debugging utilities.
     *   ⚙️ [A2A Validation Tool](https://github.com/llmx-de/a2a-validation-tool) by [@llmx-de](https://github.com/llmx-de) [![Stars](https://img.shields.io/github/stars/llmx-de/a2a-validation-tool?style=social)](https://github.com/llmx-de/a2a-validation-tool) - Cross-platform desktop app for testing & validating A2A protocol implementations, with features like multi-agent connection and session management.
