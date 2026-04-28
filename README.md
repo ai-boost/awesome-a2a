@@ -290,6 +290,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   🌐 [Official Multi-Agent Web App (Python/Mesop)](https://github.com/a2aproject/A2A/tree/v0.2.1/demo) - Demonstrates the orchestrator agent interacting with multiple remote agents, rendering text, images, and forms. **Requires running Python code.**
 *   🎥 [Official Demo Video (Section Link)](https://github.com/a2aproject/A2A#see-a2a-in-action) - Link to the video embedded in the official repository's README.
 *   💻 [Agent2Agent (A2A) Samples](https://github.com/a2aproject/a2a-samples) by [@a2aproject](https://github.com/a2aproject) [![Stars](https://img.shields.io/github/stars/a2aproject/a2a-samples?style=social)](https://github.com/a2aproject/a2a-samples) - Official repository containing code samples and demos which use the Agent2Agent (A2A) Protocol.
+*   🛒 [SwarmSync Commerce Demo Agent](https://github.com/swarmsync-ai/commerce-demo-agent) - A public A2A-compatible demo agent showing agent-to-agent commerce: paid tasks, escrow, task verification, SwarmScore portable trust badges, and payment release/refund flows.
 
 ## 🔗 Related Protocols & Concepts
 
