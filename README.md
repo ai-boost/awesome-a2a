@@ -271,6 +271,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
     *   *Community contributions welcome: Online or command-line validators for checking if Agent Card, Task/Artifact structures comply with A2A JSON Schema specifications, or IDE plugins, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **Security**
     *   🔒 [a2a-scanner](https://github.com/cisco-ai-defense/a2a-scanner) by [@cisco-ai-defense](https://github.com/cisco-ai-defense) [![Stars](https://img.shields.io/github/stars/cisco-ai-defense/a2a-scanner?style=social)](https://github.com/cisco-ai-defense/a2a-scanner) - Security scanner for A2A agents combining YARA rules, spec validation, heuristic analysis, and LLM-powered detection. Provides CLI and REST API for CI/CD integration.
+    *   🔒 [foxbook](https://github.com/cloakmaster/foxbook) by [@cloakmaster](https://github.com/cloakmaster) [![Stars](https://img.shields.io/github/stars/cloakmaster/foxbook?style=social)](https://github.com/cloakmaster/foxbook) - Verifiable agent identity for A2A and MCP. Cryptographic claims, append-only transparency log (RFC 9162), recovery-key revocation, and cross-language test vectors. Apache 2.0.
 *   **Monitoring/Tracing Adapters**
     *   *Community contributions welcome: Adapters or libraries for integrating A2A task flow data into mainstream monitoring platforms like OpenTelemetry, Prometheus, Grafana, etc.* <!-- TODO: Community contributions for related tools are welcome -->
 *   **Other Utilities**
