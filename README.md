@@ -238,6 +238,7 @@ New to A2A? Here's a suggested path:
 *Developer-first frameworks specifically designed for building A2A-compliant agents.*
 
 *   🚀 [AgentUp](https://github.com/always-further/AgentUp) by [@always-further](https://github.com/always-further) [![Stars](https://img.shields.io/github/stars/always-further/AgentUp?style=social)](https://github.com/always-further/AgentUp) - A developer-first, open-source AI agent framework designed to make agents portable, scalable, and secure. Features configuration-driven architecture, built-in OAuth2/JWT/API key authentication, automatic A2A discovery, asynchronous task management, and support for both A2A and MCP protocols.
+*   🚀 [HiveAttest](https://github.com/srotzin/hive-mcp-attest) by [@srotzin](https://github.com/srotzin) [![Stars](https://img.shields.io/github/stars/srotzin/hive-mcp-attest?style=social)](https://github.com/srotzin/hive-mcp-attest) - Production A2A v0.3.0 agent for pre-action verification. Issues Ed25519-signed C18 receipts on every gate decision (allow AND deny), real-rail USDC settlement on Base, and a machine-verifiable [AgentCard](https://thehiveryiq.com/.well-known/agent.json). 6 skills, 18 MCP tools, live demo at https://thehiveryiq.com/attest-demo.html. Published to the [MCP Official Registry](https://registry.modelcontextprotocol.io/v0/servers?search=hive-mcp-attest).
 
 ##### Platforms & Integrated Solutions
 
