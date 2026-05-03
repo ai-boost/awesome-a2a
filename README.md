@@ -238,6 +238,7 @@ New to A2A? Here's a suggested path:
 *Developer-first frameworks specifically designed for building A2A-compliant agents.*
 
 *   🚀 [AgentUp](https://github.com/always-further/AgentUp) by [@always-further](https://github.com/always-further) [![Stars](https://img.shields.io/github/stars/always-further/AgentUp?style=social)](https://github.com/always-further/AgentUp) - A developer-first, open-source AI agent framework designed to make agents portable, scalable, and secure. Features configuration-driven architecture, built-in OAuth2/JWT/API key authentication, automatic A2A discovery, asynchronous task management, and support for both A2A and MCP protocols.
+*   🚀 [ANT AI](https://github.com/idea-idsia/ant-ai) by [@idea-idsia](https://github.com/idea-idsia) [![Stars](https://img.shields.io/github/stars/idea-idsia/ant-ai?style=social)](https://github.com/idea-idsia/ant-ai) - A lightweight Python framework from IDSIA for building tool-driven AI agents and multi-agent systems with first-class A2A protocol support (dedicated `a2a` module with client, server, executor, session, and translator). Features graph-based workflow orchestration, MCP tool integration, lifecycle hooks for guardrails, LLM-agnostic core, and built-in observability via Langfuse. MIT licensed and published on PyPI as `ant-ai`.
 
 ##### Platforms & Integrated Solutions
 
