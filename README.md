@@ -232,6 +232,8 @@ New to A2A? Here's a suggested path:
 *   **Elixir**
     *   🌟 [a2a-elixir](https://github.com/actioncard/a2a-elixir) by [@actioncard](https://github.com/actioncard) [![Stars](https://img.shields.io/github/stars/actioncard/a2a-elixir?style=social)](https://github.com/actioncard/a2a-elixir) - Elixir implementation of the A2A protocol with behaviour-based GenServer agents, multi-turn conversations, SSE streaming, HTTP serving via Plug, skill-based agent registry, pluggable storage, and Telemetry integration.
     *   🌟 [a2a_ex](https://github.com/lukaszsamson/a2a_ex) by [@lukaszsamson](https://github.com/lukaszsamson) [![Stars](https://img.shields.io/github/stars/lukaszsamson/a2a_ex?style=social)](https://github.com/lukaszsamson/a2a_ex) - Elixir client and server library for A2A with REST/JSON-RPC transports, SSE streaming utilities, Plug integration, typed structs, task store abstractions, and protocol compatibility modes.
+*   **Dart**
+    *   🌟 [a2a](https://github.com/shamblett/a2a) by [@shamblett](https://github.com/shamblett) [![Stars](https://img.shields.io/github/stars/shamblett/a2a?style=social)](https://github.com/shamblett/a2a) - Dart/Flutter SDK for the A2A protocol, modelled after the official `a2a-js` SDK. Provides an `A2AClient` with JSON-RPC, SSE streaming, push notification configuration, agent card retrieval, plus a CLI client and server-side support. Published on pub.dev as `a2a` by verified publisher `darticulate.com`; runs on Android, iOS, Linux, macOS, and Windows.
 
 ##### Frameworks
 
