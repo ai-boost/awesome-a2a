@@ -302,6 +302,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   🌐 [Agent2Agent Protocol Documentation Site](https://agent2agent.ren) - Community-driven, open-source documentation site for the A2A protocol. Built with React/TypeScript, supports English, Chinese, and Japanese. ([Source Code](https://github.com/ai-boost/agent2agent_doc))
 *   📄 [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - Academic paper surveying existing LLM agent communication protocols (including the category A2A falls into), classifying them, analyzing performance, and discussing future challenges.
 *   📚 [A2A and MCP Tutorial](https://github.com/Tsadoq/a2a-mcp-tutorial) by [@Tsadoq](https://github.com/Tsadoq) [![Stars](https://img.shields.io/github/stars/Tsadoq/a2a-mcp-tutorial?style=social)](https://github.com/Tsadoq/a2a-mcp-tutorial) - A tutorial on how to use Model Context Protocol by Anthropic and Agent2Agent Protocol by Google.
+*   📚 [AI Agent Protocols Deep Dive](https://github.com/glaforge/ai-agent-protocols) by [@glaforge](https://github.com/glaforge) [![Stars](https://img.shields.io/github/stars/glaforge/ai-agent-protocols?style=social)](https://github.com/glaforge/ai-agent-protocols) - A code-driven deep dive by Guillaume Laforge (Groovy creator, Google Developer Advocate) exploring the agent protocols and Java frameworks essential for LLM-based agents — practical walkthroughs and demos covering MCP, A2A, ACP, ADK, Arc, Quarkus, and LangChain4j, with a focus on interoperability. Apache 2.0.
 
 ## 🎬 Demos & Examples
 
