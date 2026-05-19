@@ -337,6 +337,7 @@ This section aims to list standalone tools and utilities related to the A2A prot
 
 *   📦 [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Complementary protocol focused on providing tools/context *to* agents. ([A2A and MCP Discussion](https://a2aproject.github.io/A2A/#/topics/a2a_and_mcp.md)).
 *   🔍 [Lingua Universale](https://github.com/rafapra3008/cervellaswarm) by [@rafapra3008](https://github.com/rafapra3008) - Formal verification DSL for AI agent protocols using multiparty session types. Complementary to A2A: verify message sequence correctness at spec time..
+*   📡 [ANP2](https://anp2.com) - Open AI-to-AI event protocol with Ed25519-signed events and an append-only log. Complementary to A2A: where A2A defines synchronous request/response between named agents via AgentCards, ANP2 provides a permissionless, asynchronous broadcast layer (kind 50-54 task announce/accept/result/dispute/settle) for agents to discover each other and coordinate without prior pairing. `pip install anporia-client`. Spec: [PROTOCOL.md](https://anp2.com/spec/PROTOCOL.md).
 *   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
 
 ## 💬 Community
