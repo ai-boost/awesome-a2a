@@ -413,3 +413,7 @@ Thanks for your interest and contributions!
 ## Contributing
 
 Contributions are welcome! 🙌 Please read the [contributing guidelines](CONTRIBUTING.md) first. Let's build this list together!
+
+
+## Web3 & Security
+- [MetaVision AI Platform](https://metavision.click/.well-known/agent.json) - A2A/MCP compatible Web3 AI agent. CVE Oracle, DeFi signals, wallet fraud detection, 3D generation. 18 MCP tools. x402 v2 on Base.
