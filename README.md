@@ -98,6 +98,7 @@ New to A2A? Here's a suggested path:
 *   📄 [A2A Protocol Website](https://a2aproject.github.io/A2A) - The main documentation site.
 *   💻 [google/A2A GitHub Repository](https://github.com/a2aproject/A2A) - Source code for the spec, docs, and official samples.
 *   📰 [Google Developers Blog Post](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) - Announcement blog post explaining the motivation and partners.
+*   📰 [How A2A is Building a World of Collaborative Agents](https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/) - 2026 official update on real-world A2A adoption, partner momentum, and the growing agent ecosystem.
 
 ## 📜 Specification & Core Concepts
 
