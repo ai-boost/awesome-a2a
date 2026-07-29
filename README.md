@@ -100,6 +100,7 @@ New to A2A? Here's a suggested path:
 *   📰 [Google Developers Blog Post](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) - Announcement blog post explaining the motivation and partners.
 *   📰 [How A2A is Building a World of Collaborative Agents](https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/) - 2026 official update on real-world A2A adoption, partner momentum, and the growing agent ecosystem.
 *   🏷️ [A2A Protocol v1.0.0 Release](https://github.com/a2aproject/A2A/releases/tag/v1.0.0) - Official March 2026 v1.0.0 release marking the first stable A2A specification milestone, including release notes, breaking changes, and conformance updates.
+*   🏷️ [A2A Protocol v1.0.1 Release](https://github.com/a2aproject/A2A/releases/tag/v1.0.1) - Official May 2026 v1.0.1 patch release with HTTP binding, transcoding error, and TaskStatus specification fixes following the v1.0.0 milestone.
 
 ## 📜 Specification & Core Concepts
 
