@@ -114,6 +114,7 @@ New to A2A? Here's a suggested path:
 *   🔔 [Push Notifications (Topic)](https://a2aproject.github.io/A2A/#/topics/push_notifications.md) - Details on the push notification mechanism.
 *   🛡️ [Enterprise Readiness (Topic)](https://a2aproject.github.io/A2A/#/topics/enterprise_ready.md) - Discussion on security, auth, privacy aspects.
 *   🔐 [OID4VP In-Task Authorization Extension](https://github.com/a2aproject/experimental-ext-oid4vp-auth) - **Official** experimental extension for using OpenID for Verifiable Presentations (OID4VP) to perform Just-In-Time (JIT) in-task authorization, allowing server agents to request verifiable presentations from clients during task execution. Includes a sample implementation and an [A2A + OID4VP integration demo](https://github.com/hiero-ledger/heka-identity-platform/tree/main/demo/a2a-oid4vp).
+*   🔌 [SLIMRPC Custom Protocol Binding](https://github.com/a2aproject/experimental-cpb-slimrpc) - **Official** experimental custom protocol binding for A2A over SLIM (Secure Low-Latency Interactive Messaging), providing a secure, low-latency transport option for agent-to-agent communication.
 
 ## ⚙️ Implementations & Libraries
 
