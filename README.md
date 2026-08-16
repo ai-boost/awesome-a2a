@@ -52,6 +52,7 @@
 *   [🔗 Related Protocols & Concepts](#-related-protocols--concepts)
 *   [💬 Community](#-community)
 *   [Contributing](#contributing)
+- [SkillFlow](https://github.com/rafsilva85/skillflow-mcp-server) - AI Skills Marketplace discovery server. Search, compare, and get installation instructions for curated MCP servers and AI agent tools.
 
 ---
 
