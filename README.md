@@ -437,6 +437,10 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   📰 [Build Cross-Language Multi-Agent Team with Google's Agent Development Kit and A2A](https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/) - Official June 2026 tutorial walking through a Contract Compliance Multi-Agent Pipeline where a Python agent and a Go agent collaborate via A2A, orchestrated with ADK's `RemoteA2aAgent`. Includes complete [source code on GitHub](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/agents/adk/contract-compliance-pipeline).
 *   📰 [Developer's Guide to AI Agent Protocols](https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/) - Official March 2026 guide to six key agent protocols (including A2A and MCP) and how to use the Agent Development Kit (ADK) to build complex, interoperable agents with standardized communication patterns.
 
+## 🃏 Live Agent Cards
+
+*   🔗 [CSOAI — EUNOMIA measurement agent card](https://councilof.ai/.well-known/agent-card.json) - Ed25519-attested A2A card for an independent AI-governance measurement body (measurement, not certification; regulators and the public get signed streams free).
+
 ## 🎬 Demos & Examples
 
 *   🌐 [Official Multi-Agent Web App (Python/Mesop)](https://github.com/a2aproject/A2A/tree/v0.2.1/demo) - Demonstrates the orchestrator agent interacting with multiple remote agents, rendering text, images, and forms. **Requires running Python code.**
