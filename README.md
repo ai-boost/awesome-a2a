@@ -503,6 +503,7 @@ Keeping this list high-quality and up-to-date relies on the community:
 *   ⭐ **Star it**: If you find it useful, it's a great way to show support and makes it easy to find later.
 *   ➕ **Share what you find**: Found a great library, article, tool, or even a common pitfall? Add it via an [Issue](https://github.com/ai-boost/awesome-a2a/issues) or [PR](CONTRIBUTING.md) – let's build this resource together.
 *   📣 **Spread the word**: Let others know about this list if they're exploring or working with A2A.
+*   🌟 [clayborn](https://github.com/nvwalj/clayborn) by [@nvwalj](https://github.com/nvwalj) [![Stars](https://img.shields.io/github/stars/nvwalj/clayborn?style=social)](https://github.com/nvwalj/clayborn) - Zero-dependency Node runtime that puts a *personal* agent — one on the laptop in front of you, behind NAT, on a machine that sleeps — on the A2A network in three commands. Conformant Agent Card, Ed25519 card-is-identity peer auth (no shared secrets), corpus-grounded skills, and one-line bridges for OpenClaw / Hermes / ZeroClaw / PicoClaw. GitHub Pages can host your identity if you own no domain. MIT.
 
 Thanks for your interest and contributions!
 
