@@ -103,6 +103,7 @@ New to A2A? Here's a suggested path:
 *   🏷️ [A2A Protocol v1.0.0 Release](https://github.com/a2aproject/A2A/releases/tag/v1.0.0) - Official March 2026 v1.0.0 release marking the first stable A2A specification milestone, including release notes, breaking changes, and conformance updates.
 *   🏷️ [A2A Protocol v1.0.1 Release](https://github.com/a2aproject/A2A/releases/tag/v1.0.1) - Official May 2026 v1.0.1 patch release with HTTP binding, transcoding error, and TaskStatus specification fixes following the v1.0.0 milestone.
 *   📰 [A2A Joins the Agentic AI Foundation (AAIF)](https://aaif.io/blog/a2a-joins-aaif) - Official August 2026 announcement that A2A becomes a hosted project of the Linux Foundation's Agentic AI Foundation (AAIF), placing agent-to-agent interoperability under the same neutral governance as MCP, goose, and AGENTS.md alongside 250+ member organizations.
+*   📰 [Meet the A2A CLI: Discover, Message, and Manage Agents from Your Terminal](https://a2a-protocol.org/latest/blog/2026/10/01/introducing-a2a-cli/) - Official October 2026 announcement of the `a2a` command-line client, enabling shells, CI pipelines, and scripts to discover agents, send/stream messages, and wrap any stdin/stdout program as an A2A agent (`--exec`/`--echo` modes) across JSON-RPC, REST, and gRPC transports.
 
 ## 📜 Specification & Core Concepts
 
