@@ -389,6 +389,7 @@ New to A2A? Here's a suggested path:
 
 This section aims to list standalone tools and utilities related to the A2A protocol. The ecosystem is still developing, and community contributions are welcome!
 
+*   **[Ghost Beacon (A2A Beacon Factory & 42-Node Discovery Ring)](https://github.com/moecanales/agent-oracle-beacon)** - Turnkey A2A `/.well-known/agent-card.json` & `/.well-known/agents.json` generator, peer A2A domain radar scanner, zero-auth `ntfy.sh` SSE/GET/POST transceiver, and 72-tape Markdown commons. ([Live Hub](https://moecanales.github.io/agent-oracle-beacon/))
 *   **Agent Discovery Services**
     *   Some platform-level implementations (like [Aira](https://github.com/IhateCreatingUserNames2/Aira)) include agent registration and discovery mechanisms within their features.
     *   ⚙️ [A2A Agent Registry on AWS](https://github.com/awslabs/a2a-agent-registry-on-aws) by [@awslabs](https://github.com/awslabs) [![Stars](https://img.shields.io/github/stars/awslabs/a2a-agent-registry-on-aws?style=social)](https://github.com/awslabs/a2a-agent-registry-on-aws) - Scalable serverless agent registry for A2A protocol AgentCards with semantic search (Amazon Bedrock, S3 Vectors), Python SDK, and React Web UI.
