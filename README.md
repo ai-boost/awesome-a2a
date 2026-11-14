@@ -26,6 +26,7 @@
     <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/stars/ai-boost/awesome-a2a.svg?style=social&label=Star" alt="GitHub stars"></a>
     <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/forks/ai-boost/awesome-a2a.svg?style=social&label=Fork" alt="GitHub forks"></a>
   </p>
+  <p><b><a href="mailto:noahbenjamin1994@gmail.com?subject=Sponsorship%3A%20awesome-a2a">Sponsor this list</a></b> · Your logo and one line at the top of this README. From $100/month, open to discussion.</p>
 </div>
 
 > The Agent2Agent (A2A) Protocol is revolutionizing how AI agents communicate and collaborate - enabling seamless interoperability across different frameworks, vendors, and platforms. This repository collects the best resources to help developers build A2A-compatible agents.
