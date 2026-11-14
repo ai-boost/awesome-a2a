@@ -25,7 +25,7 @@
     <a href="https://opensource.org/license/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
     <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/stars/ai-boost/awesome-a2a.svg?style=social&label=Star" alt="GitHub stars"></a>
     <a href="https://github.com/ai-boost/awesome-a2a"><img src="https://img.shields.io/github/forks/ai-boost/awesome-a2a.svg?style=social&label=Fork" alt="GitHub forks"></a>
-    <a href="mailto:noahbenjamin1994@gmail.com?subject=Sponsorship%3A%20awesome-a2a">Sponsor</a>
+    <a href="mailto:noahbenjamin1994@gmail.com?subject=Sponsorship%3A%20awesome-a2a"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
   </p>
 </div>
 
