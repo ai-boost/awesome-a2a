@@ -519,6 +519,8 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   📰 [A2ABreak: Systematic Security Analysis of the A2A Protocol](https://arxiv.org/abs/2609.10871) - September/October 2026 academic paper (cs.CR, Purdue University) presenting the first systematic security analysis of A2A. Uses LLM-assisted extraction to build a verified finite-state machine of the natural-language specification (37 states, 76 transitions from 929 formalized statements), then applies adversarial verification under a full-compliance assumption — uncovering 11 new protocol-level vulnerabilities exploitable by specification-compliant adversaries (cross-client context injection, credential harvesting via multi-hop identity loss in delegation chains, data exfiltration through rogue agents with unattested capability claims).
 *   📰 [Agent2Agent (A2A) Protocol: v1.0 Guide for 2026](https://www.turingpost.com/p/a2a) - October 2026 in-depth technical guide from Turing Post (continuously updated for the v1.0 spec): covers Agent Cards, Tasks/Messages/Artifacts, the three v1.0 bindings (JSON-RPC, gRPC, HTTP+JSON/REST), SSE streaming, signed agent cards and OAuth 2.0 security schemes, A2A vs MCP complementarity, v0.3 → v1.0 migration, and a critical analysis of adoption challenges and future directions.
 
+*   📄 [Pakish.NET A2A v1.0 connection guide](https://pakish.net/for-agents) - A hosted example showing how to discover an Agent Card and send a read-only catalog request over JSON-RPC.
+
 ## 🎬 Demos & Examples
 
 *   🌐 [Official Multi-Agent Web App (Python/Mesop)](https://github.com/a2aproject/A2A/tree/v0.2.1/demo) - Demonstrates the orchestrator agent interacting with multiple remote agents, rendering text, images, and forms. **Requires running Python code.**
