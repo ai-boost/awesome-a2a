@@ -612,7 +612,8 @@ This section aims to list standalone tools and utilities related to the A2A prot
 *   📎 [BotVow](https://github.com/Santiago1971/botvow) by [@Santiago1971](https://github.com/Santiago1971) [![Stars](https://img.shields.io/github/stars/Santiago1971/botvow?style=social)](https://github.com/Santiago1971/botvow) - Open, tamper-evident log of what two bots agreed (who, what, who authorised it, and when), co-signed with Ed25519 and verifiable by anyone with public keys. A BotVow chain is JSON, so it can travel as A2A task metadata; parties can link their key to an A2A Agent Card. MIT code, CC BY 4.0 spec.
 *   📞 *Function Calling / Tool Use Standards* - *Community contributions welcome: Discussion on patterns, best practices, or relevant standards for function calling/tool use in conjunction with A2A.* <!-- TODO: Community contributions for related standards or discussions are welcome -->
 
-- [PACT](https://github.com/Balanov/pact) - Verifiable trail format for agent-initiated payments: quote, consent, commit, receipt, chained by digests.
+*   🧾 [PACT (Protocol for Agent-initiated Commerce Transactions)](https://github.com/Balanov/pact) by [@Balanov](https://github.com/Balanov) [![Stars](https://img.shields.io/github/stars/Balanov/pact.svg?style=flat-square)](https://github.com/Balanov/pact)
+
 ## 💬 Community
 
 *   🐞 [A2A GitHub Issues](https://github.com/a2aproject/A2A/issues) - For reporting bugs or suggesting protocol improvements.
